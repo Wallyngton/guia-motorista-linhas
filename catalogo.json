@@ -1,0 +1,235 @@
+{
+ "formato": 1,
+ "atualizado": "2026-10-03 17:51",
+ "cidades": {
+  "rio": {
+   "nome": "Rio de Janeiro",
+   "linhas": {
+    "862": {
+     "nome": "Rio das Pedras - Barra da Tijuca",
+     "empresa": "Transcarioca",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "862-0",
+       "arquivo": "rio/862-0.json",
+       "destino": "Circular",
+       "km": 25.6,
+       "paradas": 65
+      }
+     ]
+    },
+    "006": {
+     "nome": "Silvestre - Castelo",
+     "empresa": "Intersul",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "006-0",
+       "arquivo": "rio/006-0.json",
+       "destino": "Castelo",
+       "km": 8.5,
+       "paradas": 31
+      },
+      {
+       "id": "006-1",
+       "arquivo": "rio/006-1.json",
+       "destino": "Silvestre",
+       "km": 8.9,
+       "paradas": 36
+      }
+     ]
+    },
+    "007": {
+     "nome": "Silvestre - Central do Brasil",
+     "empresa": "Intersul",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "007-0",
+       "arquivo": "rio/007-0.json",
+       "destino": "Central do Brasil",
+       "km": 8.6,
+       "paradas": 28
+      },
+      {
+       "id": "007-1",
+       "arquivo": "rio/007-1.json",
+       "destino": "Silvestre",
+       "km": 9.5,
+       "paradas": 36
+      }
+     ]
+    },
+    "010": {
+     "nome": "Bairro de Fátima - Central do Brasil",
+     "empresa": "Intersul",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "010-0",
+       "arquivo": "rio/010-0.json",
+       "destino": "Circular",
+       "km": 12.7,
+       "paradas": 37
+      }
+     ],
+     "osm": true
+    },
+    "014": {
+     "nome": "Paula Matos - Central do Brasil",
+     "empresa": "Intersul",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "014-0",
+       "arquivo": "rio/014-0.json",
+       "destino": "Central do Brasil",
+       "km": 7.8,
+       "paradas": 26
+      },
+      {
+       "id": "014-1",
+       "arquivo": "rio/014-1.json",
+       "destino": "Paula Matos",
+       "km": 6.5,
+       "paradas": 26
+      }
+     ]
+    },
+    "10": {
+     "nome": "Santa Cruz - Terminal Alvorada",
+     "empresa": "MOBI-Rio",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "10-0",
+       "arquivo": "rio/10-0.json",
+       "destino": "Terminal Alvorada",
+       "km": 39.7,
+       "paradas": 14
+      },
+      {
+       "id": "10-1",
+       "arquivo": "rio/10-1.json",
+       "destino": "Estação Santa Cruz",
+       "km": 38.9,
+       "paradas": 14
+      }
+     ],
+     "osm": true
+    },
+    "100": {
+     "nome": "General Osório - Central",
+     "empresa": "Intersul",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "100-0",
+       "arquivo": "rio/100-0.json",
+       "destino": "Central",
+       "km": 15.5,
+       "paradas": 27
+      },
+      {
+       "id": "100-1",
+       "arquivo": "rio/100-1.json",
+       "destino": "Metrô General Osório",
+       "km": 14.8,
+       "paradas": 27
+      }
+     ],
+     "osm": true
+    },
+    "104": {
+     "nome": "São Conrado - Terminal Gentileza",
+     "empresa": "Intersul",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "104-0",
+       "arquivo": "rio/104-0.json",
+       "destino": "Terminal Gentileza",
+       "km": 26.9,
+       "paradas": 65
+      },
+      {
+       "id": "104-1",
+       "arquivo": "rio/104-1.json",
+       "destino": "São Conrado",
+       "km": 26.3,
+       "paradas": 66
+      }
+     ],
+     "osm": true
+    },
+    "107": {
+     "nome": "Central - Urca",
+     "empresa": "Intersul",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "107-0",
+       "arquivo": "rio/107-0.json",
+       "destino": "Urca",
+       "km": 12.6,
+       "paradas": 36
+      },
+      {
+       "id": "107-1",
+       "arquivo": "rio/107-1.json",
+       "destino": "Central",
+       "km": 12.2,
+       "paradas": 32
+      }
+     ],
+     "osm": true
+    },
+    "109": {
+     "nome": "São Conrado - Terminal Gentileza",
+     "empresa": "Intersul",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "109-0",
+       "arquivo": "rio/109-0.json",
+       "destino": "Terminal Gentileza",
+       "km": 25.2,
+       "paradas": 54
+      },
+      {
+       "id": "109-1",
+       "arquivo": "rio/109-1.json",
+       "destino": "São Conrado",
+       "km": 22.0,
+       "paradas": 45
+      }
+     ],
+     "osm": true
+    },
+    "11": {
+     "nome": "Santa Cruz - Terminal Alvorada",
+     "empresa": "MOBI-Rio",
+     "atualizado": "2026-10-03",
+     "sentidos": [
+      {
+       "id": "11-0",
+       "arquivo": "rio/11-0.json",
+       "destino": "Terminal Alvorada",
+       "km": 39.7,
+       "paradas": 20
+      },
+      {
+       "id": "11-1",
+       "arquivo": "rio/11-1.json",
+       "destino": "Santa Cruz",
+       "km": 38.9,
+       "paradas": 20
+      }
+     ],
+     "osm": true
+    }
+   }
+  }
+ }
+}
