@@ -1,0 +1,133 @@
+# Atualiza a central de linhas sozinho, toda semana.
+#
+# Onde colocar: no repositório da central (wallyngton/guia-motorista-linhas),
+# no caminho  .github/workflows/atualizar-central.yml
+# Precisa dos scripts na pasta  ferramentas/  do mesmo repositório:
+#   ferramentas/gerar_central.py, ferramentas/gerar_linha.py,
+#   ferramentas/baixar_gtfs.py e ferramentas/empresas.csv
+# Passo a passo (para quem não é programador): PASSO-A-PASSO.md
+
+name: Atualizar central de linhas
+
+on:
+  schedule:
+    - cron: "17 7 * * 1" # toda segunda-feira, 04:17 em Brasília (07:17 UTC)
+  workflow_dispatch:
+    inputs:
+      so_empresas:
+        description: "Só aplicar o empresas.csv (rápido, não baixa o GTFS)"
+        type: boolean
+        default: false
+      linhas:
+        description: "Só estas linhas (ex.: 862,309). Vazio = todas"
+        type: string
+        default: ""
+      refazer:
+        description: "Refazer TODAS as linhas, mesmo sem mudança (demora horas)"
+        type: boolean
+        default: false
+      gtfs_url:
+        description: "Endereço do GTFS (vazio = automático)"
+        type: string
+        default: ""
+      refazer_antes:
+        description: "(uso interno) refazer linhas geradas antes desta data"
+        type: string
+        default: ""
+      continuacao:
+        description: "(uso interno) número da continuação"
+        type: string
+        default: "0"
+
+permissions:
+  contents: write # salvar os arquivos novos no repositório
+  actions: write # continuar sozinho quando faltar tempo
+  pages: write # pedir ao GitHub Pages para publicar
+
+concurrency:
+  group: atualizar-central
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340 # o GitHub corta em 6 h; o gerador para sozinho antes (--tempo-max)
+    steps:
+      - name: Pegar os arquivos do repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Baixar o GTFS mais recente do Rio
+        if: ${{ !inputs.so_empresas }}
+        env:
+          GTFS_URL: ${{ inputs.gtfs_url }}
+        run: python ferramentas/baixar_gtfs.py --saida "$RUNNER_TEMP/gtfs_rio.zip"
+
+      - name: Gerar só as linhas que mudaram
+        if: ${{ !inputs.so_empresas }}
+        env:
+          LINHAS: ${{ inputs.linhas }}
+          REFAZER: ${{ inputs.refazer }}
+          REFAZER_ANTES: ${{ inputs.refazer_antes }}
+        run: |
+          ARGS=()
+          if [ -n "$LINHAS" ]; then ARGS+=(--linhas "$LINHAS"); fi
+          # "refazer tudo" vira "refazer o que foi gerado antes de hoje":
+          # se faltar tempo, a continuação não refaz de novo o que já fez
+          if [ "$REFAZER" = "true" ] && [ -z "$REFAZER_ANTES" ]; then REFAZER_ANTES=$(date -u +%Y-%m-%d); fi
+          if [ -n "$REFAZER_ANTES" ]; then ARGS+=(--refazer-antes "$REFAZER_ANTES"); fi
+          echo "REFAZER_ANTES=$REFAZER_ANTES" >> "$GITHUB_ENV"
+          python ferramentas/gerar_central.py \
+            --gtfs "$RUNNER_TEMP/gtfs_rio.zip" --cidade rio --nome-cidade "Rio de Janeiro" \
+            --saida . --tempo-max 270 --resumo "$RUNNER_TEMP/resumo.json" "${ARGS[@]}"
+
+      - name: Aplicar o empresas.csv (empresa + consórcio)
+        run: |
+          if [ -f ferramentas/empresas.csv ]; then
+            python ferramentas/gerar_central.py --so-empresas --saida . --empresas ferramentas/empresas.csv
+          else
+            echo "Sem ferramentas/empresas.csv: as linhas ficam só com o consórcio."
+          fi
+
+      - name: Salvar no repositório (publica no GitHub Pages)
+        id: salvar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A catalogo.json rio
+          if git diff --cached --quiet; then
+            echo "Nada mudou na central."
+            echo "mudou=0" >> "$GITHUB_OUTPUT"
+          else
+            git commit -q -m "Central atualizada automaticamente ($(date -u +%Y-%m-%d))"
+            git pull -q --rebase origin "$GITHUB_REF_NAME"
+            git push -q origin "HEAD:$GITHUB_REF_NAME"
+            echo "mudou=1" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pedir ao GitHub Pages para publicar
+        if: steps.salvar.outputs.mudou == '1'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" > /dev/null && echo "Publicação pedida."
+
+      - name: Continuar sozinho se faltou tempo
+        if: ${{ !inputs.so_empresas }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LINHAS: ${{ inputs.linhas }}
+          CONTINUACAO: ${{ inputs.continuacao }}
+        run: |
+          FALTAM=$(python -c "import json,sys; print(json.load(open(sys.argv[1])).get('faltam', 0))" "$RUNNER_TEMP/resumo.json" 2>/dev/null || echo 0)
+          N=${CONTINUACAO:-0}
+          echo "Faltam $FALTAM linha(s). Continuação nº $N."
+          if [ "$FALTAM" -gt 0 ] && [ "$N" -lt 10 ]; then
+            gh workflow run atualizar-central.yml --ref "$GITHUB_REF_NAME" \
+              -f continuacao="$((N + 1))" -f linhas="$LINHAS" -f refazer_antes="$REFAZER_ANTES"
+            echo "Pedi outra rodada para terminar."
+          fi
