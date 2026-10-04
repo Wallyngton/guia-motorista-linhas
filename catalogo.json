@@ -1,13 +1,13 @@
 {
  "formato": 1,
- "atualizado": "2026-10-04 05:32",
+ "atualizado": "2026-10-04 13:23",
  "cidades": {
   "rio": {
    "nome": "Rio de Janeiro",
    "linhas": {
     "862": {
      "nome": "Rio das Pedras - Barra da Tijuca",
-     "empresa": "Transcarioca",
+     "empresa": "Viação Redentor (Transcarioca)",
      "atualizado": "2026-10-03",
      "sentidos": [
       {
