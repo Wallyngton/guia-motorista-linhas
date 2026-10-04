@@ -1,6 +1,6 @@
 {
  "formato": 1,
- "atualizado": "2026-10-04 13:23",
+ "atualizado": "2026-10-04 16:57",
  "cidades": {
   "rio": {
    "nome": "Rio de Janeiro",
@@ -17,7 +17,8 @@
        "km": 25.6,
        "paradas": 65
       }
-     ]
+     ],
+     "hash": "3feb0853ee0a5cbc"
     },
     "006": {
      "nome": "Silvestre - Castelo",
@@ -38,7 +39,8 @@
        "km": 8.9,
        "paradas": 36
       }
-     ]
+     ],
+     "hash": "d2b37bf89367db87"
     },
     "007": {
      "nome": "Silvestre - Central do Brasil",
@@ -59,7 +61,8 @@
        "km": 9.5,
        "paradas": 36
       }
-     ]
+     ],
+     "hash": "d5d444a9fc2f0353"
     },
     "010": {
      "nome": "Bairro de Fátima - Central do Brasil",
@@ -74,7 +77,8 @@
        "paradas": 37
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bc54ad2cf50bb6d1"
     },
     "014": {
      "nome": "Paula Matos - Central do Brasil",
@@ -95,7 +99,8 @@
        "km": 6.5,
        "paradas": 26
       }
-     ]
+     ],
+     "hash": "0e11158747eeb650"
     },
     "10": {
      "nome": "Santa Cruz - Terminal Alvorada",
@@ -117,7 +122,8 @@
        "paradas": 14
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e2232f493b61ab5f"
     },
     "100": {
      "nome": "General Osório - Central",
@@ -139,7 +145,8 @@
        "paradas": 27
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0283f432c7c272fa"
     },
     "104": {
      "nome": "São Conrado - Terminal Gentileza",
@@ -161,7 +168,8 @@
        "paradas": 66
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "243e5c00ec87dc99"
     },
     "107": {
      "nome": "Central - Urca",
@@ -183,7 +191,8 @@
        "paradas": 32
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "15a9209ec7bcdf4c"
     },
     "109": {
      "nome": "São Conrado - Terminal Gentileza",
@@ -205,7 +214,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d71697bd4ee5fc58"
     },
     "11": {
      "nome": "Santa Cruz - Terminal Alvorada",
@@ -227,7 +237,8 @@
        "paradas": 20
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9ae38fdf8ee5df20"
     },
     "117": {
      "nome": "Central - Cosme Velho",
@@ -249,7 +260,8 @@
        "paradas": 11
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f1097502624ba52f"
     },
     "12": {
      "nome": "Terminal Pingo d'Água - Terminal Alvorada",
@@ -271,7 +283,8 @@
        "paradas": 7
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3f0be8a8dc0aafb6"
     },
     "13": {
      "nome": "Terminal Mato Alto - Terminal Alvorada",
@@ -293,7 +306,8 @@
        "paradas": 6
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "85d634d3d1777c2d"
     },
     "133": {
      "nome": "Largo do Machado - Terminal Gentileza",
@@ -315,7 +329,8 @@
        "paradas": 26
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5b96fa70dd3037ca"
     },
     "14": {
      "nome": "Santa Eugênia - Terminal Recreio",
@@ -337,7 +352,8 @@
        "paradas": 12
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6045cb77b31f516d"
     },
     "15": {
      "nome": "Terminal Curral Falso - Terminal Alvorada",
@@ -359,7 +375,8 @@
        "paradas": 10
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "31a3c9bb483a3e17"
     },
     "157": {
      "nome": "Gávea - Rodoviária",
@@ -381,7 +398,8 @@
        "paradas": 61
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "83c75c682d6aeb80"
     },
     "16": {
      "nome": "Magarça - Terminal Alvorada",
@@ -403,7 +421,8 @@
        "paradas": 6
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1e7316c97f7f3f23"
     },
     "160": {
      "nome": "Terminal Gentileza - Leblon",
@@ -418,7 +437,8 @@
        "paradas": 27
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3ff4eb610fb1b7f8"
     },
     "161": {
      "nome": "Terminal Gentileza - Ipanema",
@@ -433,7 +453,8 @@
        "paradas": 27
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5afd8f1deea7821a"
     },
     "162": {
      "nome": "Terminal Gentileza - Alto Gávea",
@@ -455,7 +476,8 @@
        "paradas": 23
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5fa7448c8f21fe2f"
     },
     "165": {
      "nome": "Terminal Gentileza - Cosme Velho",
@@ -477,7 +499,8 @@
        "paradas": 13
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5507ffcaf8e91111"
     },
     "167": {
      "nome": "Terminal Gentileza - Urca",
@@ -499,7 +522,8 @@
        "paradas": 36
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ddfd6ed030d3d660"
     },
     "169": {
      "nome": "Terminal Gentileza - General Osório",
@@ -521,7 +545,8 @@
        "paradas": 32
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "dce567910fcc056f"
     },
     "17": {
      "nome": "Campo Grande - Santa Cruz",
@@ -543,7 +568,8 @@
        "paradas": 25
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f4b3397149867f6b"
     },
     "18": {
      "nome": "Pontal - Terminal Jardim Oceânico",
@@ -565,7 +591,8 @@
        "paradas": 14
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "56d707fa5599d54a"
     },
     "19": {
      "nome": "Terminal Pingo d'Água - Salvador Allende",
@@ -587,7 +614,8 @@
        "paradas": 6
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "701ea2b5652a014f"
     },
     "20": {
      "nome": "Santa Cruz - Salvador Allende",
@@ -609,7 +637,8 @@
        "paradas": 13
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e292d8d7bbe5e1a2"
     },
     "201": {
      "nome": "Santa Alexandrina - Castelo",
@@ -631,7 +660,8 @@
        "paradas": 29
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7422c6302c4c5719"
     },
     "202": {
      "nome": "Rio Comprido - Castelo",
@@ -653,7 +683,8 @@
        "paradas": 31
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8d132b431e680ae2"
     },
     "209": {
      "nome": "Candelária - Caju",
@@ -675,7 +706,8 @@
        "paradas": 27
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "023b8ed1d03d71bf"
     },
     "210": {
      "nome": "Caju - Candelária",
@@ -697,7 +729,8 @@
        "paradas": 19
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "403165cb0972a73a"
     },
     "2110": {
      "nome": "Gardênia Azul - Castelo",
@@ -719,7 +752,8 @@
        "paradas": 62
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6c100ed20b35988a"
     },
     "2111": {
      "nome": "Praça Seca - Castelo",
@@ -741,7 +775,8 @@
        "paradas": 61
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "632d1fe72055299a"
     },
     "2112": {
      "nome": "Taquara - Castelo",
@@ -763,7 +798,8 @@
        "paradas": 27
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "99360a1d1a91b6fd"
     },
     "2114": {
      "nome": "Freguesia - Castelo",
@@ -785,7 +821,8 @@
        "paradas": 46
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9954f6dd0a554865"
     },
     "217": {
      "nome": "Andaraí - Carioca",
@@ -807,7 +844,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7824ebbdfd734dbb"
     },
     "22": {
      "nome": "Terminal Alvorada - Terminal Jardim Oceânico",
@@ -829,7 +867,8 @@
        "paradas": 9
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ae8db0cf0a68e639"
     },
     "220": {
      "nome": "Usina - Candelária",
@@ -851,7 +890,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "035a62855b27c6c4"
     },
     "229": {
      "nome": "Usina - Castelo",
@@ -873,7 +913,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "660990d6ddea2618"
     },
     "2303": {
      "nome": "Cesarão - Carioca",
@@ -895,7 +936,8 @@
        "paradas": 76
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "69aa714fec670ba1"
     },
     "2305": {
      "nome": "Jardim América - Castelo",
@@ -917,7 +959,8 @@
        "paradas": 31
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a25361dc1e29fcac"
     },
     "2307": {
      "nome": "Jardim 7 de Abril - Carioca",
@@ -939,7 +982,8 @@
        "paradas": 79
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "cb0cc177f7e5fbda"
     },
     "2308": {
      "nome": "Cosmos - Carioca",
@@ -961,7 +1005,8 @@
        "paradas": 68
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4dec3366dbcbbb62"
     },
     "2309": {
      "nome": "Urucânia - Carioca",
@@ -983,7 +1028,8 @@
        "paradas": 80
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9cd7f79e5db0ea17"
     },
     "2310": {
      "nome": "Bangu - Candelária",
@@ -1005,7 +1051,8 @@
        "paradas": 49
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fa60b5d46ec86102"
     },
     "232": {
      "nome": "Lins de Vasconcelos - Castelo",
@@ -1027,7 +1074,8 @@
        "paradas": 38
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "460a6c167baf2450"
     },
     "2334": {
      "nome": "Campo Grande - Castelo",
@@ -1049,7 +1097,8 @@
        "paradas": 151
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1f8228a33e00e6b6"
     },
     "2335": {
      "nome": "Santa Cruz - Castelo",
@@ -1071,7 +1120,8 @@
        "paradas": 144
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4cb0c5fa7acfc034"
     },
     "2336": {
      "nome": "Campo Grande - Castelo",
@@ -1093,7 +1143,8 @@
        "paradas": 51
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bcd3111066e6f486"
     },
     "2337": {
      "nome": "Santa Cruz - Castelo",
@@ -1115,7 +1166,8 @@
        "paradas": 160
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0fa732fb0857dbd5"
     },
     "2338": {
      "nome": "Terminal Campo Grande - Castelo",
@@ -1137,7 +1189,8 @@
        "paradas": 128
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ce50cd15f0f01f12"
     },
     "2339": {
      "nome": "Campo Grande - Castelo",
@@ -1159,7 +1212,8 @@
        "paradas": 52
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "926f8424917337ef"
     },
     "2342": {
      "nome": "Bananal - Castelo",
@@ -1181,7 +1235,8 @@
        "paradas": 46
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5fcd8ccdd538910a"
     },
     "2343": {
      "nome": "Ribeira - Castelo",
@@ -1203,7 +1258,8 @@
        "paradas": 44
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1788d9bca5f665e6"
     },
     "2344": {
      "nome": "Bancários - Castelo",
@@ -1225,7 +1281,8 @@
        "paradas": 36
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "446e00296618a0e8"
     },
     "2345": {
      "nome": "Vila Valqueire - Castelo",
@@ -1247,7 +1304,8 @@
        "paradas": 83
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "59c901e3569635da"
     },
     "238": {
      "nome": "Água Santa - Castelo",
@@ -1269,7 +1327,8 @@
        "paradas": 73
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9faf8ec4beffb6b7"
     },
     "2381": {
      "nome": "Pedra de Guaratiba - Castelo",
@@ -1291,7 +1350,8 @@
        "paradas": 110
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6644a8c27a5ab4c8"
     },
     "2383": {
      "nome": "Sepetiba - Carioca",
@@ -1313,7 +1373,8 @@
        "paradas": 98
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "eb0ee6b559887d95"
     },
     "239": {
      "nome": "Água Santa - Passeio",
@@ -1335,7 +1396,8 @@
        "paradas": 63
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f18233dc4791fc7f"
     },
     "247": {
      "nome": "Camarista Méier - Passeio",
@@ -1357,7 +1419,8 @@
        "paradas": 42
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f0f80737c46d379e"
     },
     "249": {
      "nome": "Água Santa - Carioca",
@@ -1379,7 +1442,8 @@
        "paradas": 47
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e93bc2a0827022f3"
     },
     "25": {
      "nome": "Terminal Mato Alto - Terminal Alvorada",
@@ -1401,7 +1465,8 @@
        "paradas": 27
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "29f8e8599d6f859a"
     },
     "254": {
      "nome": "Madureira - Candelária",
@@ -1423,7 +1488,8 @@
        "paradas": 69
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8abf63c6050f3183"
     },
     "2613": {
      "nome": "Riocentro - Metrô Del Castilho",
@@ -1445,7 +1511,8 @@
        "paradas": 20
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5f40314a6c6018c0"
     },
     "2614": {
      "nome": "Terminal Alvorada - Metrô Del Castilho",
@@ -1467,7 +1534,8 @@
        "paradas": 13
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d6a1f18f7da58543"
     },
     "265": {
      "nome": "Marechal Hermes - Castelo",
@@ -1489,7 +1557,8 @@
        "paradas": 91
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "11911ec5d9a60fb9"
     },
     "275": {
      "nome": "Méier - Candelária",
@@ -1511,7 +1580,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "189a05f68f79a995"
     },
     "277": {
      "nome": "Rocha Miranda - Candelária",
@@ -1533,7 +1603,8 @@
        "paradas": 93
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c19dd2f877a5f8d3"
     },
     "28": {
      "nome": "Terminal Pingo d'Água - Terminal Curral Falso",
@@ -1555,7 +1626,8 @@
        "paradas": 19
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "93ca4cc992c5c5c9"
     },
     "2802": {
      "nome": "Santa Cruz - Barra da Tijuca",
@@ -1577,7 +1649,8 @@
        "paradas": 85
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5d47c5e24cbfc389"
     },
     "2803": {
      "nome": "Vila Kennedy - Terminal Alvorada",
@@ -1599,7 +1672,8 @@
        "paradas": 108
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0b5f566063a38db2"
     },
     "2804": {
      "nome": "Bangu - Barra da Tijuca",
@@ -1621,7 +1695,8 @@
        "paradas": 114
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "184c8a5bc9b05f50"
     },
     "292": {
      "nome": "Engenho da Rainha - Castelo",
@@ -1643,7 +1718,8 @@
        "paradas": 49
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "65fd778fbe70aac1"
     },
     "296": {
      "nome": "Irajá - Castelo",
@@ -1665,7 +1741,8 @@
        "paradas": 99
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0bdad644d5e28129"
     },
     "298": {
      "nome": "Acari - Castelo",
@@ -1687,7 +1764,8 @@
        "paradas": 95
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "12a948716bfb4ff3"
     },
     "300": {
      "nome": "Terminal Sulacap - Candelária",
@@ -1709,7 +1787,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "777b4480ffb6a670"
     },
     "301": {
      "nome": "Terminal Gentileza - Terminal Alvorada",
@@ -1731,7 +1810,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d57803b0f2d60ae5"
     },
     "302": {
      "nome": "Terminal Gentileza - Terminal Alvorada",
@@ -1753,7 +1833,8 @@
        "paradas": 90
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1d6bdf731a9df8d4"
     },
     "306": {
      "nome": "Praça Seca - Castelo",
@@ -1775,7 +1856,8 @@
        "paradas": 61
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2fb0a8bda23214d8"
     },
     "31": {
      "nome": "Vicente de Carvalho - Terminal Alvorada",
@@ -1797,7 +1879,8 @@
        "paradas": 3
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0018c39ab3e0c954"
     },
     "311": {
      "nome": "Engenheiro Leal - Candelária",
@@ -1819,7 +1902,8 @@
        "paradas": 68
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7283fc2bbdc9d3e2"
     },
     "312": {
      "nome": "Olaria - Candelária",
@@ -1841,7 +1925,8 @@
        "paradas": 59
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d598ba2b9c57b045"
     },
     "313": {
      "nome": "Penha (Grotão) - Praça Tiradentes",
@@ -1863,7 +1948,8 @@
        "paradas": 67
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "769c86a1183e35eb"
     },
     "315": {
      "nome": "Central - Recreio dos Bandeirantes",
@@ -1885,7 +1971,8 @@
        "paradas": 61
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "399fdfbc3a914775"
     },
     "319": {
      "nome": "Terminal Alvorada - Central do Brasil",
@@ -1907,7 +1994,8 @@
        "paradas": 47
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e22730da03766073"
     },
     "321": {
      "nome": "Bancários - Castelo",
@@ -1929,7 +2017,8 @@
        "paradas": 38
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a4924d07339ded74"
     },
     "323": {
      "nome": "Bananal - Castelo",
@@ -1951,7 +2040,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "029927cea6c8dbc5"
     },
     "324": {
      "nome": "Ribeira - Candelária",
@@ -1973,7 +2063,8 @@
        "paradas": 57
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "893af092685a5b9c"
     },
     "325": {
      "nome": "Ribeira - Castelo",
@@ -1995,7 +2086,8 @@
        "paradas": 39
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "196d36af79624b53"
     },
     "326": {
      "nome": "Bancários - Candelária",
@@ -2017,7 +2109,8 @@
        "paradas": 52
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c7e1ec9e11e44438"
     },
     "327": {
      "nome": "Ribeira - Castelo",
@@ -2039,7 +2132,8 @@
        "paradas": 40
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9d86ec041134b0b7"
     },
     "328": {
      "nome": "Bananal - Candelária",
@@ -2061,7 +2155,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e378cd31030e2e10"
     },
     "329": {
      "nome": "Bancários - Candelária",
@@ -2083,7 +2178,8 @@
        "paradas": 56
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8fb3a51f17b0bb30"
     },
     "335": {
      "nome": "Cordovil - Tiradentes",
@@ -2105,7 +2201,8 @@
        "paradas": 23
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2179dd4b9b45303b"
     },
     "338": {
      "nome": "Taquara - Candelária",
@@ -2127,7 +2224,8 @@
        "paradas": 44
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "aa0c3451b140bb37"
     },
     "341": {
      "nome": "Taquara - Candelária",
@@ -2149,7 +2247,8 @@
        "paradas": 65
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f63231dadcdabe44"
     },
     "342": {
      "nome": "Jardim América - Castelo",
@@ -2171,7 +2270,8 @@
        "paradas": 55
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "509f63947185d5de"
     },
     "343": {
      "nome": "Jardim Oceânico - Candelária",
@@ -2193,7 +2293,8 @@
        "paradas": 62
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8d4d9099e2543232"
     },
     "348": {
      "nome": "Riocentro - Candelária",
@@ -2215,7 +2316,8 @@
        "paradas": 53
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f14646baab1e7e7a"
     },
     "349": {
      "nome": "Rocha Miranda - Castelo",
@@ -2230,7 +2332,8 @@
        "paradas": 85
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "29b9913b1f389181"
     },
     "35": {
      "nome": "Terminal Madureira - Terminal Alvorada",
@@ -2252,7 +2355,8 @@
        "paradas": 25
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "acdb331311c5cf62"
     },
     "350": {
      "nome": "Irajá - Castelo",
@@ -2274,7 +2378,8 @@
        "paradas": 75
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "87e8ee3d41b900d3"
     },
     "352": {
      "nome": "Riocentro - Candelária",
@@ -2296,7 +2401,8 @@
        "paradas": 39
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a16aa737a1a7226a"
     },
     "353": {
      "nome": "Gardênia Azul - Terminal Gentileza",
@@ -2318,7 +2424,8 @@
        "paradas": 92
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "22ea07a691f22c97"
     },
     "355": {
      "nome": "Madureira - Praça Tiradentes",
@@ -2340,7 +2447,8 @@
        "paradas": 74
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b3f858f2cbdf98c5"
     },
     "361": {
      "nome": "Recreio dos Bandeirantes - Castelo",
@@ -2362,7 +2470,8 @@
        "paradas": 69
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9449486663aeac02"
     },
     "362": {
      "nome": "Honório Gurgel - Castelo",
@@ -2384,7 +2493,8 @@
        "paradas": 81
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1ad386e76ff8f789"
     },
     "363": {
      "nome": "Vila Valqueire - Candelária",
@@ -2406,7 +2516,8 @@
        "paradas": 88
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1fe87063ff4ef74f"
     },
     "368": {
      "nome": "Riocentro - Candelária",
@@ -2428,7 +2539,8 @@
        "paradas": 89
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a6fcab86c97b42dd"
     },
     "369": {
      "nome": "Bangu - Candelária",
@@ -2450,7 +2562,8 @@
        "paradas": 28
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e040b1f1e75cd827"
     },
     "371": {
      "nome": "Praça Seca - Praça Tiradentes",
@@ -2472,7 +2585,8 @@
        "paradas": 80
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3cab887025c52f39"
     },
     "378": {
      "nome": "Marechal Hermes - Castelo",
@@ -2494,7 +2608,8 @@
        "paradas": 79
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1e29d98b8c58be2d"
     },
     "380": {
      "nome": "Curicica - Candelária",
@@ -2516,7 +2631,8 @@
        "paradas": 51
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c82869534790b5d0"
     },
     "383": {
      "nome": "Realengo - Praça da República",
@@ -2538,7 +2654,8 @@
        "paradas": 103
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1bb24bf377b3db76"
     },
     "384": {
      "nome": "Pavuna - Passeio",
@@ -2560,7 +2677,8 @@
        "paradas": 92
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "07c179cf28ec133d"
     },
     "385": {
      "nome": "Village Pavuna - Passeio",
@@ -2575,7 +2693,8 @@
        "paradas": 88
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "63f719d6ac2fb08b"
     },
     "386": {
      "nome": "Anchieta - Candelária",
@@ -2597,7 +2716,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9a3259bf255aa881"
     },
     "388": {
      "nome": "Santa Cruz - Candelária",
@@ -2619,7 +2739,8 @@
        "paradas": 125
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "21864a35bc2d39e2"
     },
     "390": {
      "nome": "Curicica - Candelária",
@@ -2641,7 +2762,8 @@
        "paradas": 73
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c37a8fcdf122a1d9"
     },
     "391": {
      "nome": "Padre Miguel - Praça da República",
@@ -2663,7 +2785,8 @@
        "paradas": 119
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7c480d447130fdea"
     },
     "393": {
      "nome": "Bangu - Candelária",
@@ -2685,7 +2808,8 @@
        "paradas": 106
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9ed46875751d493e"
     },
     "397": {
      "nome": "Terminal Campo Grande - Candelária",
@@ -2707,7 +2831,8 @@
        "paradas": 104
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bf2f1ee0500dd25b"
     },
     "399": {
      "nome": "Pavuna - Passeio",
@@ -2729,7 +2854,8 @@
        "paradas": 88
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d35a71fecb51f0e4"
     },
     "40": {
      "nome": "Terminal Madureira - Terminal Alvorada",
@@ -2751,7 +2877,8 @@
        "paradas": 9
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1ab585def6cec1c2"
     },
     "409": {
      "nome": "Saens Peña - Horto",
@@ -2773,7 +2900,8 @@
        "paradas": 59
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3627814c2648ed5e"
     },
     "41": {
      "nome": "Terminal Madureira - Terminal Recreio",
@@ -2795,7 +2923,8 @@
        "paradas": 10
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "92758f04afa3cc02"
     },
     "410": {
      "nome": "Saens Peña - Gávea",
@@ -2817,7 +2946,8 @@
        "paradas": 71
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e641dffc9295e2b4"
     },
     "415": {
      "nome": "Usina - Leblon",
@@ -2839,7 +2969,8 @@
        "paradas": 65
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "27239b133ea56afe"
     },
     "416": {
      "nome": "Saens Peña - Horto",
@@ -2861,7 +2992,8 @@
        "paradas": 41
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b11a2973db5cfd13"
     },
     "42": {
      "nome": "Galeão - Madureira",
@@ -2883,7 +3015,8 @@
        "paradas": 22
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9a7dbfd84dcbc6b5"
     },
     "422": {
      "nome": "Grajaú - Cosme Velho",
@@ -2905,7 +3038,8 @@
        "paradas": 78
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6c9ae7412edba671"
     },
     "426": {
      "nome": "Usina - Jardim de Alah",
@@ -2927,7 +3061,8 @@
        "paradas": 70
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9baa33f27fc174bc"
     },
     "43": {
      "nome": "Terminal Fundão - Santa Efigênia",
@@ -2949,7 +3084,8 @@
        "paradas": 11
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b00f2209cbc391c5"
     },
     "448": {
      "nome": "Furnas - São Conrado",
@@ -2971,7 +3107,8 @@
        "paradas": 27
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2302ce49167e7aa1"
     },
     "455": {
      "nome": "Méier - Copacabana",
@@ -2993,7 +3130,8 @@
        "paradas": 53
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f27ddbea677dd327"
     },
     "456": {
      "nome": "Norte Shopping - Copacabana",
@@ -3015,7 +3153,8 @@
        "paradas": 59
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "39d51634a3f0eb0f"
     },
     "457": {
      "nome": "Abolição - Copacabana",
@@ -3037,7 +3176,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "39d51262598603e0"
     },
     "46": {
      "nome": "Penha - Terminal Alvorada",
@@ -3059,7 +3199,8 @@
        "paradas": 11
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "279d07dfa0f9f66a"
     },
     "461": {
      "nome": "São Cristóvão - Ipanema",
@@ -3074,7 +3215,8 @@
        "paradas": 28
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c8ad47d2cfaa1876"
     },
     "472": {
      "nome": "Triagem - Leme",
@@ -3096,7 +3238,8 @@
        "paradas": 54
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1a988241f4ee43f4"
     },
     "473": {
      "nome": "São Januário - Lido",
@@ -3118,7 +3261,8 @@
        "paradas": 43
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ef7cd52fee0b142c"
     },
     "474": {
      "nome": "Jacaré - Copacabana",
@@ -3140,7 +3284,8 @@
        "paradas": 58
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "34fd70cd5c1c4ccd"
     },
     "476": {
      "nome": "Méier - Leblon",
@@ -3162,7 +3307,8 @@
        "paradas": 47
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "98898b73c0af2b32"
     },
     "483": {
      "nome": "Penha - General Osório",
@@ -3184,7 +3330,8 @@
        "paradas": 59
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "05ab8c7900dd1d80"
     },
     "484": {
      "nome": "Olaria - General Osório",
@@ -3199,7 +3346,8 @@
        "paradas": 51
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "549cc530c62f221d"
     },
     "485": {
      "nome": "Fundão - General Osório",
@@ -3221,7 +3369,8 @@
        "paradas": 50
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a7f74785c019e0e8"
     },
     "486": {
      "nome": "Fundão - General Osório",
@@ -3236,7 +3385,8 @@
        "paradas": 46
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6e3cc1e7c2c00c2a"
     },
     "492": {
      "nome": "Bancários - Prado Júnior",
@@ -3258,7 +3408,8 @@
        "paradas": 31
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9299dd4b38231aae"
     },
     "497": {
      "nome": "Penha - Largo do Machado",
@@ -3280,7 +3431,8 @@
        "paradas": 58
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a8c77de70ab796a5"
     },
     "50": {
      "nome": "Terminal Jardim Oceânico - Terminal Centro Olímpico",
@@ -3302,7 +3454,8 @@
        "paradas": 17
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f16efae6c3716687"
     },
     "507": {
      "nome": "Silvestre - Largo do Machado",
@@ -3324,7 +3477,8 @@
        "paradas": 21
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "aa8946c2ff07cb7d"
     },
     "51": {
      "nome": "Terminal Deodoro - Terminal Recreio",
@@ -3346,7 +3500,8 @@
        "paradas": 19
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b63158ce8976d15b"
     },
     "513": {
      "nome": "Urca - Botafogo",
@@ -3361,7 +3516,8 @@
        "paradas": 24
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "df48ffd22778cfe2"
     },
     "518": {
      "nome": "Urca - Botafogo",
@@ -3376,7 +3532,8 @@
        "paradas": 42
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1c616496d082b653"
     },
     "519": {
      "nome": "Urca - Copacabana",
@@ -3391,7 +3548,8 @@
        "paradas": 36
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6ea5b4b5f2476a17"
     },
     "52": {
      "nome": "Terminal Deodoro - Terminal Alvorada",
@@ -3413,7 +3571,8 @@
        "paradas": 22
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a6b5607df7a173ab"
     },
     "53": {
      "nome": "Terminal Sulacap - Terminal Alvorada",
@@ -3435,7 +3594,8 @@
        "paradas": 7
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9f7e85563836d592"
     },
     "539": {
      "nome": "Rocinha - Leme",
@@ -3457,7 +3617,8 @@
        "paradas": 52
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a6426b409264a121"
     },
     "54": {
      "nome": "Centro Olímpico - Anil",
@@ -3479,7 +3640,8 @@
        "paradas": 53
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "83df129800278112"
     },
     "550": {
      "nome": "Cidade de Deus - Gávea",
@@ -3501,7 +3663,8 @@
        "paradas": 68
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "656edd79566b87a9"
     },
     "552": {
      "nome": "Terminal Alvorada - Rio Sul",
@@ -3523,7 +3686,8 @@
        "paradas": 57
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "551fedf53423e343"
     },
     "553": {
      "nome": "Recreio dos Bandeirantes - Rio Sul",
@@ -3545,7 +3709,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f63ecb3ffc18e675"
     },
     "554": {
      "nome": "Piabas - Rio Sul",
@@ -3567,7 +3732,8 @@
        "paradas": 109
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "50710dcce4457ed3"
     },
     "555": {
      "nome": "Rio das Pedras - Gávea",
@@ -3589,7 +3755,8 @@
        "paradas": 43
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4747d91948b9d2cf"
     },
     "557": {
      "nome": "Rio das Pedras - Copacabana",
@@ -3611,7 +3778,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c341b7945e91c75f"
     },
     "565": {
      "nome": "Tanque - Gávea",
@@ -3633,7 +3801,8 @@
        "paradas": 48
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "50194d05fcc14df4"
     },
     "583": {
      "nome": "Cosme Velho - Leblon",
@@ -3648,7 +3817,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3b94ac7574494204"
     },
     "584": {
      "nome": "Cosme Velho - Leblon",
@@ -3663,7 +3833,8 @@
        "paradas": 70
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "92478152316b6056"
     },
     "585": {
      "nome": "Largo do Machado - Jardim de Alah",
@@ -3678,7 +3849,8 @@
        "paradas": 58
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "11f84b5d7c938324"
     },
     "60": {
      "nome": "Terminal Deodoro - Terminal Gentileza",
@@ -3700,7 +3872,8 @@
        "paradas": 20
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8e400b117cca50b2"
     },
     "600": {
      "nome": "Taquara - Saens Peña",
@@ -3722,7 +3895,8 @@
        "paradas": 75
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "dd79599276bb955f"
     },
     "601": {
      "nome": "Santa Maria - Saens Peña",
@@ -3744,7 +3918,8 @@
        "paradas": 81
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "378c39fcf2b06395"
     },
     "603": {
      "nome": "Usina - Saens Peña",
@@ -3766,7 +3941,8 @@
        "paradas": 19
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7b75a6e542dc74b7"
     },
     "606": {
      "nome": "Engenho de Dentro - Terminal Gentileza",
@@ -3788,7 +3964,8 @@
        "paradas": 59
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d3e86cef5972f961"
     },
     "607": {
      "nome": "Cascadura - Rio Comprido",
@@ -3810,7 +3987,8 @@
        "paradas": 79
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5a39f472773495fd"
     },
     "608": {
      "nome": "Grajaú - Saens Peña",
@@ -3832,7 +4010,8 @@
        "paradas": 23
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "802182cf40f1a6a7"
     },
     "61": {
      "nome": "Terminal Deodoro - Terminal Gentileza",
@@ -3854,7 +4033,8 @@
        "paradas": 7
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "da77ac72cf1df980"
     },
     "610": {
      "nome": "Del Castilho - Tanque",
@@ -3876,7 +4056,8 @@
        "paradas": 24
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "adce75c289a53a46"
     },
     "611": {
      "nome": "Camorim - Del Castilho",
@@ -3898,7 +4079,8 @@
        "paradas": 44
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "056b4522e1693ced"
     },
     "613": {
      "nome": "Vargem Grande - Del Castilho",
@@ -3920,7 +4102,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0826cb278f6401f9"
     },
     "614": {
      "nome": "Del Castilho - Terminal Alvorada",
@@ -3942,7 +4125,8 @@
        "paradas": 13
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "66a74607bb6911f5"
     },
     "616": {
      "nome": "Del Castilho - Fundão",
@@ -3964,7 +4148,8 @@
        "paradas": 13
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f4a8fcbe153caca1"
     },
     "621": {
      "nome": "Penha - Saens Peña",
@@ -3979,7 +4164,8 @@
        "paradas": 122
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "18bd4811475c9079"
     },
     "622": {
      "nome": "Penha - Saens Peña",
@@ -3994,7 +4180,8 @@
        "paradas": 129
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "13287f4f19821d54"
     },
     "623": {
      "nome": "Penha - Saens Peña",
@@ -4016,7 +4203,8 @@
        "paradas": 73
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "cfc9c53637b196f4"
     },
     "624": {
      "nome": "Mariópolis - Praça da Bandeira",
@@ -4038,7 +4226,8 @@
        "paradas": 116
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "191175e6556d54d3"
     },
     "625": {
      "nome": "Olaria - Saens Peña",
@@ -4060,7 +4249,8 @@
        "paradas": 64
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "606300b19d0d4598"
     },
     "626": {
      "nome": "Saens Peña - Muda",
@@ -4082,7 +4272,8 @@
        "paradas": 13
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "aa61ec973164f12f"
     },
     "627": {
      "nome": "Inhaúma - Saens Peña",
@@ -4104,7 +4295,8 @@
        "paradas": 56
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4bfa2be1d36d9891"
     },
     "628": {
      "nome": "Penha - Nova América",
@@ -4126,7 +4318,8 @@
        "paradas": 29
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b3138a41fe9e2193"
     },
     "629": {
      "nome": "Irajá - Saens Peña",
@@ -4148,7 +4341,8 @@
        "paradas": 76
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ce96a4c6bf7bd73a"
     },
     "630": {
      "nome": "Penha (IAPI) - Saens Peña",
@@ -4170,7 +4364,8 @@
        "paradas": 63
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8912a9f271844b04"
     },
     "634": {
      "nome": "Bananal - Saens Peña",
@@ -4192,7 +4387,8 @@
        "paradas": 85
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1fb5bb56df3aacf0"
     },
     "635": {
      "nome": "Bananal - Saens Peña",
@@ -4214,7 +4410,8 @@
        "paradas": 64
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "deebf84b4ff3dd1a"
     },
     "636": {
      "nome": "Merck - Saens Peña",
@@ -4236,7 +4433,8 @@
        "paradas": 75
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2856b918a0d5e802"
     },
     "638": {
      "nome": "Marechal Hermes - Saens Peña",
@@ -4258,7 +4456,8 @@
        "paradas": 89
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "228ba9251b24fb35"
     },
     "639": {
      "nome": "Jardim América - Saens Peña",
@@ -4280,7 +4479,8 @@
        "paradas": 109
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b2fc2830656ce5d9"
     },
     "645": {
      "nome": "Terminal Alvorada - Saens Peña",
@@ -4302,7 +4502,8 @@
        "paradas": 64
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4ff1aa867f4e3717"
     },
     "650": {
      "nome": "Marechal Hermes - Engenho Novo",
@@ -4324,7 +4525,8 @@
        "paradas": 73
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1505efe8d75a477b"
     },
     "651": {
      "nome": "Cascadura - Méier",
@@ -4339,7 +4541,8 @@
        "paradas": 86
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c7a61b2a35d4b7ed"
     },
     "652": {
      "nome": "Cascadura - Méier",
@@ -4354,7 +4557,8 @@
        "paradas": 102
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "200969590e91241f"
     },
     "653": {
      "nome": "Terminal Deodoro - Méier",
@@ -4376,7 +4580,8 @@
        "paradas": 54
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9d4ef6342ae1a88c"
     },
     "663": {
      "nome": "Méier - Fundão",
@@ -4398,7 +4603,8 @@
        "paradas": 39
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "01ece25b8aeaf2c1"
     },
     "665": {
      "nome": "Pavuna - Saens Peña",
@@ -4420,7 +4626,8 @@
        "paradas": 61
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2718ecd30c0a95ba"
     },
     "669": {
      "nome": "Pavuna - Méier",
@@ -4442,7 +4649,8 @@
        "paradas": 105
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "44d19a7466b98f57"
     },
     "67": {
      "nome": "Terminal Campo Grande - Terminal Deodoro",
@@ -4464,7 +4672,8 @@
        "paradas": 20
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "59bee6ac4985d8a8"
     },
     "678": {
      "nome": "Méier - Vila Valqueire",
@@ -4486,7 +4695,8 @@
        "paradas": 69
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bcee01bd72d89a00"
     },
     "679": {
      "nome": "Grotão - Méier",
@@ -4508,7 +4718,8 @@
        "paradas": 70
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8033508ae72d8d8e"
     },
     "68": {
      "nome": "Bangu - Terminal Deodoro",
@@ -4530,7 +4741,8 @@
        "paradas": 12
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "94e0b486281ce9bd"
     },
     "685": {
      "nome": "Terminal Margaridas - Méier",
@@ -4552,7 +4764,8 @@
        "paradas": 81
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fa002097753414a9"
     },
     "687": {
      "nome": "Pavuna - Méier",
@@ -4574,7 +4787,8 @@
        "paradas": 63
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "209a32d115863942"
     },
     "688": {
      "nome": "Méier - Pavuna",
@@ -4596,7 +4810,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bc813c74981e311c"
     },
     "691": {
      "nome": "Méier - Terminal Alvorada",
@@ -4618,7 +4833,8 @@
        "paradas": 54
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c944a735b7ddf4cd"
     },
     "692": {
      "nome": "Méier - Terminal Alvorada",
@@ -4640,7 +4856,8 @@
        "paradas": 50
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "790927f448089a0e"
     },
     "693": {
      "nome": "Méier - Terminal Alvorada",
@@ -4662,7 +4879,8 @@
        "paradas": 32
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fb47acacca093d75"
     },
     "696": {
      "nome": "Méier - Praia do Dendê",
@@ -4684,7 +4902,8 @@
        "paradas": 86
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5fe339578034f12c"
     },
     "70": {
      "nome": "Terminal Margaridas - Terminal Gentileza",
@@ -4706,7 +4925,8 @@
        "paradas": 15
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0eb279bc7ebef659"
     },
     "711": {
      "nome": "Rocha Miranda - Rio Comprido",
@@ -4728,7 +4948,8 @@
        "paradas": 102
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "eedba17a393da3fe"
     },
     "712": {
      "nome": "Cascadura - Irajá",
@@ -4750,7 +4971,8 @@
        "paradas": 38
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "dc36495d6c21cf19"
     },
     "721": {
      "nome": "Vila Cruzeiro - Cascadura",
@@ -4772,7 +4994,8 @@
        "paradas": 41
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "dda929517229b9d1"
     },
     "73": {
      "nome": "Terminal Margaridas - Terminal Gentileza",
@@ -4794,7 +5017,8 @@
        "paradas": 10
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9e99848716e68303"
     },
     "731": {
      "nome": "Campo Grande - Marechal Hermes",
@@ -4816,7 +5040,8 @@
        "paradas": 85
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "86255a9b9589caec"
     },
     "737": {
      "nome": "Santíssimo - Cascadura",
@@ -4838,7 +5063,8 @@
        "paradas": 98
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "63c7ec649cbf931d"
     },
     "741": {
      "nome": "Terminal Sulacap - Bangu",
@@ -4853,7 +5079,8 @@
        "paradas": 88
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "83dbcc83bde1282e"
     },
     "743": {
      "nome": "Terminal Sulacap - Bangu",
@@ -4868,7 +5095,8 @@
        "paradas": 85
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fd5376cf9a17161a"
     },
     "745": {
      "nome": "Bangu - Cascadura",
@@ -4890,7 +5118,8 @@
        "paradas": 56
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "23d6bade462d1891"
     },
     "746": {
      "nome": "Jabour - Cascadura",
@@ -4912,7 +5141,8 @@
        "paradas": 55
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d7a467d6da02a6a4"
     },
     "753": {
      "nome": "Santa Cruz - Metrô Coelho Neto",
@@ -4934,7 +5164,8 @@
        "paradas": 114
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "74fa80e72fc4440e"
     },
     "754": {
      "nome": "Santa Cruz - Terminal Deodoro",
@@ -4956,7 +5187,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "dbf6272f61b51c38"
     },
     "756": {
      "nome": "Santa Cruz - Coelho Neto",
@@ -4978,7 +5210,8 @@
        "paradas": 97
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "18ff066c39a29d3e"
     },
     "757": {
      "nome": "Sepetiba - Coelho Neto",
@@ -5000,7 +5233,8 @@
        "paradas": 149
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "83a134b9a731fa84"
     },
     "759": {
      "nome": "Cesarão - Coelho Neto",
@@ -5022,7 +5256,8 @@
        "paradas": 88
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e90b3a9358fa1f8a"
     },
     "764": {
      "nome": "Catiri - Terminal Deodoro",
@@ -5044,7 +5279,8 @@
        "paradas": 30
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f48b2fe59fbcf175"
     },
     "765": {
      "nome": "Mendanha - Terminal Deodoro",
@@ -5066,7 +5302,8 @@
        "paradas": 31
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "30da421633f345be"
     },
     "766": {
      "nome": "Madureira - Freguesia",
@@ -5088,7 +5325,8 @@
        "paradas": 50
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5db629a97d7d6a38"
     },
     "770": {
      "nome": "Campo Grande - Metrô Coelho Neto",
@@ -5110,7 +5348,8 @@
        "paradas": 58
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7a795b759933eb45"
     },
     "771": {
      "nome": "Campo Grande - Metrô Coelho Neto",
@@ -5132,7 +5371,8 @@
        "paradas": 62
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7e2ed3067feff16c"
     },
     "774": {
      "nome": "Madureira - Jardim América",
@@ -5154,7 +5394,8 @@
        "paradas": 52
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "43124b8c3ee03441"
     },
     "775": {
      "nome": "Jardim América - Madureira",
@@ -5176,7 +5417,8 @@
        "paradas": 49
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fcbc6b5765d7d1cf"
     },
     "778": {
      "nome": "Pavuna - Cascadura",
@@ -5198,7 +5440,8 @@
        "paradas": 46
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "790e95e60b98cb7e"
     },
     "779": {
      "nome": "Metrô Pavuna - Terminal Madureira",
@@ -5220,7 +5463,8 @@
        "paradas": 53
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "eac45a23d0c303af"
     },
     "780": {
      "nome": "Metrô Pavuna - Terminal Madureira",
@@ -5242,7 +5486,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5a093304b13eec5e"
     },
     "783": {
      "nome": "Terminal Deodoro - Praça Seca",
@@ -5264,7 +5509,8 @@
        "paradas": 44
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9773ad7c37daf454"
     },
     "785": {
      "nome": "Cascadura - Marechal Hermes",
@@ -5286,7 +5532,8 @@
        "paradas": 68
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "84da14e39c1ccea0"
     },
     "786": {
      "nome": "Terminal Campo Grande - Cascadura",
@@ -5308,7 +5555,8 @@
        "paradas": 87
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1461feb96a0e5466"
     },
     "788": {
      "nome": "Terminal Campo Grande - Terminal Deodoro",
@@ -5330,7 +5578,8 @@
        "paradas": 67
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "021744fe27beb4c4"
     },
     "790": {
      "nome": "Campo Grande - Cascadura",
@@ -5352,7 +5601,8 @@
        "paradas": 83
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c88da877c321dea4"
     },
     "791": {
      "nome": "Padre Miguel - Terminal Deodoro",
@@ -5374,7 +5624,8 @@
        "paradas": 39
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8f1e62c379d397b7"
     },
     "793": {
      "nome": "Pavuna - Terminal Sulacap",
@@ -5396,7 +5647,8 @@
        "paradas": 54
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5b930a429351bd38"
     },
     "794": {
      "nome": "Bangu - Cascadura",
@@ -5418,7 +5670,8 @@
        "paradas": 86
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "752e440464d15c32"
     },
     "796": {
      "nome": "Cosmos - Terminal Deodoro",
@@ -5440,7 +5693,8 @@
        "paradas": 83
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "249e5e465c836410"
     },
     "798": {
      "nome": "Urucânia - Terminal Deodoro",
@@ -5462,7 +5716,8 @@
        "paradas": 80
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "38cf5496fe6ea42e"
     },
     "799": {
      "nome": "Metrô Pavuna - Bangu",
@@ -5484,7 +5739,8 @@
        "paradas": 93
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f9f51dcca46497c7"
     },
     "80": {
      "nome": "Penha - Terminal Gentileza",
@@ -5506,7 +5762,8 @@
        "paradas": 12
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1d092e5ba6df047a"
     },
     "801": {
      "nome": "Bangu - Taquara",
@@ -5528,7 +5785,8 @@
        "paradas": 86
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c5fe0f0c99458a8e"
     },
     "802": {
      "nome": "Terminal Campo Grande - Bangu",
@@ -5550,7 +5808,8 @@
        "paradas": 44
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d23d04bae8848dce"
     },
     "803": {
      "nome": "Jabour - Taquara",
@@ -5572,7 +5831,8 @@
        "paradas": 56
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0326284ccd773fb6"
     },
     "804": {
      "nome": "Terminal Curral Falso - Campo Grande",
@@ -5594,7 +5854,8 @@
        "paradas": 65
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "af353ed93a349e90"
     },
     "805": {
      "nome": "Terminal Alvorada - Jardim Oceânico",
@@ -5616,7 +5877,8 @@
        "paradas": 24
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "14da915a5356e67f"
     },
     "807": {
      "nome": "Jesuítas - Terminal Curral Falso",
@@ -5638,7 +5900,8 @@
        "paradas": 24
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ce7361e4a15b84e7"
     },
     "808": {
      "nome": "Salim - Campo Grande",
@@ -5660,7 +5923,8 @@
        "paradas": 18
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3a1d47d863f80a8c"
     },
     "809": {
      "nome": "Sagrado Coração - Santa Cruz",
@@ -5682,7 +5946,8 @@
        "paradas": 16
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a879ca7e96ef4949"
     },
     "810": {
      "nome": "Terminal Taquara - Pontal",
@@ -5704,7 +5969,8 @@
        "paradas": 70
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5d47d27bf3af5656"
     },
     "812": {
      "nome": "Carobinha - Bangu",
@@ -5726,7 +5992,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ed0fdccf73267c6a"
     },
     "817": {
      "nome": "Piabas - Vargem Grande",
@@ -5748,7 +6015,8 @@
        "paradas": 42
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "61330102102c5c23"
     },
     "819": {
      "nome": "Jardim Bangu - Bangu",
@@ -5770,7 +6038,8 @@
        "paradas": 30
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8f182f7795950480"
     },
     "820": {
      "nome": "Rio da Prata - Terminal Mato Alto",
@@ -5792,7 +6061,8 @@
        "paradas": 47
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "883f51e882ee608c"
     },
     "821": {
      "nome": "Campo Grande - Corcundinha",
@@ -5807,7 +6077,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a57d9a809e45ab86"
     },
     "822": {
      "nome": "Campo Grande - Corcundinha",
@@ -5822,7 +6093,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "604927c16576e1e2"
     },
     "825": {
      "nome": "Campo Grande - Jesuítas",
@@ -5844,7 +6116,8 @@
        "paradas": 52
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5d893d224bf2ef8e"
     },
     "826": {
      "nome": "Carobinha - Campo Grande",
@@ -5866,7 +6139,8 @@
        "paradas": 18
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c892a52453eb694a"
     },
     "829": {
      "nome": "Gardênia Azul - Freguesia",
@@ -5881,7 +6155,8 @@
        "paradas": 21
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6693ea14e669b576"
     },
     "830": {
      "nome": "Pedregoso - Campo Grande",
@@ -5903,7 +6178,8 @@
        "paradas": 17
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bb0d4b0d6711b6b3"
     },
     "831": {
      "nome": "Colônia - Terminal Taquara",
@@ -5925,7 +6201,8 @@
        "paradas": 17
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "86a101255177f43b"
     },
     "833": {
      "nome": "Conjunto Manguariba - Campo Grande",
@@ -5947,7 +6224,8 @@
        "paradas": 35
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "91125d49093b3561"
     },
     "834": {
      "nome": "Terminal Campo Grande - Cabuçu de Baixo",
@@ -5969,7 +6247,8 @@
        "paradas": 23
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "225e4a344a45a313"
     },
     "835": {
      "nome": "Largo do Correia - Terminal Campo Grande",
@@ -5991,7 +6270,8 @@
        "paradas": 27
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "28fd0811c080a9ce"
     },
     "836": {
      "nome": "Rio da Prata - Terminal Campo Grande",
@@ -6013,7 +6293,8 @@
        "paradas": 32
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "13ecd6e80c17fadc"
     },
     "837": {
      "nome": "Terminal Campo Grande - Conjunto da Marinha",
@@ -6035,7 +6316,8 @@
        "paradas": 16
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6dd33f3d2d33a0e4"
     },
     "838": {
      "nome": "Terminal Campo Grande - Terminal Magarça",
@@ -6057,7 +6339,8 @@
        "paradas": 43
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "39e130eb7a11146d"
     },
     "840": {
      "nome": "São Fernando - Campo Grande",
@@ -6079,7 +6362,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ed3db49b8ae02584"
     },
     "841": {
      "nome": "Campo Grande - Inhoaíba",
@@ -6101,7 +6385,8 @@
        "paradas": 31
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a692b6f8c9c9fd71"
     },
     "842": {
      "nome": "Paciência - Campo Grande",
@@ -6123,7 +6408,8 @@
        "paradas": 35
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4ceeb28f768fc61c"
     },
     "843": {
      "nome": "Boa Esperança - Campo Grande",
@@ -6138,7 +6424,8 @@
        "paradas": 32
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "547aa5ecd5455620"
     },
     "844": {
      "nome": "Jardim Oceânico - Barrinha",
@@ -6153,7 +6440,8 @@
        "paradas": 14
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5acdd7700fd57a8c"
     },
     "845": {
      "nome": "Cantagalo - Terminal Campo Grande",
@@ -6175,7 +6463,8 @@
        "paradas": 28
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "45426cece575df39"
     },
     "846": {
      "nome": "Rio da Prata - Terminal Campo Grande",
@@ -6197,7 +6486,8 @@
        "paradas": 21
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c367887bb715dce7"
     },
     "847": {
      "nome": "Rio da Prata - Terminal Campo Grande",
@@ -6219,7 +6509,8 @@
        "paradas": 23
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "65278801bb368fc8"
     },
     "848": {
      "nome": "Terminal Campo Grande - Monte Santo",
@@ -6234,7 +6525,8 @@
        "paradas": 21
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b55c63d66fbbc4fc"
     },
     "849": {
      "nome": "Base Aérea de Santa Cruz - Campo Grande",
@@ -6256,7 +6548,8 @@
        "paradas": 52
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4e777309cfdcbc11"
     },
     "850": {
      "nome": "Mendanha - Campo Grande",
@@ -6278,7 +6571,8 @@
        "paradas": 24
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "aa20dcab716fe7cb"
     },
     "851": {
      "nome": "Campo Grande - Escola Amazonas",
@@ -6293,7 +6587,8 @@
        "paradas": 51
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fb5ee594e73a5396"
     },
     "852": {
      "nome": "Terminal Campo Grande - Pedra de Guaratiba",
@@ -6308,7 +6603,8 @@
        "paradas": 119
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1ec5f399adbf7971"
     },
     "853": {
      "nome": "Terminal Mato Alto - Terminal Deodoro",
@@ -6330,7 +6626,8 @@
        "paradas": 80
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6ff5e82f43b4ae6e"
     },
     "854": {
      "nome": "Terminal Campo Grande - Ilha de Guaratiba",
@@ -6352,7 +6649,8 @@
        "paradas": 67
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "47a1efaf4819b28c"
     },
     "855": {
      "nome": "Terminal Magarça - Terminal Deodoro",
@@ -6374,7 +6672,8 @@
        "paradas": 103
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "746409366adc24e8"
     },
     "857": {
      "nome": "Terminal Campo Grande - Terminal Pingo d'Água",
@@ -6396,7 +6695,8 @@
        "paradas": 74
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "16f78d6a82f390b0"
     },
     "859": {
      "nome": "Covanca - Largo do Tanque",
@@ -6418,7 +6718,8 @@
        "paradas": 7
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6a1a5676686473da"
     },
     "861": {
      "nome": "Rio das Pedras - Curicica",
@@ -6440,7 +6741,8 @@
        "paradas": 55
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c6693a7e8c41fbc4"
     },
     "863": {
      "nome": "Rio das Pedras - Barra da Tijuca",
@@ -6455,7 +6757,8 @@
        "paradas": 74
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1992bf319a31d8d8"
     },
     "864": {
      "nome": "Terminal Campo Grande - Terminal Sulacap",
@@ -6477,7 +6780,8 @@
        "paradas": 52
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4386e1d8dc36c301"
     },
     "865": {
      "nome": "Pau da Fome - Terminal Taquara",
@@ -6499,7 +6803,8 @@
        "paradas": 30
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e2d1e8804e3dccd1"
     },
     "866": {
      "nome": "Terminal Campo Grande - Pedra de Guaratiba",
@@ -6514,7 +6819,8 @@
        "paradas": 109
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7041a459e955f1b9"
     },
     "867": {
      "nome": "Barra de Guaratiba - Terminal Campo Grande",
@@ -6536,7 +6842,8 @@
        "paradas": 97
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "50b348f360e2b112"
     },
     "868": {
      "nome": "Urucânia - Campo Grande",
@@ -6558,7 +6865,8 @@
        "paradas": 39
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8860363d6ad34e09"
     },
     "869": {
      "nome": "Santa Margarida - Campo Grande",
@@ -6580,7 +6888,8 @@
        "paradas": 31
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7c18c6531f49819d"
     },
     "870": {
      "nome": "Sepetiba - Santa Cruz",
@@ -6602,7 +6911,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3527824f767951d4"
     },
     "871": {
      "nome": "Terminal Pingo d'Água - Cesarão",
@@ -6624,7 +6934,8 @@
        "paradas": 55
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1057c4dcb679b4c4"
     },
     "872": {
      "nome": "Praia de Sepetiba - Terminal Mato Alto",
@@ -6639,7 +6950,8 @@
        "paradas": 107
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5ec27184aa561d9a"
     },
     "878": {
      "nome": "Tanque - Barra da Tijuca",
@@ -6661,7 +6973,8 @@
        "paradas": 71
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "133dfb028f4d9c76"
     },
     "880": {
      "nome": "Rio das Pedras - Terminal Alvorada",
@@ -6683,7 +6996,8 @@
        "paradas": 24
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "304fcae5f81b6048"
     },
     "881": {
      "nome": "Taquara - Terminal Alvorada",
@@ -6705,7 +7019,8 @@
        "paradas": 53
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1f3ddb3794d15144"
     },
     "883": {
      "nome": "Terminal Mato Alto - Terminal Deodoro",
@@ -6727,7 +7042,8 @@
        "paradas": 93
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fb7f12969f578a7a"
     },
     "884": {
      "nome": "Sepetiba - Terminal Campo Grande",
@@ -6749,7 +7065,8 @@
        "paradas": 78
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "13643a96b6331764"
     },
     "885": {
      "nome": "Terminal Mato Alto - Santa Cruz",
@@ -6771,7 +7088,8 @@
        "paradas": 56
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "643a565c85417f63"
     },
     "892": {
      "nome": "São Benedito - Santa Cruz",
@@ -6786,7 +7104,8 @@
        "paradas": 39
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2693be4a67a442d1"
     },
     "893": {
      "nome": "Jardim Palmares - Campo Grande",
@@ -6808,7 +7127,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "844c4267dbc2c2f4"
     },
     "894": {
      "nome": "Terminal Campo Grande - Jardim Moriçaba",
@@ -6823,7 +7143,8 @@
        "paradas": 15
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "eb746c38b659db52"
     },
     "895": {
      "nome": "Serrinha - Campo Grande",
@@ -6845,7 +7166,8 @@
        "paradas": 30
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4676245ab1b014a6"
     },
     "897": {
      "nome": "Paciência - Terminal Pingo d'Água",
@@ -6867,7 +7189,8 @@
        "paradas": 17
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a9b01f8dbe1355be"
     },
     "898": {
      "nome": "Sepetiba - Campo Grande",
@@ -6889,7 +7212,8 @@
        "paradas": 93
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bf4c2f124aee5d5d"
     },
     "899": {
      "nome": "Barra de Guaratiba - Terminal Recreio",
@@ -6911,7 +7235,8 @@
        "paradas": 53
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "535cbec55e6bce42"
     },
     "90": {
      "nome": "Terminal Fundão - Terminal Gentileza",
@@ -6933,7 +7258,8 @@
        "paradas": 9
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "18c7c25bd9f0f530"
     },
     "900": {
      "nome": "Taquara - Downtown",
@@ -6955,7 +7281,8 @@
        "paradas": 35
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "00b33642c892c6f3"
     },
     "901": {
      "nome": "Bonsucesso - Bananal",
@@ -6977,7 +7304,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8c80364c3e8b1efb"
     },
     "905": {
      "nome": "Bonsucesso - Irajá",
@@ -6999,7 +7327,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7a9b62d3f73baf4a"
     },
     "906": {
      "nome": "Jardim América - Caju",
@@ -7021,7 +7350,8 @@
        "paradas": 73
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8e5f29467b1fb965"
     },
     "908": {
      "nome": "Terminal Deodoro - Bonsucesso",
@@ -7043,7 +7373,8 @@
        "paradas": 72
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0b1cb8bd1af68306"
     },
     "910": {
      "nome": "Bananal - Irajá",
@@ -7065,7 +7396,8 @@
        "paradas": 70
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6021a04821021e57"
     },
     "913": {
      "nome": "Del Castilho - Fundão",
@@ -7087,7 +7419,8 @@
        "paradas": 13
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6e953afd539f8845"
     },
     "915": {
      "nome": "Bonsucesso - Aeroporto Internacional do RJ",
@@ -7109,7 +7442,8 @@
        "paradas": 25
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d2d6b7b96ab01bfc"
     },
     "917": {
      "nome": "Padre Miguel - Bonsucesso",
@@ -7131,7 +7465,8 @@
        "paradas": 94
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c4a7178c4864a98c"
     },
     "918": {
      "nome": "Bangu - Bonsucesso",
@@ -7153,7 +7488,8 @@
        "paradas": 124
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5a1f5d8332ea3115"
     },
     "919": {
      "nome": "Pavuna - Bonsucesso",
@@ -7175,7 +7511,8 @@
        "paradas": 67
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4da6fc9c98989880"
     },
     "920": {
      "nome": "Pavuna - Bonsucesso",
@@ -7197,7 +7534,8 @@
        "paradas": 80
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "327010c0532c15fb"
     },
     "921": {
      "nome": "Bancários - Ribeira",
@@ -7219,7 +7557,8 @@
        "paradas": 32
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f00a1e9d2af3a26c"
     },
     "922": {
      "nome": "Tubiacanga - Terminal Fundão",
@@ -7241,7 +7580,8 @@
        "paradas": 7
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1f359eb30bc22143"
     },
     "925": {
      "nome": "Bancários - Aeroporto Internacional do RJ",
@@ -7263,7 +7603,8 @@
        "paradas": 49
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "73feed141e76bd69"
     },
     "926": {
      "nome": "Senador Camará - Penha",
@@ -7285,7 +7626,8 @@
        "paradas": 101
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1c4eec99c9d59036"
     },
     "928": {
      "nome": "Marechal Hermes - Bonsucesso",
@@ -7307,7 +7649,8 @@
        "paradas": 90
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5fb9a49e83a56125"
     },
     "932": {
      "nome": "Gardênia Azul - Tanque",
@@ -7329,7 +7672,8 @@
        "paradas": 40
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "182b2f7af52e78f0"
     },
     "940": {
      "nome": "Ramos (Praia) - Madureira",
@@ -7351,7 +7695,8 @@
        "paradas": 87
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a8d8d1018fbe2fe6"
     },
     "944": {
      "nome": "Metrô Pavuna - Terminal Margaridas",
@@ -7373,7 +7718,8 @@
        "paradas": 20
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b6ab9e53450edfdd"
     },
     "946": {
      "nome": "Pavuna - Engenho da Rainha",
@@ -7395,7 +7741,8 @@
        "paradas": 94
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a7771214b2e8f751"
     },
     "950": {
      "nome": "Metrô Vicente de Carvalho - Terminal Margaridas",
@@ -7410,7 +7757,8 @@
        "paradas": 56
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "79f93fcbe42b95a2"
     },
     "951": {
      "nome": "Metrô Vicente de Carvalho - Terminal Margaridas",
@@ -7425,7 +7773,8 @@
        "paradas": 47
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "472b2d84861e13fe"
     },
     "954": {
      "nome": "Terminal Taquara - Recreio dos Bandeirantes",
@@ -7447,7 +7796,8 @@
        "paradas": 57
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "43f417ae04743112"
     },
     "959": {
      "nome": "Metrô Vicente de Carvalho - Terminal Margaridas",
@@ -7462,7 +7812,8 @@
        "paradas": 59
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "61655b74085dadba"
     },
     "961": {
      "nome": "Rio das Pedras - Recreio dos Bandeirantes",
@@ -7484,7 +7835,8 @@
        "paradas": 57
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ce8ec4d0c2abe7e8"
     },
     "975": {
      "nome": "Madureira - Terminal Fundão",
@@ -7506,7 +7858,8 @@
        "paradas": 47
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2737e93ba2f8dc0e"
     },
     "979": {
      "nome": "Terminal Madureira - Terminal Fundão",
@@ -7528,7 +7881,8 @@
        "paradas": 51
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b0beab8ed90ddd7d"
     },
     "987": {
      "nome": "Gardênia Azul - Pechincha",
@@ -7543,7 +7897,8 @@
        "paradas": 98
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9d06df72394712b1"
     },
     "990": {
      "nome": "Merck - Joatinga",
@@ -7565,7 +7920,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "772f8833afc3db68"
     },
     "ESP01": {
      "nome": "Galeão - Terminal Gentileza",
@@ -7587,7 +7943,8 @@
        "paradas": 2
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "174f6829d203bb6d"
     },
     "LECD126": {
      "nome": "Méier - Parque Piedade",
@@ -7602,7 +7959,8 @@
        "paradas": 59
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7463bf2c95f26401"
     },
     "LECD133": {
      "nome": "Metrô São Cristóvão - Leblon",
@@ -7617,7 +7975,8 @@
        "paradas": 28
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a935283707bfbe65"
     },
     "LECD134": {
      "nome": "Central do Brasil - Leblon",
@@ -7639,7 +7998,8 @@
        "paradas": 40
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2c757bd1b55b2e76"
     },
     "LECD136": {
      "nome": "Terminal Gentileza - Leme",
@@ -7661,7 +8021,8 @@
        "paradas": 17
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "397e53ce413bff48"
     },
     "LECD138": {
      "nome": "Rocinha - Leme",
@@ -7683,7 +8044,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c4106df578c98cd0"
     },
     "LECD150": {
      "nome": "Grajaú - Metrô Siqueira Campos",
@@ -7705,7 +8067,8 @@
        "paradas": 55
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "952426e240ba13b9"
     },
     "LECD151": {
      "nome": "Grajaú - Leblon",
@@ -7727,7 +8090,8 @@
        "paradas": 54
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9de507090f15343e"
     },
     "LECD152": {
      "nome": "Circular da Penha - Largo do Machado",
@@ -7749,7 +8113,8 @@
        "paradas": 52
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "769491d9100f6c69"
     },
     "LECD153": {
      "nome": "Metrô São Cristóvão - Metrô Siqueira Campos",
@@ -7771,7 +8136,8 @@
        "paradas": 17
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8a9d1f08def54780"
     },
     "LECD154": {
      "nome": "Vila Isabel - Leblon",
@@ -7793,7 +8159,8 @@
        "paradas": 47
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5a41e8dd9350d9c1"
     },
     "LECD155": {
      "nome": "Grajaú - Gamboa",
@@ -7815,7 +8182,8 @@
        "paradas": 35
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c70f14711028aa90"
     },
     "LECD156": {
      "nome": "Capoeira Grande - Terminal Campo Grande",
@@ -7837,7 +8205,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "48b7d4b3b7830e59"
     },
     "SN007": {
      "nome": "Silvestre - Central",
@@ -7859,7 +8228,8 @@
        "paradas": 50
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b181a9aa451afdf9"
     },
     "SN104": {
      "nome": "São Conrado - Terminal Gentileza",
@@ -7881,7 +8251,8 @@
        "paradas": 67
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6d1bfbee32930b08"
     },
     "SN133": {
      "nome": "Largo do Machado - Terminal Gentileza",
@@ -7903,7 +8274,8 @@
        "paradas": 25
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "cda355f30186e0ad"
     },
     "SN209": {
      "nome": "Passeio - Caju",
@@ -7925,7 +8297,8 @@
        "paradas": 46
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "efd216b0ad58ea91"
     },
     "SN232": {
      "nome": "Lins de Vasconcelos - Castelo",
@@ -7947,7 +8320,8 @@
        "paradas": 39
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "88a1a75e8ca5d7b5"
     },
     "SN238": {
      "nome": "Água Santa - Castelo",
@@ -7969,7 +8343,8 @@
        "paradas": 67
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1c11382297fcbe41"
     },
     "SN265": {
      "nome": "Marechal Hermes - Castelo",
@@ -7991,7 +8366,8 @@
        "paradas": 105
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "88d657d7060cc1b5"
     },
     "SN292": {
      "nome": "Engenho da Rainha - Castelo",
@@ -8013,7 +8389,8 @@
        "paradas": 49
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "ad1dfd478adb4c7c"
     },
     "SN298": {
      "nome": "Acari - Castelo",
@@ -8035,7 +8412,8 @@
        "paradas": 98
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "655363f80d04bbb7"
     },
     "SN302": {
      "nome": "Terminal Gentileza - Terminal Alvorada",
@@ -8057,7 +8435,8 @@
        "paradas": 91
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4949381c8a446b6c"
     },
     "SN312": {
      "nome": "Penha - Candelária",
@@ -8079,7 +8458,8 @@
        "paradas": 62
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "15fe6910f603d779"
     },
     "SN319": {
      "nome": "Terminal Alvorada - Terminal Gentileza",
@@ -8101,7 +8481,8 @@
        "paradas": 66
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b011e7f37e627eaf"
     },
     "SN324": {
      "nome": "Ribeira - Candelária",
@@ -8123,7 +8504,8 @@
        "paradas": 64
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bfe3679d28caacbc"
     },
     "SN328": {
      "nome": "Bananal - Candelária",
@@ -8145,7 +8527,8 @@
        "paradas": 73
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "256527788cd6e1e1"
     },
     "SN353": {
      "nome": "Gardênia Azul - Terminal Gentileza",
@@ -8167,7 +8550,8 @@
        "paradas": 92
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0ea2b38ac61803c1"
     },
     "SN355": {
      "nome": "Madureira - Praça Tiradentes",
@@ -8189,7 +8573,8 @@
        "paradas": 76
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "1512e757f79e0d6f"
     },
     "SN363": {
      "nome": "Vila Valqueire - Candelária",
@@ -8211,7 +8596,8 @@
        "paradas": 101
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9479c07db2070d45"
     },
     "SN368": {
      "nome": "Riocentro - Candelária",
@@ -8233,7 +8619,8 @@
        "paradas": 102
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "90b5a0400d6b9cd5"
     },
     "SN383": {
      "nome": "Realengo - Praça da República",
@@ -8255,7 +8642,8 @@
        "paradas": 102
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "32c2bc7cd7781895"
     },
     "SN388": {
      "nome": "Santa Cruz - Candelária",
@@ -8277,7 +8665,8 @@
        "paradas": 145
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "110fee16b1bbbcad"
     },
     "SN393": {
      "nome": "Bangu - Candelária",
@@ -8299,7 +8688,8 @@
        "paradas": 121
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c55580b4d3788d80"
     },
     "SN397": {
      "nome": "Terminal Campo Grande - Candelária",
@@ -8321,7 +8711,8 @@
        "paradas": 122
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "647942bfed587dc2"
     },
     "SN399": {
      "nome": "Pavuna - Passeio",
@@ -8343,7 +8734,8 @@
        "paradas": 83
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fcd1c747a50bbfe3"
     },
     "SN410": {
      "nome": "Saens Peña - Gávea",
@@ -8365,7 +8757,8 @@
        "paradas": 73
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2b8a5a9d3b493701"
     },
     "SN415": {
      "nome": "Usina - Leblon",
@@ -8387,7 +8780,8 @@
        "paradas": 72
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fb25f00dd32ed526"
     },
     "SN422": {
      "nome": "Grajaú - Cosme Velho",
@@ -8409,7 +8803,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8e94073dfec01241"
     },
     "SN457": {
      "nome": "Abolição - Copacabana",
@@ -8431,7 +8826,8 @@
        "paradas": 73
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "b58330bf39f828ed"
     },
     "SN474": {
      "nome": "Méier - Copacabana",
@@ -8453,7 +8849,8 @@
        "paradas": 90
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "91fe53e9ef5b1cce"
     },
     "SN483": {
      "nome": "Penha - General Osório",
@@ -8475,7 +8872,8 @@
        "paradas": 80
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "dac31a8d74990fca"
     },
     "SN497": {
      "nome": "Penha - Largo do Machado",
@@ -8497,7 +8895,8 @@
        "paradas": 56
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2ab902423eb84d87"
     },
     "SN550": {
      "nome": "Cidade de Deus - Gávea",
@@ -8519,7 +8918,8 @@
        "paradas": 68
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4cb7b58856fd00cf"
     },
     "SN552": {
      "nome": "Terminal Alvorada - Metrô Botafogo",
@@ -8541,7 +8941,8 @@
        "paradas": 59
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5e62333d7fe44b22"
     },
     "SN554": {
      "nome": "Piabas - Metrô Botafogo",
@@ -8563,7 +8964,8 @@
        "paradas": 115
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "459aef42b8857eec"
     },
     "SN565": {
      "nome": "Tanque - Gávea",
@@ -8585,7 +8987,8 @@
        "paradas": 47
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2d1bf191cce6c56a"
     },
     "SN600": {
      "nome": "Taquara - Saens Peña",
@@ -8607,7 +9010,8 @@
        "paradas": 76
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4d69d7ca40972b9d"
     },
     "SN624": {
      "nome": "Mariópolis - Praça da República",
@@ -8629,7 +9033,8 @@
        "paradas": 118
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8882183c5a83d70a"
     },
     "SN629": {
      "nome": "Irajá - Saens Peña",
@@ -8651,7 +9056,8 @@
        "paradas": 78
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9ae92a93f5d06219"
     },
     "SN636": {
      "nome": "Merck - Saens Peña",
@@ -8673,7 +9079,8 @@
        "paradas": 76
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "13d19dee7889fa7a"
     },
     "SN639": {
      "nome": "Jardim América - Saens Peña",
@@ -8695,7 +9102,8 @@
        "paradas": 111
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7242968a0e51cbee"
     },
     "SN696": {
      "nome": "Méier - Praia do Dendê",
@@ -8717,7 +9125,8 @@
        "paradas": 103
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "29cefb425bb51120"
     },
     "SN731": {
      "nome": "Campo Grande - Marechal Hermes",
@@ -8739,7 +9148,8 @@
        "paradas": 89
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e93672ee9d9184d0"
     },
     "SN779": {
      "nome": "Metrô Pavuna - Terminal Madureira",
@@ -8761,7 +9171,8 @@
        "paradas": 55
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "76f48638cea482bd"
     },
     "SN790": {
      "nome": "Campo Grande - Cascadura",
@@ -8783,7 +9194,8 @@
        "paradas": 85
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f246e0f9fffcf20f"
     },
     "SN794": {
      "nome": "Jabour - Cascadura",
@@ -8805,7 +9217,8 @@
        "paradas": 94
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7aa56015521016f6"
     },
     "SN803": {
      "nome": "Jabour - Taquara",
@@ -8827,7 +9240,8 @@
        "paradas": 53
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0e9aeb04a49f9d92"
     },
     "SN805": {
      "nome": "Terminal Alvorada - Jardim Oceânico",
@@ -8849,7 +9263,8 @@
        "paradas": 24
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6f05a7b7d2d2dad7"
     },
     "SN810": {
      "nome": "Terminal Taquara - Pontal",
@@ -8871,7 +9286,8 @@
        "paradas": 73
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "214e391a71baea3f"
     },
     "SN821": {
      "nome": "Campo Grande - Corcundinha",
@@ -8886,7 +9302,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7b78353026122a81"
     },
     "SN825": {
      "nome": "Campo Grande - Jesuítas",
@@ -8908,7 +9325,8 @@
        "paradas": 51
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "680ec8a466b3c69c"
     },
     "SN840": {
      "nome": "São Fernando - Campo Grande",
@@ -8930,7 +9348,8 @@
        "paradas": 60
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4005928949901ad7"
     },
     "SN846": {
      "nome": "Rio da Prata - Terminal Campo Grande",
@@ -8952,7 +9371,8 @@
        "paradas": 21
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7c79769f33c41c23"
     },
     "SN848": {
      "nome": "Terminal Campo Grande - Monte Santo",
@@ -8967,7 +9387,8 @@
        "paradas": 21
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "65e10440216f993c"
     },
     "SN853": {
      "nome": "Terminal Mato Alto - Terminal Deodoro",
@@ -8989,7 +9410,8 @@
        "paradas": 84
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "793923be430957a5"
     },
     "SN857": {
      "nome": "Terminal Campo Grande - Terminal Pingo D'Água",
@@ -9011,7 +9433,8 @@
        "paradas": 66
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "2d00059e6b7a75af"
     },
     "SN861": {
      "nome": "Rio das Pedras - Curicica",
@@ -9033,7 +9456,8 @@
        "paradas": 54
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bee45cc6b46e97f3"
     },
     "SN867": {
      "nome": "Barra de Guaratiba - Terminal Campo Grande",
@@ -9055,7 +9479,8 @@
        "paradas": 97
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "fbf39695ee498901"
     },
     "SN878": {
      "nome": "Tanque - Barra da Tijuca",
@@ -9077,7 +9502,8 @@
        "paradas": 78
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d87dff1b8d8907a8"
     },
     "SN880": {
      "nome": "Rio das Pedras - Terminal Alvorada",
@@ -9099,7 +9525,8 @@
        "paradas": 24
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "26547efb3049d5c3"
     },
     "SN884": {
      "nome": "Sepetiba - Terminal Campo Grande",
@@ -9121,7 +9548,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d100aa5b7047c625"
     },
     "SN885": {
      "nome": "Terminal Mato Alto - Santa Cruz",
@@ -9143,7 +9571,8 @@
        "paradas": 58
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8e9804d622bbd2d4"
     },
     "SN893": {
      "nome": "Jardim Palmares - Campo Grande",
@@ -9165,7 +9594,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a76530a8312fc81d"
     },
     "SN895": {
      "nome": "Serrinha - Campo Grande",
@@ -9180,7 +9610,8 @@
        "paradas": 48
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "296993250bc8b5cc"
     },
     "SN897": {
      "nome": "Santa Cruz - Terminal Pingo d'Água",
@@ -9202,7 +9633,8 @@
        "paradas": 34
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "08ff1d082988e9d4"
     },
     "SN898": {
      "nome": "Sepetiba - Campo Grande",
@@ -9224,7 +9656,8 @@
        "paradas": 92
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d887f382dbe1c3e4"
     },
     "SN908": {
      "nome": "Terminal Deodoro - Bonsucesso",
@@ -9246,7 +9679,8 @@
        "paradas": 74
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f9191e367a689ee7"
     },
     "SN919": {
      "nome": "Pavuna - Maré",
@@ -9268,7 +9702,8 @@
        "paradas": 66
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4e9989c773a568cf"
     },
     "SN954": {
      "nome": "Terminal Taquara - Recreio dos Bandeirantes",
@@ -9290,7 +9725,8 @@
        "paradas": 56
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d1633288f298fd63"
     },
     "SP265": {
      "nome": "Marechal Hermes - Terminal Gentileza",
@@ -9312,7 +9748,8 @@
        "paradas": 79
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "36f7a499391a8d21"
     },
     "SP324": {
      "nome": "Ribeira - Terminal Fundão",
@@ -9334,7 +9771,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d4399724167f08f0"
     },
     "SP328": {
      "nome": "Bananal - Terminal Fundão",
@@ -9356,7 +9794,8 @@
        "paradas": 34
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5018bb03ebabca56"
     },
     "SP329": {
      "nome": "Bancários - Terminal Fundão",
@@ -9378,7 +9817,8 @@
        "paradas": 30
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9680a390ea93156f"
     },
     "SP343": {
      "nome": "Rio das Pedras - Candelária",
@@ -9393,7 +9833,8 @@
        "paradas": 40
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "56aa668d4362b7b4"
     },
     "SP389": {
      "nome": "Vila Aliança - Terminal Deodoro",
@@ -9415,7 +9856,8 @@
        "paradas": 44
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "30deac98246105d4"
     },
     "SP404": {
      "nome": "Caju - Leblon",
@@ -9430,7 +9872,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "97dafd7d0f523907"
     },
     "SP485": {
      "nome": "Cidade Nova - Fundão",
@@ -9445,7 +9888,8 @@
        "paradas": 23
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e9c4b616f16d18e8"
     },
     "SP635": {
      "nome": "Terminal Fundão - Saens Peña",
@@ -9467,7 +9911,8 @@
        "paradas": 30
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6f3eb75e8c1f8f69"
     },
     "SP759": {
      "nome": "Cesarão - Terminal Deodoro",
@@ -9489,7 +9934,8 @@
        "paradas": 76
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f8a86f9ea7dc6e6d"
     },
     "SP766": {
      "nome": "Três Rios - Madureira",
@@ -9504,7 +9950,8 @@
        "paradas": 41
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a6edd2c1c7df3ab0"
     },
     "SP795": {
      "nome": "Pavuna - Terminal Deodoro",
@@ -9526,7 +9973,8 @@
        "paradas": 53
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f07e77a32bdc4c40"
     },
     "SP801": {
      "nome": "Bangu - Terminal Sulacap",
@@ -9548,7 +9996,8 @@
        "paradas": 63
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "238b674106714f6b"
     },
     "SP803": {
      "nome": "Jabour - Terminal Sulacap",
@@ -9570,7 +10019,8 @@
        "paradas": 32
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f02bbcc87000a934"
     },
     "SP805": {
      "nome": "Terminal Alvorada - Passarela da Barra",
@@ -9585,7 +10035,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "75be3574f974e449"
     },
     "SP810": {
      "nome": "Terminal Taquara - Vargem Grande",
@@ -9607,7 +10058,8 @@
        "paradas": 56
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4f832d2462b17699"
     },
     "SP864": {
      "nome": "Terminal Campo Grande - Bangu",
@@ -9629,7 +10081,8 @@
        "paradas": 30
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "6a1c75486ffe9796"
     },
     "SP918": {
      "nome": "Jardim Violeta - Terminal Deodoro",
@@ -9651,7 +10104,8 @@
        "paradas": 54
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "c6a0ff5d3887f1c3"
     },
     "SPA483": {
      "nome": "Fiocruz - General Osório",
@@ -9666,7 +10120,8 @@
        "paradas": 23
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5981fbe9bd7e1557"
     },
     "SPA550": {
      "nome": "Cidade de Deus - Rocinha",
@@ -9688,7 +10143,8 @@
        "paradas": 65
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9ae2b2017b7a5c63"
     },
     "SPA613": {
      "nome": "Riocentro - Del Castilho",
@@ -9710,7 +10166,8 @@
        "paradas": 20
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0c0c1841567d90fb"
     },
     "SPB326": {
      "nome": "Bancários - Terminal Fundão",
@@ -9732,7 +10189,8 @@
        "paradas": 26
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "42464ab439e07301"
     },
     "SPB483": {
      "nome": "Parque União - General Osório",
@@ -9747,7 +10205,8 @@
        "paradas": 34
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "39e937badd3d08cb"
     },
     "SPB550": {
      "nome": "Tijuquinha - Gávea",
@@ -9769,7 +10228,8 @@
        "paradas": 21
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8f991870a8657965"
     },
     "SR300": {
      "nome": "Terminal Sulacap - Candelária",
@@ -9791,7 +10251,8 @@
        "paradas": 46
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "cd01cd349296baea"
     },
     "SR328": {
      "nome": "Bananal - Candelária",
@@ -9813,7 +10274,8 @@
        "paradas": 50
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "13b03bc3b2f72bc8"
     },
     "SR342": {
      "nome": "Jardim América - Castelo",
@@ -9835,7 +10297,8 @@
        "paradas": 31
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9d0a48831cd3d9ee"
     },
     "SR355": {
      "nome": "Madureira - Praça Tiradentes",
@@ -9857,7 +10320,8 @@
        "paradas": 52
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "db4aae2cb1cba2d0"
     },
     "SR362": {
      "nome": "Honório Gurgel - Castelo",
@@ -9879,7 +10343,8 @@
        "paradas": 48
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "973d71909e1dd679"
     },
     "SR378": {
      "nome": "Marechal Hermes - Castelo",
@@ -9901,7 +10366,8 @@
        "paradas": 47
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "33bd6baa3ec1f4bd"
     },
     "SR384": {
      "nome": "Pavuna - Passeio",
@@ -9923,7 +10389,8 @@
        "paradas": 59
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "d5b4aeede8d1295a"
     },
     "SR386": {
      "nome": "Anchieta - Candelária",
@@ -9945,7 +10412,8 @@
        "paradas": 45
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "110a1bcb6f08a799"
     },
     "SR388": {
      "nome": "Santa Cruz - Candelária",
@@ -9967,7 +10435,8 @@
        "paradas": 82
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "099af3a579b5a2c7"
     },
     "SR393": {
      "nome": "Bangu - Candelária",
@@ -9989,7 +10458,8 @@
        "paradas": 74
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3bf7e10248195621"
     },
     "SR397": {
      "nome": "Terminal Campo Grande - Candelária",
@@ -10011,7 +10481,8 @@
        "paradas": 57
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "56500d348029d6c3"
     },
     "SR399": {
      "nome": "Pavuna - Passeio",
@@ -10033,7 +10504,8 @@
        "paradas": 55
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3dc0f0520d351caf"
     },
     "SV319": {
      "nome": "Terminal Alvorada - Central do Brasil",
@@ -10055,7 +10527,8 @@
        "paradas": 65
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "3cfb16f4e9e86438"
     },
     "SV363": {
      "nome": "Vila Valqueire - Candelária",
@@ -10077,7 +10550,8 @@
        "paradas": 76
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "0947cafb36ccc688"
     },
     "SV474": {
      "nome": "Jacaré - Copacabana",
@@ -10099,7 +10573,8 @@
        "paradas": 39
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a100b3807e81c357"
     },
     "SV483": {
      "nome": "General Osório - Penha",
@@ -10114,7 +10589,8 @@
        "paradas": 50
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "247199edaa048dbe"
     },
     "SV606": {
      "nome": "Engenho de Dentro - Terminal Gentileza",
@@ -10136,7 +10612,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8a1d97a54b6c008d"
     },
     "SV624": {
      "nome": "Mariópolis - Praça da Bandeira",
@@ -10158,7 +10635,8 @@
        "paradas": 128
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a309a44401c1123d"
     },
     "SV669": {
      "nome": "Pavuna - Méier",
@@ -10180,7 +10658,8 @@
        "paradas": 86
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "dae8126787a471ae"
     },
     "SV692": {
      "nome": "Méier - Terminal Alvorada",
@@ -10202,7 +10681,8 @@
        "paradas": 33
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5876e9c2bb504900"
     },
     "SV774": {
      "nome": "Madureira - Jardim América",
@@ -10224,7 +10704,8 @@
        "paradas": 40
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "274b648ed28e0213"
     },
     "SV777": {
      "nome": "Padre Miguel - Madureira",
@@ -10246,7 +10727,8 @@
        "paradas": 83
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8ec066b7ddaa6da3"
     },
     "SV790": {
      "nome": "Campo Grande - Cascadura",
@@ -10268,7 +10750,8 @@
        "paradas": 93
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "a323e66d73fdff43"
     },
     "SV831": {
      "nome": "Colônia - Terminal Taquara",
@@ -10290,7 +10773,8 @@
        "paradas": 14
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "09cf087de64c7534"
     },
     "SV853": {
      "nome": "Terminal Mato Alto - Terminal Deodoro",
@@ -10312,7 +10796,8 @@
        "paradas": 75
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "dd9beada51a46332"
     },
     "SV863": {
      "nome": "Rio das Pedras - Barra da Tijuca",
@@ -10327,7 +10812,8 @@
        "paradas": 76
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "9becd28e8b3cf9fd"
     },
     "SV866": {
      "nome": "Terminal Campo Grande - Terminal Pingo d'Água",
@@ -10349,7 +10835,8 @@
        "paradas": 55
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "950c3f29a855116c"
     },
     "SV878": {
      "nome": "Tanque - Barra da Tijuca",
@@ -10371,7 +10858,8 @@
        "paradas": 78
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "bdc6b93f4e609150"
     },
     "SV899": {
      "nome": "Barra de Guaratiba - Terminal Recreio",
@@ -10393,7 +10881,8 @@
        "paradas": 58
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "cdfeb5e5bd09bc17"
     },
     "SV908": {
      "nome": "Terminal Deodoro - Bonsucesso",
@@ -10408,7 +10897,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "686b68427fc24bce"
     },
     "SV917": {
      "nome": "Padre Miguel - Bonsucesso",
@@ -10430,7 +10920,8 @@
        "paradas": 95
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "4b212b0c17e1c19b"
     },
     "SV921": {
      "nome": "Bancários - Ribeira",
@@ -10452,7 +10943,8 @@
        "paradas": 31
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "8d2046a0aa0abd3c"
     },
     "SV922": {
      "nome": "Tubiacanga - Fundão",
@@ -10474,7 +10966,8 @@
        "paradas": 23
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "f340639e36718ff1"
     },
     "SVA665": {
      "nome": "Metrô Pavuna - Saens Peña",
@@ -10496,7 +10989,8 @@
        "paradas": 62
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "59de55c0e12bfbc0"
     },
     "SVA685": {
      "nome": "Terminal Margaridas - Méier",
@@ -10518,7 +11012,8 @@
        "paradas": 86
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "75b375eb4c1aff02"
     },
     "SVB665": {
      "nome": "Pavuna - Saens Peña",
@@ -10540,7 +11035,8 @@
        "paradas": 70
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "5a1800c9da78a459"
     },
     "SVB685": {
      "nome": "Terminal Margaridas - Méier",
@@ -10562,7 +11058,8 @@
        "paradas": 77
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "e86c2b8790c75850"
     },
     "SVB901": {
      "nome": "Bonsucesso - Bananal",
@@ -10584,7 +11081,8 @@
        "paradas": 42
       }
      ],
-     "osm": true
+     "osm": true,
+     "hash": "7b712c0706dc1c9a"
     }
    }
   }
