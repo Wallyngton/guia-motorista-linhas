@@ -414,7 +414,8 @@ MODIFICADOR = {
 
 
 MASCULINOS = ("largo", "viaduto", "túnel", "tunel", "elevado", "acesso", "boulevard",
-              "caminho", "corredor", "mergulhão", "mergulhao", "trevo", "beco", "anel")
+              "caminho", "corredor", "mergulhão", "mergulhao", "trevo", "beco", "anel",
+              "terminal", "terreirão", "terreirao")
 
 
 def em_rua(rua):
@@ -484,26 +485,59 @@ def manobras_osrm(trajeto):
 
 
 def manobras_geometricas(trajeto, ruas=None):
-    """Acha as curvas pelo desenho da rota. Com `ruas` (vias com nome do
-    OpenStreetMap), diz também o nome da rua em que se entra."""
-    indice = IndiceVias(ruas) if ruas else None
+    """Acha as curvas pelo desenho da rota. Com `ruas` (vias do OpenStreetMap),
+    diz também o nome da rua em que se entra e pega as SAÍDAS SUAVES: uma curva
+    pequena (22° a 40°) só vira aviso quando o ônibus troca de rua ou entra
+    num acesso/alça (ex.: sair da pista principal para a lateral). Curva
+    pequena na mesma rua não é avisada."""
+    com_nome = [r for r in (ruas or []) if r.get("nome")]
+    indice = IndiceVias(com_nome) if com_nome else None
+    indice_todas = IndiceVias(ruas) if ruas else None
     pts = reamostrar(trajeto, 15)
     giros = [0.0] * len(pts)
     for i in range(3, len(pts) - 3):
         antes = rumo(pts[i - 3], pts[i])
         depois = rumo(pts[i], pts[i + 3])
         giros[i] = (depois - antes + 540) % 360 - 180
-    # agrupa pontos seguidos com giro forte e fica com o pico de cada grupo
+
+    def via_em(n, todas=False):
+        n = max(0, min(n, len(pts) - 2))
+        ind = indice_todas if todas else indice
+        return ind.proxima(pts[n], rumo(pts[n], pts[n + 1]), max_dist=25) if ind else None
+
+    # agrupa pontos seguidos com giro e fica com o pico de cada grupo
+    LIMIAR = 22
     out, i = [], 0
+    pos = []  # índice em pts de cada aviso (para pôr o do terminal na ordem)
     while i < len(pts):
-        if abs(giros[i]) < 40:
+        if abs(giros[i]) < LIMIAR:
             i += 1
             continue
         j = i
-        while j + 1 < len(pts) and abs(giros[j + 1]) >= 40 and (giros[j + 1] > 0) == (giros[i] > 0):
+        while j + 1 < len(pts) and abs(giros[j + 1]) >= LIMIAR and (giros[j + 1] > 0) == (giros[i] > 0):
             j += 1
         k = max(range(i, j + 1), key=lambda n: abs(giros[n]))
         g = giros[k]
+        i = j + 1
+        lado = "direita" if g > 0 else "esquerda"
+        if abs(g) < 40:
+            # curva suave: só avisa se trocou de rua ou entrou num acesso
+            antes, depois = via_em(k - 5, True), via_em(k + 5, True)
+            if not antes or not depois or antes is depois:
+                continue
+            tipo_a, tipo_d = antes.get("tipo", ""), depois.get("tipo", "")
+            nome_a, nome_d = antes.get("nome", ""), depois.get("nome", "")
+            if tipo_d.endswith("_link") and not tipo_a.endswith("_link"):
+                txt = f"Pegue o acesso à {lado}"
+            elif nome_a and nome_d and nome_a != nome_d:
+                txt = f"Mantenha-se à {lado}"
+            else:
+                continue
+            if nome_d:
+                txt += em_rua(nome_d)
+            out.append({"lat": pts[k][0], "lng": pts[k][1], "texto": txt})
+            pos.append(k)
+            continue
         if abs(g) > 150:
             txt = "Faça o retorno"
         elif g > 0:
@@ -512,16 +546,146 @@ def manobras_geometricas(trajeto, ruas=None):
             txt = "Vire à esquerda" if g < -60 else "Mantenha-se à esquerda"
         if indice and txt != "Faça o retorno":
             # olha ~45 m depois da curva para saber em que rua entrou
-            d = min(k + 3, len(pts) - 2)
-            via = indice.proxima(pts[d], rumo(pts[d], pts[d + 1]), max_dist=25)
+            via = via_em(k + 3)
             if via and via.get("nome"):
                 txt += em_rua(via["nome"])
         out.append({"lat": pts[k][0], "lng": pts[k][1], "texto": txt})
-        i = j + 1
-    return out
+        pos.append(k)
+
+    # entrada em terminal: sempre avisa ("Entre no Terminal Alvorada"), mesmo sem curva
+    if indice:
+        antes = ""
+        for n in range(0, len(pts) - 1, 2):
+            via = via_em(n)
+            nome = via.get("nome", "") if via else ""
+            entrou = n > 10 and "terminal" in nome.lower() and "terminal" not in antes.lower()
+            if nome:
+                antes = nome
+            if not entrou:
+                continue
+            # já tem curva ali? junta: "Vire à esquerda e entre no Terminal ..."
+            perto = [j for j, kk in enumerate(pos) if abs(kk - n) * 15 <= 60]
+            if perto:
+                j = perto[0]
+                giro = out[j]["texto"].split(" na ")[0].split(" no ")[0]
+                out[j]["texto"] = f"{giro} e entre no {nome}"
+            else:
+                out.append({"lat": pts[n][0], "lng": pts[n][1], "texto": f"Entre no {nome}"})
+                pos.append(n)
+    # bifurcação suave (a rota quase não vira, mas a pista se divide):
+    # "Mantenha-se à esquerda, não entre no mergulhão e suba o viaduto"
+    if ruas:
+        for n, txt in bifurcacoes(pts, ruas):
+            if any(abs(kk - n) * 15 <= 120 for kk in pos):
+                continue  # já tem aviso de curva ali
+            out.append({"lat": pts[n][0], "lng": pts[n][1], "texto": txt})
+            pos.append(n)
+    return [m for _, m in sorted(zip(pos, out), key=lambda x: x[0])]
+
+
+def _dist_via(p, via):
+    """Menor distância (m) de p até a via, e o ponto mais perto."""
+    melhor, ponto = float("inf"), None
+    vp = via["pts"]
+    for k in range(len(vp) - 1):
+        t, d = _proj_segmento(p, vp[k], vp[k + 1])
+        if d < melhor:
+            a, b = vp[k], vp[k + 1]
+            melhor, ponto = d, (a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t)
+    return melhor, ponto
+
+
+def bifurcacoes(pts, ruas):
+    """Acha onde a pista se divide em duas quase na mesma direção (alça,
+    mergulhão x viaduto, pista lateral) e a rota segue por um dos lados.
+    Devolve [(índice em pts, texto do aviso)]. Pensado para o motorista que
+    vai só pela voz, com o celular no bolso."""
+    indice = IndiceVias(ruas)
+    achados = []
+    ultimo = -999
+    for n in range(2, len(pts) - 8, 2):
+        if n - ultimo < 10:  # uma por trecho de ~150 m
+            continue
+        h = rumo(pts[n], pts[n + 2])
+        frente = pts[n + 6]  # ~90 m à frente na rota
+        # vias perto daqui, no mesmo sentido
+        gx, gy = int(pts[n][0] / indice.CEL), int(pts[n][1] / indice.CEL)
+        cands = set()
+        for dx in (-1, 0, 1):
+            for dy in (-1, 0, 1):
+                cands.update(indice.grade.get((gx + dx, gy + dy), ()))
+        sai = None  # a via que se separa da rota
+        for vi in cands:
+            via = ruas[vi]
+            d0, q0 = _dist_via(pts[n], via)
+            if d0 > 15:
+                continue
+            # direção da via aqui
+            vp = via["pts"]
+            k = min(range(len(vp) - 1), key=lambda j: _proj_segmento(pts[n], vp[j], vp[j + 1])[1])
+            dif = abs((rumo(vp[k], vp[k + 1]) - h + 540) % 360 - 180)
+            if min(dif, 180 - dif) > 30:
+                continue  # rua que cruza, não é bifurcação
+            # a via tem que CONTINUAR para a frente (não é só o fim de um trecho da mesma rua)
+            hx0, hy0 = math.sin(math.radians(h)), math.cos(math.radians(h))
+            kk = math.cos(math.radians(pts[n][0])) * 111320.0
+            avanco = max(((vq[1] - pts[n][1]) * kk * hx0 + (vq[0] - pts[n][0]) * 111320.0 * hy0) for vq in vp)
+            if avanco < 80:
+                continue
+            d1, q1 = _dist_via(frente, via)
+            if d1 > 30 and (sai is None or d1 > sai[1]):
+                sai = (via, d1, q1)
+        if not sai:
+            continue
+        # a rota continua numa via de verdade lá na frente?
+        aqui = indice.proxima(frente, rumo(pts[n + 5], pts[n + 7]), max_dist=15)
+        if not aqui or aqui is sai[0]:
+            continue
+        # de que lado ficou a via que se separou
+        via, _, q = sai
+        hx, hy = math.sin(math.radians(h)), math.cos(math.radians(h))
+        vx = (q[1] - frente[1]) * math.cos(math.radians(frente[0]))
+        vy = q[0] - frente[0]
+        a_direita = (hx * vy - hy * vx) < 0
+        lado = "esquerda" if a_direita else "direita"
+        txt = f"Mantenha-se à {lado}"
+        if via.get("tunel") and not aqui.get("tunel"):
+            nome = (via.get("nome") or "").lower()
+            txt += ", não entre no " + ("mergulhão" if "mergulh" in nome or not nome else "túnel")
+        if aqui.get("ponte") and not via.get("ponte"):
+            txt += " e suba o viaduto"
+        elif aqui.get("tunel") and not via.get("tunel"):
+            txt += " e entre no mergulhão"
+        elif aqui.get("nome") and aqui.get("nome") != via.get("nome"):
+            txt += em_rua(aqui["nome"])
+        # o aviso fica no ponto onde a pista se divide (um pouco antes de onde se percebe)
+        k = n
+        while k > 0 and n - k < 12 and _dist_via(pts[k], via)[0] > 3:
+            k -= 1
+        achados.append((k, txt))
+        ultimo = n
+    return achados
 
 
 # ---------------------------------------------------------------- velocidade e radares
+
+# Sem placa no OpenStreetMap: limite do Código de Trânsito (CTB, art. 61) pelo
+# tipo de via. Vai marcado como "estimado": o app mostra como aproximado e
+# não dá aviso de excesso por ele.
+LIMITE_CTB = {
+    "motorway": 80, "trunk": 80,          # via de trânsito rápido
+    "primary": 60, "busway": 60,          # via arterial (e corredor de ônibus/BRT)
+    "secondary": 40, "tertiary": 40,      # via coletora
+    "unclassified": 30, "residential": 30, "living_street": 30, "service": 30,  # via local
+}
+
+
+def limite_ctb(tipo):
+    """Limite padrão do CTB para um tipo de via do OSM (ex.: "primary_link" → 60)."""
+    if not tipo:
+        return None
+    return LIMITE_CTB.get(tipo[:-5] if tipo.endswith("_link") else tipo)
+
 
 def kmh(valor):
     if not valor:
@@ -544,7 +708,8 @@ def dados_osm(trajeto):
 (
   way["highway"]["maxspeed"]({bbox});
   way["highway"]["maxspeed:bus"]({bbox});
-  way["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|service|busway)(_link)?$"]["name"]({bbox});
+  way["highway"~"^(motorway|trunk|primary|secondary|tertiary|unclassified|residential|living_street|busway)(_link)?$"]({bbox});
+  way["highway"="service"]["name"]({bbox});
   node["highway"="speed_camera"]({bbox});
   node["enforcement"="maxspeed"]({bbox});
 );
@@ -597,8 +762,13 @@ class IndiceVias:
 
 
 def velocidades_por_trecho(trajeto, cum, vias, limite_onibus=None):
-    """Para cada pedaço de ~25 m da rota, acha a via mais próxima e seu limite."""
-    indice = IndiceVias(vias)
+    """Para cada pedaço de ~25 m da rota, acha a via mais próxima e seu limite.
+    Via com placa (maxspeed) tem preferência; sem ela, usa o limite estimado
+    pelo tipo de via (CTB)."""
+    reais = [v for v in vias if not v.get("estimado")]
+    estimadas = [v for v in vias if v.get("estimado")]
+    indice = IndiceVias(reais) if reais else None
+    indice_est = IndiceVias(estimadas) if estimadas else None
 
     trechos = []
     passo = 25.0
@@ -611,24 +781,34 @@ def velocidades_por_trecho(trajeto, cum, vias, limite_onibus=None):
         t = 0 if seg == 0 else (s - cum[i]) / seg
         p = (trajeto[i][0] + (trajeto[i + 1][0] - trajeto[i][0]) * t,
              trajeto[i][1] + (trajeto[i + 1][1] - trajeto[i][1]) * t)
-        via = indice.proxima(p, rumo(trajeto[i], trajeto[i + 1]))
+        r = rumo(trajeto[i], trajeto[i + 1])
+        via = indice.proxima(p, r) if indice else None
+        if via is None and indice_est:
+            via = indice_est.proxima(p, r)
         v = via["kmh"] if via else None
+        est = bool(via and via.get("estimado"))
         if v and limite_onibus:
             v = min(v, limite_onibus)
-        elif not v and limite_onibus:
-            v = None  # sem dado da via: não inventa limite
-        trechos.append((s, v))
+        trechos.append((s, v, est))
         s += passo
 
     # junta trechos iguais em faixas
     faixas = []
-    for s, v in trechos:
-        if faixas and faixas[-1]["kmh"] == v:
+    for s, v, est in trechos:
+        if faixas and faixas[-1]["kmh"] == v and faixas[-1]["est"] == est:
             faixas[-1]["fim_m"] = round(s + passo, 1)
         else:
-            faixas.append({"inicio_m": round(s, 1), "fim_m": round(s + passo, 1), "kmh": v})
+            faixas.append({"inicio_m": round(s, 1), "fim_m": round(s + passo, 1), "kmh": v, "est": est})
     faixas[-1]["fim_m"] = round(cum[-1], 1)
-    return [f for f in faixas if f["kmh"]]
+    out = []
+    for f in faixas:
+        if not f["kmh"]:
+            continue
+        est = f.pop("est")
+        if est:
+            f["estimado"] = True
+        out.append(f)
+    return out
 
 
 def ler_radares_manuais(caminho):
@@ -658,8 +838,14 @@ def separar_osm(osm):
             v = kmh(tg.get("maxspeed:bus")) or kmh(tg.get("maxspeed"))
             if v:
                 vias.append({"kmh": v, "pts": pts})
-            if tg.get("name"):
-                ruas.append({"nome": tg["name"], "pts": pts})
+            else:
+                padrao = limite_ctb(tg.get("highway"))
+                if padrao:
+                    vias.append({"kmh": padrao, "pts": pts, "estimado": True})
+            if tg.get("highway"):
+                ruas.append({"nome": tg.get("name", ""), "tipo": tg.get("highway", ""), "pts": pts,
+                             "tunel": tg.get("tunnel", "no") not in ("no", ""),
+                             "ponte": tg.get("bridge", "no") not in ("no", "")})
         elif el["type"] == "node":
             radares.append({"lat": el["lat"], "lng": el["lon"],
                             "kmh": kmh(tg.get("maxspeed")), "descricao": tg.get("name", ""),
@@ -697,7 +883,9 @@ def montar(sentido_info, linha, nome_longo, osm, radares_manuais=(), limite_onib
         if d <= 30:
             r = dict(r)
             if not r.get("kmh"):
-                r["kmh"] = next((f["kmh"] for f in velocidades if f["inicio_m"] <= s < f["fim_m"]), None)
+                # só placa de verdade (o estimado pelo tipo de rua não vale para radar)
+                r["kmh"] = next((f["kmh"] for f in velocidades
+                                 if f["inicio_m"] <= s < f["fim_m"] and not f.get("estimado")), None)
             perto.append(r)
     log(f"  Radares na rota: {len(perto)}")
 
