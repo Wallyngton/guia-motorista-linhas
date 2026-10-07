@@ -1,6 +1,6 @@
 {
  "formato": 1,
- "atualizado": "2026-10-05 16:02",
+ "atualizado": "2026-10-07 04:10",
  "cidades": {
   "rio": {
    "nome": "Rio de Janeiro",
@@ -23,7 +23,7 @@
     "006": {
      "nome": "Silvestre - Castelo",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "006-0",
@@ -40,12 +40,13 @@
        "paradas": 36
       }
      ],
+     "osm": true,
      "hash": "d2b37bf89367db87"
     },
     "007": {
      "nome": "Silvestre - Central do Brasil",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "007-0",
@@ -62,12 +63,13 @@
        "paradas": 36
       }
      ],
+     "osm": true,
      "hash": "d5d444a9fc2f0353"
     },
     "010": {
      "nome": "Bairro de Fátima - Central do Brasil",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "010-0",
@@ -83,7 +85,7 @@
     "014": {
      "nome": "Paula Matos - Central do Brasil",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "014-0",
@@ -100,12 +102,13 @@
        "paradas": 26
       }
      ],
+     "osm": true,
      "hash": "0e11158747eeb650"
     },
     "10": {
      "nome": "Santa Cruz - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "10-0",
@@ -128,7 +131,7 @@
     "100": {
      "nome": "General Osório - Central",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "100-0",
@@ -151,7 +154,7 @@
     "104": {
      "nome": "São Conrado - Terminal Gentileza",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "104-0",
@@ -174,7 +177,7 @@
     "107": {
      "nome": "Central - Urca",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "107-0",
@@ -197,7 +200,7 @@
     "109": {
      "nome": "São Conrado - Terminal Gentileza",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "109-0",
@@ -220,7 +223,7 @@
     "11": {
      "nome": "Santa Cruz - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "11-0",
@@ -243,7 +246,7 @@
     "117": {
      "nome": "Central - Cosme Velho",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "117-0",
@@ -266,7 +269,7 @@
     "12": {
      "nome": "Terminal Pingo d'Água - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "12-0",
@@ -289,7 +292,7 @@
     "13": {
      "nome": "Terminal Mato Alto - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "13-0",
@@ -312,7 +315,7 @@
     "133": {
      "nome": "Largo do Machado - Terminal Gentileza",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "133-0",
@@ -335,7 +338,7 @@
     "14": {
      "nome": "Santa Eugênia - Terminal Recreio",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "14-0",
@@ -358,7 +361,7 @@
     "15": {
      "nome": "Terminal Curral Falso - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "15-0",
@@ -381,7 +384,7 @@
     "157": {
      "nome": "Gávea - Rodoviária",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "157-0",
@@ -404,7 +407,7 @@
     "16": {
      "nome": "Magarça - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "16-0",
@@ -427,7 +430,7 @@
     "160": {
      "nome": "Terminal Gentileza - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "160-0",
@@ -443,7 +446,7 @@
     "161": {
      "nome": "Terminal Gentileza - Ipanema",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "161-0",
@@ -459,7 +462,7 @@
     "162": {
      "nome": "Terminal Gentileza - Alto Gávea",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "162-0",
@@ -482,7 +485,7 @@
     "165": {
      "nome": "Terminal Gentileza - Cosme Velho",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "165-0",
@@ -505,7 +508,7 @@
     "167": {
      "nome": "Terminal Gentileza - Urca",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "167-0",
@@ -528,7 +531,7 @@
     "169": {
      "nome": "Terminal Gentileza - General Osório",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "169-0",
@@ -551,7 +554,7 @@
     "17": {
      "nome": "Campo Grande - Santa Cruz",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "17-0",
@@ -574,7 +577,7 @@
     "18": {
      "nome": "Pontal - Terminal Jardim Oceânico",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "18-0",
@@ -597,7 +600,7 @@
     "19": {
      "nome": "Terminal Pingo d'Água - Salvador Allende",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "19-0",
@@ -620,7 +623,7 @@
     "20": {
      "nome": "Santa Cruz - Salvador Allende",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "20-0",
@@ -643,7 +646,7 @@
     "201": {
      "nome": "Santa Alexandrina - Castelo",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "201-0",
@@ -666,7 +669,7 @@
     "202": {
      "nome": "Rio Comprido - Castelo",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-06",
      "sentidos": [
       {
        "id": "202-0",
@@ -689,7 +692,7 @@
     "209": {
      "nome": "Candelária - Caju",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "209-0",
@@ -712,7 +715,7 @@
     "210": {
      "nome": "Caju - Candelária",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "210-0",
@@ -735,7 +738,7 @@
     "2110": {
      "nome": "Gardênia Azul - Castelo",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2110-0",
@@ -758,7 +761,7 @@
     "2111": {
      "nome": "Praça Seca - Castelo",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2111-0",
@@ -781,7 +784,7 @@
     "2112": {
      "nome": "Taquara - Castelo",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2112-0",
@@ -804,7 +807,7 @@
     "2114": {
      "nome": "Freguesia - Castelo",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2114-0",
@@ -827,7 +830,7 @@
     "217": {
      "nome": "Andaraí - Carioca",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "217-0",
@@ -850,7 +853,7 @@
     "22": {
      "nome": "Terminal Alvorada - Terminal Jardim Oceânico",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "22-0",
@@ -873,7 +876,7 @@
     "220": {
      "nome": "Usina - Candelária",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "220-0",
@@ -896,7 +899,7 @@
     "229": {
      "nome": "Usina - Castelo",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "229-0",
@@ -919,7 +922,7 @@
     "2303": {
      "nome": "Cesarão - Carioca",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2303-0",
@@ -942,7 +945,7 @@
     "2305": {
      "nome": "Jardim América - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2305-0",
@@ -965,7 +968,7 @@
     "2307": {
      "nome": "Jardim 7 de Abril - Carioca",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2307-0",
@@ -988,7 +991,7 @@
     "2308": {
      "nome": "Cosmos - Carioca",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2308-0",
@@ -1011,7 +1014,7 @@
     "2309": {
      "nome": "Urucânia - Carioca",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2309-0",
@@ -1034,7 +1037,7 @@
     "2310": {
      "nome": "Bangu - Candelária",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2310-0",
@@ -1057,7 +1060,7 @@
     "232": {
      "nome": "Lins de Vasconcelos - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "232-0",
@@ -1080,7 +1083,7 @@
     "2334": {
      "nome": "Campo Grande - Castelo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2334-0",
@@ -1103,7 +1106,7 @@
     "2335": {
      "nome": "Santa Cruz - Castelo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2335-0",
@@ -1126,7 +1129,7 @@
     "2336": {
      "nome": "Campo Grande - Castelo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2336-0",
@@ -1149,7 +1152,7 @@
     "2337": {
      "nome": "Santa Cruz - Castelo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2337-0",
@@ -1172,7 +1175,7 @@
     "2338": {
      "nome": "Terminal Campo Grande - Castelo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2338-0",
@@ -1195,7 +1198,7 @@
     "2339": {
      "nome": "Campo Grande - Castelo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2339-0",
@@ -1218,7 +1221,7 @@
     "2342": {
      "nome": "Bananal - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2342-0",
@@ -1241,7 +1244,7 @@
     "2343": {
      "nome": "Ribeira - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2343-0",
@@ -1264,7 +1267,7 @@
     "2344": {
      "nome": "Bancários - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2344-0",
@@ -1287,7 +1290,7 @@
     "2345": {
      "nome": "Vila Valqueire - Castelo",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2345-0",
@@ -1310,7 +1313,7 @@
     "238": {
      "nome": "Água Santa - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "238-0",
@@ -1333,7 +1336,7 @@
     "2381": {
      "nome": "Pedra de Guaratiba - Castelo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2381-0",
@@ -1356,7 +1359,7 @@
     "2383": {
      "nome": "Sepetiba - Carioca",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2383-0",
@@ -1379,7 +1382,7 @@
     "239": {
      "nome": "Água Santa - Passeio",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "239-0",
@@ -1402,7 +1405,7 @@
     "247": {
      "nome": "Camarista Méier - Passeio",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "247-0",
@@ -1425,7 +1428,7 @@
     "249": {
      "nome": "Água Santa - Carioca",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "249-0",
@@ -1448,7 +1451,7 @@
     "25": {
      "nome": "Terminal Mato Alto - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "25-0",
@@ -1471,7 +1474,7 @@
     "254": {
      "nome": "Madureira - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "254-0",
@@ -1494,7 +1497,7 @@
     "2613": {
      "nome": "Riocentro - Metrô Del Castilho",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2613-0",
@@ -1517,7 +1520,7 @@
     "2614": {
      "nome": "Terminal Alvorada - Metrô Del Castilho",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2614-0",
@@ -1540,7 +1543,7 @@
     "265": {
      "nome": "Marechal Hermes - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "265-0",
@@ -1563,7 +1566,7 @@
     "275": {
      "nome": "Méier - Candelária",
      "empresa": "Intersul",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "275-0",
@@ -1586,7 +1589,7 @@
     "277": {
      "nome": "Rocha Miranda - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "277-0",
@@ -1609,7 +1612,7 @@
     "28": {
      "nome": "Terminal Pingo d'Água - Terminal Curral Falso",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "28-0",
@@ -1632,7 +1635,7 @@
     "2802": {
      "nome": "Santa Cruz - Barra da Tijuca",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2802-0",
@@ -1655,7 +1658,7 @@
     "2803": {
      "nome": "Vila Kennedy - Terminal Alvorada",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2803-0",
@@ -1678,7 +1681,7 @@
     "2804": {
      "nome": "Bangu - Barra da Tijuca",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "2804-0",
@@ -1701,7 +1704,7 @@
     "292": {
      "nome": "Engenho da Rainha - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "292-0",
@@ -1724,7 +1727,7 @@
     "296": {
      "nome": "Irajá - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "296-0",
@@ -1747,7 +1750,7 @@
     "298": {
      "nome": "Acari - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "298-0",
@@ -1770,7 +1773,7 @@
     "300": {
      "nome": "Terminal Sulacap - Candelária",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "300-0",
@@ -1793,7 +1796,7 @@
     "301": {
      "nome": "Terminal Gentileza - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "301-0",
@@ -1816,7 +1819,7 @@
     "302": {
      "nome": "Terminal Gentileza - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "302-0",
@@ -1839,7 +1842,7 @@
     "306": {
      "nome": "Praça Seca - Castelo",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "306-0",
@@ -1862,7 +1865,7 @@
     "31": {
      "nome": "Vicente de Carvalho - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "31-0",
@@ -1885,7 +1888,7 @@
     "311": {
      "nome": "Engenheiro Leal - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "311-0",
@@ -1908,7 +1911,7 @@
     "312": {
      "nome": "Olaria - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "312-0",
@@ -1931,7 +1934,7 @@
     "313": {
      "nome": "Penha (Grotão) - Praça Tiradentes",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "313-0",
@@ -1954,7 +1957,7 @@
     "315": {
      "nome": "Central - Recreio dos Bandeirantes",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "315-0",
@@ -1977,7 +1980,7 @@
     "319": {
      "nome": "Terminal Alvorada - Central do Brasil",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "319-0",
@@ -2000,7 +2003,7 @@
     "321": {
      "nome": "Bancários - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "321-0",
@@ -2023,7 +2026,7 @@
     "323": {
      "nome": "Bananal - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "323-0",
@@ -2046,7 +2049,7 @@
     "324": {
      "nome": "Ribeira - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "324-0",
@@ -2069,7 +2072,7 @@
     "325": {
      "nome": "Ribeira - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "325-0",
@@ -2092,7 +2095,7 @@
     "326": {
      "nome": "Bancários - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "326-0",
@@ -2115,7 +2118,7 @@
     "327": {
      "nome": "Ribeira - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "327-0",
@@ -2138,7 +2141,7 @@
     "328": {
      "nome": "Bananal - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "328-0",
@@ -2161,7 +2164,7 @@
     "329": {
      "nome": "Bancários - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "329-0",
@@ -2184,7 +2187,7 @@
     "335": {
      "nome": "Cordovil - Tiradentes",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "335-0",
@@ -2207,7 +2210,7 @@
     "338": {
      "nome": "Taquara - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "338-0",
@@ -2230,7 +2233,7 @@
     "341": {
      "nome": "Taquara - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "341-0",
@@ -2253,7 +2256,7 @@
     "342": {
      "nome": "Jardim América - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "342-0",
@@ -2276,7 +2279,7 @@
     "343": {
      "nome": "Jardim Oceânico - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "343-0",
@@ -2299,7 +2302,7 @@
     "348": {
      "nome": "Riocentro - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "348-0",
@@ -2322,7 +2325,7 @@
     "349": {
      "nome": "Rocha Miranda - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "349-0",
@@ -2338,7 +2341,7 @@
     "35": {
      "nome": "Terminal Madureira - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "35-0",
@@ -2361,7 +2364,7 @@
     "350": {
      "nome": "Irajá - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "350-0",
@@ -2384,7 +2387,7 @@
     "352": {
      "nome": "Riocentro - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "352-0",
@@ -2407,7 +2410,7 @@
     "353": {
      "nome": "Gardênia Azul - Terminal Gentileza",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "353-0",
@@ -2430,7 +2433,7 @@
     "355": {
      "nome": "Madureira - Praça Tiradentes",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "355-0",
@@ -2453,7 +2456,7 @@
     "361": {
      "nome": "Recreio dos Bandeirantes - Castelo",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "361-0",
@@ -2476,7 +2479,7 @@
     "362": {
      "nome": "Honório Gurgel - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "362-0",
@@ -2499,7 +2502,7 @@
     "363": {
      "nome": "Vila Valqueire - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "363-0",
@@ -2522,7 +2525,7 @@
     "368": {
      "nome": "Riocentro - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "368-0",
@@ -2545,7 +2548,7 @@
     "369": {
      "nome": "Bangu - Candelária",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "369-0",
@@ -2568,7 +2571,7 @@
     "371": {
      "nome": "Praça Seca - Praça Tiradentes",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "371-0",
@@ -2591,7 +2594,7 @@
     "378": {
      "nome": "Marechal Hermes - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "378-0",
@@ -2614,7 +2617,7 @@
     "380": {
      "nome": "Curicica - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "380-0",
@@ -2637,7 +2640,7 @@
     "383": {
      "nome": "Realengo - Praça da República",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "383-0",
@@ -2660,7 +2663,7 @@
     "384": {
      "nome": "Pavuna - Passeio",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "384-0",
@@ -2683,7 +2686,7 @@
     "385": {
      "nome": "Village Pavuna - Passeio",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "385-0",
@@ -2699,7 +2702,7 @@
     "386": {
      "nome": "Anchieta - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "386-0",
@@ -2722,7 +2725,7 @@
     "388": {
      "nome": "Santa Cruz - Candelária",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "388-0",
@@ -2745,7 +2748,7 @@
     "390": {
      "nome": "Curicica - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "390-0",
@@ -2768,7 +2771,7 @@
     "391": {
      "nome": "Padre Miguel - Praça da República",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "391-0",
@@ -2791,7 +2794,7 @@
     "393": {
      "nome": "Bangu - Candelária",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "393-0",
@@ -2814,7 +2817,7 @@
     "397": {
      "nome": "Terminal Campo Grande - Candelária",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "397-0",
@@ -2837,7 +2840,7 @@
     "399": {
      "nome": "Pavuna - Passeio",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "399-0",
@@ -2860,7 +2863,7 @@
     "40": {
      "nome": "Terminal Madureira - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "40-0",
@@ -2883,7 +2886,7 @@
     "409": {
      "nome": "Saens Peña - Horto",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "409-0",
@@ -2906,7 +2909,7 @@
     "41": {
      "nome": "Terminal Madureira - Terminal Recreio",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "41-0",
@@ -2929,7 +2932,7 @@
     "410": {
      "nome": "Saens Peña - Gávea",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "410-0",
@@ -2952,7 +2955,7 @@
     "415": {
      "nome": "Usina - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "415-0",
@@ -2975,7 +2978,7 @@
     "416": {
      "nome": "Saens Peña - Horto",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "416-0",
@@ -2998,7 +3001,7 @@
     "42": {
      "nome": "Galeão - Madureira",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "42-0",
@@ -3021,7 +3024,7 @@
     "422": {
      "nome": "Grajaú - Cosme Velho",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "422-0",
@@ -3044,7 +3047,7 @@
     "426": {
      "nome": "Usina - Jardim de Alah",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "426-0",
@@ -3067,7 +3070,7 @@
     "43": {
      "nome": "Terminal Fundão - Santa Efigênia",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "43-0",
@@ -3090,7 +3093,7 @@
     "448": {
      "nome": "Furnas - São Conrado",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "448-0",
@@ -3113,7 +3116,7 @@
     "455": {
      "nome": "Méier - Copacabana",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "455-0",
@@ -3136,7 +3139,7 @@
     "456": {
      "nome": "Norte Shopping - Copacabana",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "456-0",
@@ -3159,7 +3162,7 @@
     "457": {
      "nome": "Abolição - Copacabana",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "457-0",
@@ -3182,7 +3185,7 @@
     "46": {
      "nome": "Penha - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "46-0",
@@ -3205,7 +3208,7 @@
     "461": {
      "nome": "São Cristóvão - Ipanema",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "461-0",
@@ -3221,7 +3224,7 @@
     "472": {
      "nome": "Triagem - Leme",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "472-0",
@@ -3244,7 +3247,7 @@
     "473": {
      "nome": "São Januário - Lido",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "473-0",
@@ -3267,7 +3270,7 @@
     "474": {
      "nome": "Jacaré - Copacabana",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "474-0",
@@ -3290,7 +3293,7 @@
     "476": {
      "nome": "Méier - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "476-0",
@@ -3313,7 +3316,7 @@
     "483": {
      "nome": "Penha - General Osório",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "483-0",
@@ -3336,7 +3339,7 @@
     "484": {
      "nome": "Olaria - General Osório",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "484-0",
@@ -3352,7 +3355,7 @@
     "485": {
      "nome": "Fundão - General Osório",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "485-0",
@@ -3375,7 +3378,7 @@
     "486": {
      "nome": "Fundão - General Osório",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "486-1",
@@ -3391,7 +3394,7 @@
     "492": {
      "nome": "Bancários - Prado Júnior",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "492-0",
@@ -3414,7 +3417,7 @@
     "497": {
      "nome": "Penha - Largo do Machado",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "497-0",
@@ -3437,7 +3440,7 @@
     "50": {
      "nome": "Terminal Jardim Oceânico - Terminal Centro Olímpico",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "50-0",
@@ -3460,7 +3463,7 @@
     "507": {
      "nome": "Silvestre - Largo do Machado",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "507-0",
@@ -3483,7 +3486,7 @@
     "51": {
      "nome": "Terminal Deodoro - Terminal Recreio",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "51-0",
@@ -3506,7 +3509,7 @@
     "513": {
      "nome": "Urca - Botafogo",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "513-0",
@@ -3522,7 +3525,7 @@
     "518": {
      "nome": "Urca - Botafogo",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "518-0",
@@ -3538,7 +3541,7 @@
     "519": {
      "nome": "Urca - Copacabana",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "519-0",
@@ -3554,7 +3557,7 @@
     "52": {
      "nome": "Terminal Deodoro - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "52-0",
@@ -3577,7 +3580,7 @@
     "53": {
      "nome": "Terminal Sulacap - Terminal Alvorada",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "53-0",
@@ -3600,7 +3603,7 @@
     "539": {
      "nome": "Rocinha - Leme",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "539-0",
@@ -3623,7 +3626,7 @@
     "54": {
      "nome": "Centro Olímpico - Anil",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "54-0",
@@ -3646,7 +3649,7 @@
     "550": {
      "nome": "Cidade de Deus - Gávea",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "550-0",
@@ -3669,7 +3672,7 @@
     "552": {
      "nome": "Terminal Alvorada - Rio Sul",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "552-0",
@@ -3692,7 +3695,7 @@
     "553": {
      "nome": "Recreio dos Bandeirantes - Rio Sul",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "553-0",
@@ -3715,7 +3718,7 @@
     "554": {
      "nome": "Piabas - Rio Sul",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "554-0",
@@ -3738,7 +3741,7 @@
     "555": {
      "nome": "Rio das Pedras - Gávea",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "555-0",
@@ -3761,7 +3764,7 @@
     "557": {
      "nome": "Rio das Pedras - Copacabana",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "557-0",
@@ -3784,7 +3787,7 @@
     "565": {
      "nome": "Tanque - Gávea",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "565-0",
@@ -3807,7 +3810,7 @@
     "583": {
      "nome": "Cosme Velho - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "583-0",
@@ -3823,7 +3826,7 @@
     "584": {
      "nome": "Cosme Velho - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "584-0",
@@ -3839,7 +3842,7 @@
     "585": {
      "nome": "Largo do Machado - Jardim de Alah",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "585-0",
@@ -3855,7 +3858,7 @@
     "60": {
      "nome": "Terminal Deodoro - Terminal Gentileza",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "60-0",
@@ -3878,7 +3881,7 @@
     "600": {
      "nome": "Taquara - Saens Peña",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "600-0",
@@ -3901,7 +3904,7 @@
     "601": {
      "nome": "Santa Maria - Saens Peña",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "601-0",
@@ -3924,7 +3927,7 @@
     "603": {
      "nome": "Usina - Saens Peña",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "603-0",
@@ -3947,7 +3950,7 @@
     "606": {
      "nome": "Engenho de Dentro - Terminal Gentileza",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "606-0",
@@ -3970,7 +3973,7 @@
     "607": {
      "nome": "Cascadura - Rio Comprido",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "607-0",
@@ -3993,7 +3996,7 @@
     "608": {
      "nome": "Grajaú - Saens Peña",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "608-0",
@@ -4016,7 +4019,7 @@
     "61": {
      "nome": "Terminal Deodoro - Terminal Gentileza",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "61-0",
@@ -4039,7 +4042,7 @@
     "610": {
      "nome": "Del Castilho - Tanque",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "610-0",
@@ -4062,7 +4065,7 @@
     "611": {
      "nome": "Camorim - Del Castilho",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "611-0",
@@ -4085,7 +4088,7 @@
     "613": {
      "nome": "Vargem Grande - Del Castilho",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "613-0",
@@ -4108,7 +4111,7 @@
     "614": {
      "nome": "Del Castilho - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "614-0",
@@ -4131,7 +4134,7 @@
     "616": {
      "nome": "Del Castilho - Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "616-0",
@@ -4154,7 +4157,7 @@
     "621": {
      "nome": "Penha - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "621-0",
@@ -4170,7 +4173,7 @@
     "622": {
      "nome": "Penha - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "622-0",
@@ -4186,7 +4189,7 @@
     "623": {
      "nome": "Penha - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "623-0",
@@ -4209,7 +4212,7 @@
     "624": {
      "nome": "Mariópolis - Praça da Bandeira",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "624-0",
@@ -4232,7 +4235,7 @@
     "625": {
      "nome": "Olaria - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "625-0",
@@ -4255,7 +4258,7 @@
     "626": {
      "nome": "Saens Peña - Muda",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "626-0",
@@ -4278,7 +4281,7 @@
     "627": {
      "nome": "Inhaúma - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "627-0",
@@ -4301,7 +4304,7 @@
     "628": {
      "nome": "Penha - Nova América",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "628-0",
@@ -4324,7 +4327,7 @@
     "629": {
      "nome": "Irajá - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "629-0",
@@ -4347,7 +4350,7 @@
     "630": {
      "nome": "Penha (IAPI) - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "630-0",
@@ -4370,7 +4373,7 @@
     "634": {
      "nome": "Bananal - Saens Peña",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "634-0",
@@ -4393,7 +4396,7 @@
     "635": {
      "nome": "Bananal - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "635-0",
@@ -4416,7 +4419,7 @@
     "636": {
      "nome": "Merck - Saens Peña",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "636-0",
@@ -4439,7 +4442,7 @@
     "638": {
      "nome": "Marechal Hermes - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "638-0",
@@ -4462,7 +4465,7 @@
     "639": {
      "nome": "Jardim América - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "639-0",
@@ -4485,7 +4488,7 @@
     "645": {
      "nome": "Terminal Alvorada - Saens Peña",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "645-0",
@@ -4508,7 +4511,7 @@
     "650": {
      "nome": "Marechal Hermes - Engenho Novo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "650-0",
@@ -4531,7 +4534,7 @@
     "651": {
      "nome": "Cascadura - Méier",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "651-0",
@@ -4547,7 +4550,7 @@
     "652": {
      "nome": "Cascadura - Méier",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "652-0",
@@ -4563,7 +4566,7 @@
     "653": {
      "nome": "Terminal Deodoro - Méier",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "653-0",
@@ -4586,7 +4589,7 @@
     "663": {
      "nome": "Méier - Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "663-0",
@@ -4609,7 +4612,7 @@
     "665": {
      "nome": "Pavuna - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "665-0",
@@ -4632,7 +4635,7 @@
     "669": {
      "nome": "Pavuna - Méier",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "669-0",
@@ -4655,7 +4658,7 @@
     "67": {
      "nome": "Terminal Campo Grande - Terminal Deodoro",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "67-0",
@@ -4678,7 +4681,7 @@
     "678": {
      "nome": "Méier - Vila Valqueire",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "678-0",
@@ -4701,7 +4704,7 @@
     "679": {
      "nome": "Grotão - Méier",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "679-0",
@@ -4724,7 +4727,7 @@
     "68": {
      "nome": "Bangu - Terminal Deodoro",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "68-0",
@@ -4747,7 +4750,7 @@
     "685": {
      "nome": "Terminal Margaridas - Méier",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "685-0",
@@ -4770,7 +4773,7 @@
     "687": {
      "nome": "Pavuna - Méier",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "687-0",
@@ -4793,7 +4796,7 @@
     "688": {
      "nome": "Méier - Pavuna",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "688-0",
@@ -4816,7 +4819,7 @@
     "691": {
      "nome": "Méier - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "691-0",
@@ -4839,7 +4842,7 @@
     "692": {
      "nome": "Méier - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "692-0",
@@ -4862,7 +4865,7 @@
     "693": {
      "nome": "Méier - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "693-0",
@@ -4885,7 +4888,7 @@
     "696": {
      "nome": "Méier - Praia do Dendê",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "696-0",
@@ -4908,7 +4911,7 @@
     "70": {
      "nome": "Terminal Margaridas - Terminal Gentileza",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "70-0",
@@ -4931,7 +4934,7 @@
     "711": {
      "nome": "Rocha Miranda - Rio Comprido",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "711-0",
@@ -4954,7 +4957,7 @@
     "712": {
      "nome": "Cascadura - Irajá",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "712-0",
@@ -4977,7 +4980,7 @@
     "721": {
      "nome": "Vila Cruzeiro - Cascadura",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "721-0",
@@ -5000,7 +5003,7 @@
     "73": {
      "nome": "Terminal Margaridas - Terminal Gentileza",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "73-0",
@@ -5023,7 +5026,7 @@
     "731": {
      "nome": "Campo Grande - Marechal Hermes",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "731-0",
@@ -5046,7 +5049,7 @@
     "737": {
      "nome": "Santíssimo - Cascadura",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "737-0",
@@ -5069,7 +5072,7 @@
     "741": {
      "nome": "Terminal Sulacap - Bangu",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "741-0",
@@ -5085,7 +5088,7 @@
     "743": {
      "nome": "Terminal Sulacap - Bangu",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "743-0",
@@ -5101,7 +5104,7 @@
     "745": {
      "nome": "Bangu - Cascadura",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "745-0",
@@ -5124,7 +5127,7 @@
     "746": {
      "nome": "Jabour - Cascadura",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "746-0",
@@ -5147,7 +5150,7 @@
     "753": {
      "nome": "Santa Cruz - Metrô Coelho Neto",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "753-0",
@@ -5170,7 +5173,7 @@
     "754": {
      "nome": "Santa Cruz - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "754-0",
@@ -5193,7 +5196,7 @@
     "756": {
      "nome": "Santa Cruz - Coelho Neto",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "756-0",
@@ -5216,7 +5219,7 @@
     "757": {
      "nome": "Sepetiba - Coelho Neto",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "757-0",
@@ -5239,7 +5242,7 @@
     "759": {
      "nome": "Cesarão - Coelho Neto",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "759-0",
@@ -5262,7 +5265,7 @@
     "764": {
      "nome": "Catiri - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "764-0",
@@ -5285,7 +5288,7 @@
     "765": {
      "nome": "Mendanha - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "765-0",
@@ -5308,7 +5311,7 @@
     "766": {
      "nome": "Madureira - Freguesia",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "766-0",
@@ -5331,7 +5334,7 @@
     "770": {
      "nome": "Campo Grande - Metrô Coelho Neto",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "770-0",
@@ -5354,7 +5357,7 @@
     "771": {
      "nome": "Campo Grande - Metrô Coelho Neto",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "771-0",
@@ -5377,7 +5380,7 @@
     "774": {
      "nome": "Madureira - Jardim América",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "774-0",
@@ -5400,7 +5403,7 @@
     "775": {
      "nome": "Jardim América - Madureira",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "775-0",
@@ -5423,7 +5426,7 @@
     "778": {
      "nome": "Pavuna - Cascadura",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "778-0",
@@ -5446,7 +5449,7 @@
     "779": {
      "nome": "Metrô Pavuna - Terminal Madureira",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "779-0",
@@ -5469,7 +5472,7 @@
     "780": {
      "nome": "Metrô Pavuna - Terminal Madureira",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "780-0",
@@ -5492,7 +5495,7 @@
     "783": {
      "nome": "Terminal Deodoro - Praça Seca",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "783-0",
@@ -5515,7 +5518,7 @@
     "785": {
      "nome": "Cascadura - Marechal Hermes",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "785-0",
@@ -5538,7 +5541,7 @@
     "786": {
      "nome": "Terminal Campo Grande - Cascadura",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "786-0",
@@ -5561,7 +5564,7 @@
     "788": {
      "nome": "Terminal Campo Grande - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "788-0",
