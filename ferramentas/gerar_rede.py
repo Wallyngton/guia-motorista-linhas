@@ -16,6 +16,7 @@ Formato (versão 1):
   "sentidos": [
     {"id": "862-0", "l": "862", "n": "Rio das Pedras - Barra", "d": "Circular",
      "c": 1,                                      # 1 = circular (só um sentido)
+     "b": 1,                                      # 1 = BRT (só aparece quando é)
      "p": [3, 17, ...],                           # índices em "pontos", na ordem
      "m": [0, 412, ...]}                          # metros desde o início, de cada ponto
   ]
@@ -70,6 +71,12 @@ def projetar(p, trajeto, acum, desde, perto=25.0):
     return primeiro if primeiro is not None else melhor
 
 
+def eh_brt(info):
+    """Linha do BRT? No Rio, quem opera o BRT é a MOBI-Rio (o GPS dessas
+    linhas vem do endereço do BRT, não do dos ônibus comuns)."""
+    return "MOBI-RIO" in str(info.get("empresa", "")).upper()
+
+
 def gerar(cidade):
     cat = json.load(open(os.path.join(PASTA, "catalogo.json"), encoding="utf-8"))
     linhas = cat["cidades"][cidade]["linhas"]
@@ -106,7 +113,7 @@ def gerar(cidade):
                 ms.append(int(round(m)))
             if len(ps) < 2:
                 continue
-            sentidos.append({
+            item = {
                 "id": s["id"],
                 "l": num,
                 "n": info.get("nome", ""),
@@ -114,7 +121,10 @@ def gerar(cidade):
                 "c": 1 if len(sents) == 1 else 0,
                 "p": ps,
                 "m": ms,
-            })
+            }
+            if eh_brt(info):
+                item["b"] = 1
+            sentidos.append(item)
     # a data do catálogo (e não "agora"): sem mudança nas linhas, o arquivo
     # sai igualzinho e o robô não precisa salvar nada
     return {
