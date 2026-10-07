@@ -1,5 +1,5 @@
 {
-  "sobre": "Endereços do GPS dos ônibus do Rio que o app Guia do Motorista testa sozinho (fica com o que tem mais ônibus). Para acrescentar um endereço novo da Prefeitura, ponha aqui: os celulares passam a usar sem precisar atualizar o app.",
+  "sobre": "Endereços do GPS dos ônibus do Rio. O robô 'Vigia do GPS' (GitHub, a cada 5 min) testa todos e grava em 'melhor' o que tem mais ônibus; o app Guia do Motorista lê este arquivo e troca sozinho. Para acrescentar um endereço novo da Prefeitura, ponha aqui.",
   "atualizado": "2026-10-07",
   "fontes": [
     {
@@ -12,5 +12,6 @@
       "url": "https://dados.mobilidade.rio/gps/sppo",
       "formato": "espaco"
     }
-  ]
+  ],
+  "melhor": "https://dados.mobilidade.rio/sppo/conecta/gps"
 }
