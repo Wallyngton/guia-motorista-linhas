@@ -1,6 +1,6 @@
 {
  "formato": 1,
- "atualizado": "2026-10-07 04:10",
+ "atualizado": "2026-10-07 09:07",
  "cidades": {
   "rio": {
    "nome": "Rio de Janeiro",
@@ -8,7 +8,7 @@
     "862": {
      "nome": "Rio das Pedras - Barra da Tijuca",
      "empresa": "Viação Redentor (Transcarioca)",
-     "atualizado": "2026-10-03",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "862-0",
@@ -18,6 +18,7 @@
        "paradas": 65
       }
      ],
+     "osm": true,
      "hash": "3feb0853ee0a5cbc"
     },
     "006": {
@@ -5587,7 +5588,7 @@
     "790": {
      "nome": "Campo Grande - Cascadura",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "790-0",
@@ -5610,7 +5611,7 @@
     "791": {
      "nome": "Padre Miguel - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "791-0",
@@ -5633,7 +5634,7 @@
     "793": {
      "nome": "Pavuna - Terminal Sulacap",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "793-0",
@@ -5656,7 +5657,7 @@
     "794": {
      "nome": "Bangu - Cascadura",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "794-0",
@@ -5679,7 +5680,7 @@
     "796": {
      "nome": "Cosmos - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "796-0",
@@ -5702,7 +5703,7 @@
     "798": {
      "nome": "Urucânia - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "798-0",
@@ -5725,7 +5726,7 @@
     "799": {
      "nome": "Metrô Pavuna - Bangu",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "799-0",
@@ -5748,7 +5749,7 @@
     "80": {
      "nome": "Penha - Terminal Gentileza",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "80-0",
@@ -5771,7 +5772,7 @@
     "801": {
      "nome": "Bangu - Taquara",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "801-0",
@@ -5794,7 +5795,7 @@
     "802": {
      "nome": "Terminal Campo Grande - Bangu",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "802-0",
@@ -5817,7 +5818,7 @@
     "803": {
      "nome": "Jabour - Taquara",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "803-0",
@@ -5840,7 +5841,7 @@
     "804": {
      "nome": "Terminal Curral Falso - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "804-0",
@@ -5863,7 +5864,7 @@
     "805": {
      "nome": "Terminal Alvorada - Jardim Oceânico",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "805-0",
@@ -5886,7 +5887,7 @@
     "807": {
      "nome": "Jesuítas - Terminal Curral Falso",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "807-0",
@@ -5909,7 +5910,7 @@
     "808": {
      "nome": "Salim - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "808-0",
@@ -5932,7 +5933,7 @@
     "809": {
      "nome": "Sagrado Coração - Santa Cruz",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "809-0",
@@ -5955,7 +5956,7 @@
     "810": {
      "nome": "Terminal Taquara - Pontal",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "810-0",
@@ -5978,7 +5979,7 @@
     "812": {
      "nome": "Carobinha - Bangu",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "812-0",
@@ -6001,7 +6002,7 @@
     "817": {
      "nome": "Piabas - Vargem Grande",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "817-0",
@@ -6024,7 +6025,7 @@
     "819": {
      "nome": "Jardim Bangu - Bangu",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "819-0",
@@ -6047,7 +6048,7 @@
     "820": {
      "nome": "Rio da Prata - Terminal Mato Alto",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "820-0",
@@ -6070,7 +6071,7 @@
     "821": {
      "nome": "Campo Grande - Corcundinha",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "821-0",
@@ -6086,7 +6087,7 @@
     "822": {
      "nome": "Campo Grande - Corcundinha",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "822-0",
@@ -6102,7 +6103,7 @@
     "825": {
      "nome": "Campo Grande - Jesuítas",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "825-0",
@@ -6125,7 +6126,7 @@
     "826": {
      "nome": "Carobinha - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "826-0",
@@ -6148,7 +6149,7 @@
     "829": {
      "nome": "Gardênia Azul - Freguesia",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "829-0",
@@ -6164,7 +6165,7 @@
     "830": {
      "nome": "Pedregoso - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "830-0",
@@ -6187,7 +6188,7 @@
     "831": {
      "nome": "Colônia - Terminal Taquara",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "831-0",
@@ -6210,7 +6211,7 @@
     "833": {
      "nome": "Conjunto Manguariba - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "833-0",
@@ -6233,7 +6234,7 @@
     "834": {
      "nome": "Terminal Campo Grande - Cabuçu de Baixo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "834-0",
@@ -6256,7 +6257,7 @@
     "835": {
      "nome": "Largo do Correia - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "835-0",
@@ -6279,7 +6280,7 @@
     "836": {
      "nome": "Rio da Prata - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "836-0",
@@ -6302,7 +6303,7 @@
     "837": {
      "nome": "Terminal Campo Grande - Conjunto da Marinha",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "837-0",
@@ -6325,7 +6326,7 @@
     "838": {
      "nome": "Terminal Campo Grande - Terminal Magarça",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "838-0",
@@ -6348,7 +6349,7 @@
     "840": {
      "nome": "São Fernando - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "840-0",
@@ -6371,7 +6372,7 @@
     "841": {
      "nome": "Campo Grande - Inhoaíba",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "841-0",
@@ -6394,7 +6395,7 @@
     "842": {
      "nome": "Paciência - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "842-0",
@@ -6417,7 +6418,7 @@
     "843": {
      "nome": "Boa Esperança - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "843-0",
@@ -6433,7 +6434,7 @@
     "844": {
      "nome": "Jardim Oceânico - Barrinha",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "844-0",
@@ -6449,7 +6450,7 @@
     "845": {
      "nome": "Cantagalo - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "845-0",
@@ -6472,7 +6473,7 @@
     "846": {
      "nome": "Rio da Prata - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "846-0",
@@ -6495,7 +6496,7 @@
     "847": {
      "nome": "Rio da Prata - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "847-0",
@@ -6518,7 +6519,7 @@
     "848": {
      "nome": "Terminal Campo Grande - Monte Santo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "848-0",
@@ -6534,7 +6535,7 @@
     "849": {
      "nome": "Base Aérea de Santa Cruz - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "849-0",
@@ -6557,7 +6558,7 @@
     "850": {
      "nome": "Mendanha - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "850-0",
@@ -6580,7 +6581,7 @@
     "851": {
      "nome": "Campo Grande - Escola Amazonas",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "851-0",
@@ -6596,7 +6597,7 @@
     "852": {
      "nome": "Terminal Campo Grande - Pedra de Guaratiba",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "852-0",
@@ -6612,7 +6613,7 @@
     "853": {
      "nome": "Terminal Mato Alto - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "853-0",
@@ -6635,7 +6636,7 @@
     "854": {
      "nome": "Terminal Campo Grande - Ilha de Guaratiba",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "854-0",
@@ -6658,7 +6659,7 @@
     "855": {
      "nome": "Terminal Magarça - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "855-0",
@@ -6681,7 +6682,7 @@
     "857": {
      "nome": "Terminal Campo Grande - Terminal Pingo d'Água",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "857-0",
@@ -6704,7 +6705,7 @@
     "859": {
      "nome": "Covanca - Largo do Tanque",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "859-0",
@@ -6727,7 +6728,7 @@
     "861": {
      "nome": "Rio das Pedras - Curicica",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "861-0",
@@ -6750,7 +6751,7 @@
     "863": {
      "nome": "Rio das Pedras - Barra da Tijuca",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "863-0",
@@ -6766,7 +6767,7 @@
     "864": {
      "nome": "Terminal Campo Grande - Terminal Sulacap",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "864-0",
@@ -6789,7 +6790,7 @@
     "865": {
      "nome": "Pau da Fome - Terminal Taquara",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "865-0",
@@ -6812,7 +6813,7 @@
     "866": {
      "nome": "Terminal Campo Grande - Pedra de Guaratiba",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "866-0",
@@ -6828,7 +6829,7 @@
     "867": {
      "nome": "Barra de Guaratiba - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "867-0",
@@ -6851,7 +6852,7 @@
     "868": {
      "nome": "Urucânia - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "868-0",
@@ -6874,7 +6875,7 @@
     "869": {
      "nome": "Santa Margarida - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "869-0",
@@ -6897,7 +6898,7 @@
     "870": {
      "nome": "Sepetiba - Santa Cruz",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "870-0",
@@ -6920,7 +6921,7 @@
     "871": {
      "nome": "Terminal Pingo d'Água - Cesarão",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "871-0",
@@ -6943,7 +6944,7 @@
     "872": {
      "nome": "Praia de Sepetiba - Terminal Mato Alto",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "872-0",
@@ -6959,7 +6960,7 @@
     "878": {
      "nome": "Tanque - Barra da Tijuca",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "878-0",
@@ -6982,7 +6983,7 @@
     "880": {
      "nome": "Rio das Pedras - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "880-0",
@@ -7005,7 +7006,7 @@
     "881": {
      "nome": "Taquara - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "881-0",
@@ -7028,7 +7029,7 @@
     "883": {
      "nome": "Terminal Mato Alto - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "883-0",
@@ -7051,7 +7052,7 @@
     "884": {
      "nome": "Sepetiba - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "884-0",
@@ -7074,7 +7075,7 @@
     "885": {
      "nome": "Terminal Mato Alto - Santa Cruz",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "885-0",
@@ -7097,7 +7098,7 @@
     "892": {
      "nome": "São Benedito - Santa Cruz",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "892-0",
@@ -7113,7 +7114,7 @@
     "893": {
      "nome": "Jardim Palmares - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "893-0",
@@ -7136,7 +7137,7 @@
     "894": {
      "nome": "Terminal Campo Grande - Jardim Moriçaba",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "894-0",
@@ -7152,7 +7153,7 @@
     "895": {
      "nome": "Serrinha - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "895-0",
@@ -7175,7 +7176,7 @@
     "897": {
      "nome": "Paciência - Terminal Pingo d'Água",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "897-0",
@@ -7198,7 +7199,7 @@
     "898": {
      "nome": "Sepetiba - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "898-0",
@@ -7221,7 +7222,7 @@
     "899": {
      "nome": "Barra de Guaratiba - Terminal Recreio",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "899-0",
@@ -7244,7 +7245,7 @@
     "90": {
      "nome": "Terminal Fundão - Terminal Gentileza",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "90-0",
@@ -7267,7 +7268,7 @@
     "900": {
      "nome": "Taquara - Downtown",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "900-0",
@@ -7290,7 +7291,7 @@
     "901": {
      "nome": "Bonsucesso - Bananal",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "901-0",
@@ -7313,7 +7314,7 @@
     "905": {
      "nome": "Bonsucesso - Irajá",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "905-0",
@@ -7336,7 +7337,7 @@
     "906": {
      "nome": "Jardim América - Caju",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "906-0",
@@ -7359,7 +7360,7 @@
     "908": {
      "nome": "Terminal Deodoro - Bonsucesso",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "908-0",
@@ -7382,7 +7383,7 @@
     "910": {
      "nome": "Bananal - Irajá",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "910-0",
@@ -7405,7 +7406,7 @@
     "913": {
      "nome": "Del Castilho - Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "913-0",
@@ -7428,7 +7429,7 @@
     "915": {
      "nome": "Bonsucesso - Aeroporto Internacional do RJ",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "915-0",
@@ -7451,7 +7452,7 @@
     "917": {
      "nome": "Padre Miguel - Bonsucesso",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "917-0",
@@ -7474,7 +7475,7 @@
     "918": {
      "nome": "Bangu - Bonsucesso",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "918-0",
@@ -7497,7 +7498,7 @@
     "919": {
      "nome": "Pavuna - Bonsucesso",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "919-0",
@@ -7520,7 +7521,7 @@
     "920": {
      "nome": "Pavuna - Bonsucesso",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "920-0",
@@ -7543,7 +7544,7 @@
     "921": {
      "nome": "Bancários - Ribeira",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "921-0",
@@ -7566,7 +7567,7 @@
     "922": {
      "nome": "Tubiacanga - Terminal Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "922-0",
@@ -7589,7 +7590,7 @@
     "925": {
      "nome": "Bancários - Aeroporto Internacional do RJ",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "925-0",
@@ -7612,7 +7613,7 @@
     "926": {
      "nome": "Senador Camará - Penha",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "926-0",
@@ -7635,7 +7636,7 @@
     "928": {
      "nome": "Marechal Hermes - Bonsucesso",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "928-0",
@@ -7658,7 +7659,7 @@
     "932": {
      "nome": "Gardênia Azul - Tanque",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "932-0",
@@ -7681,7 +7682,7 @@
     "940": {
      "nome": "Ramos (Praia) - Madureira",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "940-0",
@@ -7704,7 +7705,7 @@
     "944": {
      "nome": "Metrô Pavuna - Terminal Margaridas",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "944-0",
@@ -7727,7 +7728,7 @@
     "946": {
      "nome": "Pavuna - Engenho da Rainha",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "946-0",
@@ -7750,7 +7751,7 @@
     "950": {
      "nome": "Metrô Vicente de Carvalho - Terminal Margaridas",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "950-0",
@@ -7766,7 +7767,7 @@
     "951": {
      "nome": "Metrô Vicente de Carvalho - Terminal Margaridas",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "951-0",
@@ -7782,7 +7783,7 @@
     "954": {
      "nome": "Terminal Taquara - Recreio dos Bandeirantes",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "954-0",
@@ -7805,7 +7806,7 @@
     "959": {
      "nome": "Metrô Vicente de Carvalho - Terminal Margaridas",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "959-0",
@@ -7821,7 +7822,7 @@
     "961": {
      "nome": "Rio das Pedras - Recreio dos Bandeirantes",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "961-0",
@@ -7844,7 +7845,7 @@
     "975": {
      "nome": "Madureira - Terminal Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "975-0",
@@ -7867,7 +7868,7 @@
     "979": {
      "nome": "Terminal Madureira - Terminal Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "979-0",
@@ -7890,7 +7891,7 @@
     "987": {
      "nome": "Gardênia Azul - Pechincha",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "987-0",
@@ -7906,7 +7907,7 @@
     "990": {
      "nome": "Merck - Joatinga",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "990-0",
@@ -7929,7 +7930,7 @@
     "ESP01": {
      "nome": "Galeão - Terminal Gentileza",
      "empresa": "MOBI-Rio",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "ESP01-0",
@@ -7952,7 +7953,7 @@
     "LECD126": {
      "nome": "Méier - Parque Piedade",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD126-0",
@@ -7968,7 +7969,7 @@
     "LECD133": {
      "nome": "Metrô São Cristóvão - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD133-0",
@@ -7984,7 +7985,7 @@
     "LECD134": {
      "nome": "Central do Brasil - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD134-0",
@@ -8007,7 +8008,7 @@
     "LECD136": {
      "nome": "Terminal Gentileza - Leme",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD136-0",
@@ -8030,7 +8031,7 @@
     "LECD138": {
      "nome": "Rocinha - Leme",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD138-0",
@@ -8053,7 +8054,7 @@
     "LECD150": {
      "nome": "Grajaú - Metrô Siqueira Campos",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD150-0",
@@ -8076,7 +8077,7 @@
     "LECD151": {
      "nome": "Grajaú - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD151-0",
@@ -8099,7 +8100,7 @@
     "LECD152": {
      "nome": "Circular da Penha - Largo do Machado",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD152-0",
@@ -8122,7 +8123,7 @@
     "LECD153": {
      "nome": "Metrô São Cristóvão - Metrô Siqueira Campos",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD153-0",
@@ -8145,7 +8146,7 @@
     "LECD154": {
      "nome": "Vila Isabel - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD154-0",
@@ -8168,7 +8169,7 @@
     "LECD155": {
      "nome": "Grajaú - Gamboa",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD155-0",
@@ -8191,7 +8192,7 @@
     "LECD156": {
      "nome": "Capoeira Grande - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "LECD156-0",
@@ -8214,7 +8215,7 @@
     "SN007": {
      "nome": "Silvestre - Central",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN007-0",
@@ -8237,7 +8238,7 @@
     "SN104": {
      "nome": "São Conrado - Terminal Gentileza",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN104-0",
@@ -8260,7 +8261,7 @@
     "SN133": {
      "nome": "Largo do Machado - Terminal Gentileza",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN133-0",
@@ -8283,7 +8284,7 @@
     "SN209": {
      "nome": "Passeio - Caju",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN209-0",
@@ -8306,7 +8307,7 @@
     "SN232": {
      "nome": "Lins de Vasconcelos - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN232-0",
@@ -8329,7 +8330,7 @@
     "SN238": {
      "nome": "Água Santa - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN238-0",
@@ -8352,7 +8353,7 @@
     "SN265": {
      "nome": "Marechal Hermes - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN265-0",
@@ -8375,7 +8376,7 @@
     "SN292": {
      "nome": "Engenho da Rainha - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN292-0",
@@ -8398,7 +8399,7 @@
     "SN298": {
      "nome": "Acari - Castelo",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN298-0",
@@ -8421,7 +8422,7 @@
     "SN302": {
      "nome": "Terminal Gentileza - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN302-0",
@@ -8444,7 +8445,7 @@
     "SN312": {
      "nome": "Penha - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN312-0",
@@ -8467,7 +8468,7 @@
     "SN319": {
      "nome": "Terminal Alvorada - Terminal Gentileza",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN319-0",
@@ -8490,7 +8491,7 @@
     "SN324": {
      "nome": "Ribeira - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN324-0",
@@ -8513,7 +8514,7 @@
     "SN328": {
      "nome": "Bananal - Candelária",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN328-0",
@@ -8536,7 +8537,7 @@
     "SN353": {
      "nome": "Gardênia Azul - Terminal Gentileza",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN353-0",
@@ -8559,7 +8560,7 @@
     "SN355": {
      "nome": "Madureira - Praça Tiradentes",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN355-0",
@@ -8582,7 +8583,7 @@
     "SN363": {
      "nome": "Vila Valqueire - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN363-0",
@@ -8605,7 +8606,7 @@
     "SN368": {
      "nome": "Riocentro - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN368-0",
@@ -8628,7 +8629,7 @@
     "SN383": {
      "nome": "Realengo - Praça da República",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN383-0",
@@ -8651,7 +8652,7 @@
     "SN388": {
      "nome": "Santa Cruz - Candelária",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN388-0",
@@ -8674,7 +8675,7 @@
     "SN393": {
      "nome": "Bangu - Candelária",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN393-0",
@@ -8697,7 +8698,7 @@
     "SN397": {
      "nome": "Terminal Campo Grande - Candelária",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN397-0",
@@ -8720,7 +8721,7 @@
     "SN399": {
      "nome": "Pavuna - Passeio",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN399-0",
@@ -8743,7 +8744,7 @@
     "SN410": {
      "nome": "Saens Peña - Gávea",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN410-0",
@@ -8766,7 +8767,7 @@
     "SN415": {
      "nome": "Usina - Leblon",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN415-0",
@@ -8789,7 +8790,7 @@
     "SN422": {
      "nome": "Grajaú - Cosme Velho",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN422-0",
@@ -8812,7 +8813,7 @@
     "SN457": {
      "nome": "Abolição - Copacabana",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN457-0",
@@ -8835,7 +8836,7 @@
     "SN474": {
      "nome": "Méier - Copacabana",
      "empresa": "Intersul",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN474-0",
@@ -8858,7 +8859,7 @@
     "SN483": {
      "nome": "Penha - General Osório",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN483-0",
@@ -8881,7 +8882,7 @@
     "SN497": {
      "nome": "Penha - Largo do Machado",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN497-0",
@@ -8904,7 +8905,7 @@
     "SN550": {
      "nome": "Cidade de Deus - Gávea",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN550-0",
@@ -8927,7 +8928,7 @@
     "SN552": {
      "nome": "Terminal Alvorada - Metrô Botafogo",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN552-0",
@@ -8950,7 +8951,7 @@
     "SN554": {
      "nome": "Piabas - Metrô Botafogo",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN554-0",
@@ -8973,7 +8974,7 @@
     "SN565": {
      "nome": "Tanque - Gávea",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN565-0",
@@ -8996,7 +8997,7 @@
     "SN600": {
      "nome": "Taquara - Saens Peña",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN600-0",
@@ -9019,7 +9020,7 @@
     "SN624": {
      "nome": "Mariópolis - Praça da República",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN624-0",
@@ -9042,7 +9043,7 @@
     "SN629": {
      "nome": "Irajá - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN629-0",
@@ -9065,7 +9066,7 @@
     "SN636": {
      "nome": "Merck - Saens Peña",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN636-0",
@@ -9088,7 +9089,7 @@
     "SN639": {
      "nome": "Jardim América - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN639-0",
@@ -9111,7 +9112,7 @@
     "SN696": {
      "nome": "Méier - Praia do Dendê",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN696-0",
@@ -9134,7 +9135,7 @@
     "SN731": {
      "nome": "Campo Grande - Marechal Hermes",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN731-0",
@@ -9157,7 +9158,7 @@
     "SN779": {
      "nome": "Metrô Pavuna - Terminal Madureira",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN779-0",
@@ -9180,7 +9181,7 @@
     "SN790": {
      "nome": "Campo Grande - Cascadura",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN790-0",
@@ -9203,7 +9204,7 @@
     "SN794": {
      "nome": "Jabour - Cascadura",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN794-0",
@@ -9226,7 +9227,7 @@
     "SN803": {
      "nome": "Jabour - Taquara",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN803-0",
@@ -9249,7 +9250,7 @@
     "SN805": {
      "nome": "Terminal Alvorada - Jardim Oceânico",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN805-0",
@@ -9272,7 +9273,7 @@
     "SN810": {
      "nome": "Terminal Taquara - Pontal",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN810-0",
@@ -9295,7 +9296,7 @@
     "SN821": {
      "nome": "Campo Grande - Corcundinha",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN821-0",
@@ -9311,7 +9312,7 @@
     "SN825": {
      "nome": "Campo Grande - Jesuítas",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN825-0",
@@ -9334,7 +9335,7 @@
     "SN840": {
      "nome": "São Fernando - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN840-0",
@@ -9357,7 +9358,7 @@
     "SN846": {
      "nome": "Rio da Prata - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN846-0",
@@ -9380,7 +9381,7 @@
     "SN848": {
      "nome": "Terminal Campo Grande - Monte Santo",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN848-0",
@@ -9396,7 +9397,7 @@
     "SN853": {
      "nome": "Terminal Mato Alto - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN853-0",
@@ -9419,7 +9420,7 @@
     "SN857": {
      "nome": "Terminal Campo Grande - Terminal Pingo D'Água",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN857-0",
@@ -9442,7 +9443,7 @@
     "SN861": {
      "nome": "Rio das Pedras - Curicica",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN861-0",
@@ -9465,7 +9466,7 @@
     "SN867": {
      "nome": "Barra de Guaratiba - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN867-0",
@@ -9488,7 +9489,7 @@
     "SN878": {
      "nome": "Tanque - Barra da Tijuca",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN878-0",
@@ -9511,7 +9512,7 @@
     "SN880": {
      "nome": "Rio das Pedras - Terminal Alvorada",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN880-0",
@@ -9534,7 +9535,7 @@
     "SN884": {
      "nome": "Sepetiba - Terminal Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN884-0",
@@ -9557,7 +9558,7 @@
     "SN885": {
      "nome": "Terminal Mato Alto - Santa Cruz",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN885-0",
@@ -9580,7 +9581,7 @@
     "SN893": {
      "nome": "Jardim Palmares - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN893-0",
@@ -9603,7 +9604,7 @@
     "SN895": {
      "nome": "Serrinha - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN895-0",
@@ -9619,7 +9620,7 @@
     "SN897": {
      "nome": "Santa Cruz - Terminal Pingo d'Água",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN897-0",
@@ -9642,7 +9643,7 @@
     "SN898": {
      "nome": "Sepetiba - Campo Grande",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN898-0",
@@ -9665,7 +9666,7 @@
     "SN908": {
      "nome": "Terminal Deodoro - Bonsucesso",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN908-0",
@@ -9688,7 +9689,7 @@
     "SN919": {
      "nome": "Pavuna - Maré",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN919-0",
@@ -9711,7 +9712,7 @@
     "SN954": {
      "nome": "Terminal Taquara - Recreio dos Bandeirantes",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SN954-0",
@@ -9734,7 +9735,7 @@
     "SP265": {
      "nome": "Marechal Hermes - Terminal Gentileza",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP265-0",
@@ -9757,7 +9758,7 @@
     "SP324": {
      "nome": "Ribeira - Terminal Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP324-0",
@@ -9780,7 +9781,7 @@
     "SP328": {
      "nome": "Bananal - Terminal Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP328-0",
@@ -9803,7 +9804,7 @@
     "SP329": {
      "nome": "Bancários - Terminal Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP329-0",
@@ -9826,7 +9827,7 @@
     "SP343": {
      "nome": "Rio das Pedras - Candelária",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP343-0",
@@ -9842,7 +9843,7 @@
     "SP389": {
      "nome": "Vila Aliança - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP389-0",
@@ -9865,7 +9866,7 @@
     "SP404": {
      "nome": "Caju - Leblon",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP404-0",
@@ -9881,7 +9882,7 @@
     "SP485": {
      "nome": "Cidade Nova - Fundão",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP485-0",
@@ -9897,7 +9898,7 @@
     "SP635": {
      "nome": "Terminal Fundão - Saens Peña",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP635-0",
@@ -9920,7 +9921,7 @@
     "SP759": {
      "nome": "Cesarão - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP759-0",
@@ -9943,7 +9944,7 @@
     "SP766": {
      "nome": "Três Rios - Madureira",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP766-0",
@@ -9959,7 +9960,7 @@
     "SP795": {
      "nome": "Pavuna - Terminal Deodoro",
      "empresa": "Internorte",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP795-0",
@@ -9982,7 +9983,7 @@
     "SP801": {
      "nome": "Bangu - Terminal Sulacap",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP801-0",
@@ -10005,7 +10006,7 @@
     "SP803": {
      "nome": "Jabour - Terminal Sulacap",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP803-0",
@@ -10028,7 +10029,7 @@
     "SP805": {
      "nome": "Terminal Alvorada - Passarela da Barra",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP805-0",
@@ -10044,7 +10045,7 @@
     "SP810": {
      "nome": "Terminal Taquara - Vargem Grande",
      "empresa": "Transcarioca",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP810-0",
@@ -10067,7 +10068,7 @@
     "SP864": {
      "nome": "Terminal Campo Grande - Bangu",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP864-0",
@@ -10090,7 +10091,7 @@
     "SP918": {
      "nome": "Jardim Violeta - Terminal Deodoro",
      "empresa": "Santa Cruz",
-     "atualizado": "2026-10-04",
+     "atualizado": "2026-10-07",
      "sentidos": [
       {
        "id": "SP918-0",
@@ -10107,7 +10108,7 @@
        "paradas": 54
       }
      ],
-     "osm": true,
+     "osm": false,
      "hash": "c6a0ff5d3887f1c3"
     },
     "SPA483": {
