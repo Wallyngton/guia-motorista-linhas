@@ -93,6 +93,9 @@ jobs:
             echo "Sem ferramentas/empresas.csv: as linhas ficam só com o consórcio."
           fi
 
+      - name: Gerar a rede da cidade (para o "Vamos para onde?" do app)
+        run: python ferramentas/gerar_rede.py --cidade rio
+
       - name: Salvar no repositório (publica no GitHub Pages)
         id: salvar
         run: |
