@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Baixar o Guia do Motorista</title>
+<meta name="robots" content="noindex">
+<style>
+  :root { --fundo: #111418; --cartao: #1b2129; --texto: #f2f2f2; --fraco: #a9b1bb; --amarelo: #ffb300; --escuro: #2a1e00; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fundo); color: var(--texto);
+         font: 18px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 520px; margin: 0 auto; padding: 28px 16px 40px; }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  .fraco { color: var(--fraco); font-size: 16px; }
+  .cartao { background: var(--cartao); border-radius: 16px; padding: 18px; margin-top: 18px; }
+  a.botao { display: block; text-align: center; text-decoration: none; font-weight: 800;
+            background: var(--amarelo); color: var(--escuro); border-radius: 14px; padding: 18px 12px; font-size: 20px; }
+  a.secundario { display: block; text-align: center; color: var(--amarelo); margin-top: 14px; font-size: 16px; }
+  ol { padding-left: 22px; margin: 8px 0 0; }
+  li { margin: 6px 0; }
+  .erro { color: #ff8a80; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Guia do Motorista · Teste</h1>
+  <p class="fraco" id="situacao">Procurando a versão liberada...</p>
+
+  <div class="cartao" id="baixar" hidden>
+    <a class="botao" id="link" href="#">Baixar o app</a>
+    <a class="secundario" id="antigo" href="#" hidden>Celular antigo? Baixe esta outra versão</a>
+  </div>
+
+  <div class="cartao">
+    <strong>Como instalar</strong>
+    <ol>
+      <li>Toque em <b>Baixar o app</b> e espere terminar.</li>
+      <li>Abra o arquivo baixado (aviso do celular ou pasta Downloads).</li>
+      <li>Se o celular pedir, permita <b>instalar apps desta fonte</b>.</li>
+      <li>Toque em <b>Instalar</b>. Depois abra o app e peça o acesso: o dono aprova.</li>
+    </ol>
+  </div>
+</main>
+<script>
+  // Sempre a versão que o dono JÁ LIBEROU no app (nó "atualizacao" do Firebase,
+  // o único com leitura pública). Nenhuma versão chega antes do "Liberar".
+  var URL_LIBERADA = 'https://guia-do-motorista-default-rtdb.firebaseio.com/atualizacao.json';
+  var situacao = document.getElementById('situacao');
+  function link(v) { return typeof v === 'string' && v.indexOf('https://') === 0 ? v : ''; }
+  fetch(URL_LIBERADA + '?t=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (a) {
+      var principal = a && link(a.link);
+      if (!principal) { situacao.textContent = 'Ainda não há versão liberada. Tente de novo mais tarde.'; return; }
+      situacao.textContent = 'Versão liberada: ' + a.versao + (a.mensagem ? ' · ' + a.mensagem : '');
+      document.getElementById('link').href = principal;
+      var antigo = link(a.linkAntigo);
+      if (antigo) {
+        var e = document.getElementById('antigo');
+        e.href = antigo;
+        e.hidden = false;
+      }
+      document.getElementById('baixar').hidden = false;
+    })
+    .catch(function () {
+      situacao.className = 'erro';
+      situacao.textContent = 'Não consegui ver a versão agora (internet?). Recarregue a página daqui a pouco.';
+    });
+</script>
+</body>
+</html>
