@@ -62,6 +62,19 @@
         e.hidden = false;
       }
       document.getElementById('baixar').hidden = false;
+      // as novidades desta versão (novidades.json, na mesma pasta)
+      fetch('novidades.json?t=' + Date.now(), { cache: 'no-store' })
+        .then(function (r) { return r.ok ? r.json() : {}; })
+        .then(function (n) {
+          var l = n && n[String(a.versao)];
+          if (!Array.isArray(l) || !l.length) return;
+          var ul = document.createElement('ul');
+          l.forEach(function (t) { var li = document.createElement('li'); li.textContent = t; ul.appendChild(li); });
+          var h = document.createElement('p');
+          h.innerHTML = '<b>Novidades:</b>';
+          situacao.after(h, ul);
+        })
+        .catch(function () {});
     })
     .catch(function () {
       situacao.className = 'erro';
