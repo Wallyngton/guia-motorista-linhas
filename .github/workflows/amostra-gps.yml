@@ -1,0 +1,53 @@
+# Amostra do GPS (diagnóstico do Claude): roda uma vez quando este branch recebe um push.
+name: Amostra do GPS
+on:
+  push:
+    branches: [amostra-gps]
+permissions:
+  contents: write
+jobs:
+  amostra:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Baixar amostras
+        run: |
+          mkdir -p amostra
+          agora=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          antes=$(date -u -d '-2 min' +%Y-%m-%dT%H:%M:%SZ)
+          antes_esp=$(date -u -d '-2 min' '+%Y-%m-%d+%H:%M:%S')
+          agora_esp=$(date -u '+%Y-%m-%d+%H:%M:%S')
+          curl -sS --compressed -m 90 -o amostra/brt.json "https://dados.mobilidade.rio/gps/brt" || true
+          curl -sS --compressed -m 90 -o amostra/conecta.json "https://dados.mobilidade.rio/sppo/conecta/gps?dataInicial=$antes&dataFinal=$agora" || true
+          curl -sS --compressed -m 90 -o amostra/antiga.json "https://dados.mobilidade.rio/gps/sppo?dataInicial=$antes_esp&dataFinal=$agora_esp" || true
+          echo "$agora" > amostra/hora.txt
+          ls -la amostra
+          # só as primeiras partes (o repositório não pode ficar grande)
+          python3 - <<'P'
+          import json,os
+          for n in ['brt','conecta','antiga']:
+              p=f'amostra/{n}.json'
+              try:
+                  t=open(p,encoding='utf-8',errors='replace').read()
+                  open(f'amostra/{n}_inicio.txt','w').write(t[:4000])
+                  d=json.loads(t)
+                  l=d if isinstance(d,list) else (d.get('veiculos') or d.get('data') or [])
+                  res={'total':len(l),'chaves':list(l[0].keys()) if l else [], 'exemplos':l[:30]}
+                  json.dump(res,open(f'amostra/{n}_resumo.json','w'),ensure_ascii=False,indent=1)
+                  # para conferir linhas/carros
+                  if n=='brt':
+                      json.dump(l,open('amostra/brt_todos.json','w'),ensure_ascii=False)
+                  else:
+                      json.dump(l[:6000],open(f'amostra/{n}_parte.json','w'),ensure_ascii=False)
+              except Exception as e:
+                  open(f'amostra/{n}_erro.txt','w').write(repr(e))
+              if os.path.exists(p): os.remove(p)
+          P
+      - name: Salvar
+        run: |
+          git config user.name "amostra-gps"
+          git config user.email "amostra-gps@users.noreply.github.com"
+          git add amostra
+          git commit -m "Amostra do GPS $(date -u +%H:%M)" || true
+          git push -q origin HEAD:amostra-gps
