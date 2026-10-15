@@ -1,4 +1,17 @@
 {
+  "20": [
+    "Na primeira vez o app pergunta: você é MOTORISTA, PASSAGEIRO ou EMPRESA? O passageiro vê só o essencial (\"Cadê meu ônibus?\", \"Vamos para onde?\" e o Wally). Dá para trocar no menu.",
+    "O WALLY SEMPRE TE RESPONDE: diga \"Wally\" em qualquer tela do app, desde que você entra. Não precisa gravar nada antes (e ele aprende a sua voz sozinho).",
+    "A BOLINHA DO WALLY fica no canto de todas as telas: toque para conversar, segure para LIGAR ou DESLIGAR. Também no menu e na barra do Android (botão \"Desligar o Wally\").",
+    "Ele te escuta de verdade: espera você começar a responder (antes parava em 2 segundos).",
+    "Jeito humano: conversa sobre QUALQUER assunto, com carinho e bom humor, chama pelo nome e começa a falar enquanto ainda pensa (bem mais rápido).",
+    "LABORATÓRIO DO WALLY (botão na tela inicial): conversa por voz e texto, olho no olho (expressões, sem abrir janela da câmera), memória, o jeito dele e o cérebro da nuvem.",
+    "FÁBRICA DE APPS: o Wally cria aplicativos completos em Flutter, o GitHub compila de graça (APK e AAB da Play Store) e ele conserta os erros sozinho.",
+    "Mexe no celular: \"abre o WhatsApp\", \"toca louvor no YouTube\", \"pesquisa no Google...\", \"lê a tela\", \"escreve: ...\" (ele nunca aperta enviar).",
+    "Tarefas ensinadas: \"quando eu disser bom dia, toca louvor\". Lê Word e Excel. Autoconserto: \"Wally, se conserta\" confere o cérebro e baixa de novo o que estragou.",
+    "COMO ESTOU DIRIGINDO: a Direção suave e a Caixa-preta ficam num botão só. O motorista liga o que quiser (as duas vêm desligadas, para economizar bateria).",
+    "\"Ônibus ao vivo\" agora se chama \"CADÊ MEU ÔNIBUS?\"."
+  ],
   "19": [
     "O WALLY TE RECEBE: quando você abre o app, ele cumprimenta pelo nome e pergunta o que vamos fazer (trabalhar, ônibus ao vivo, ir para algum lugar ou conversar). Toque nele no alto da tela para falar de novo.",
     "O WALLY TE GUIA A PÉ até o ponto: o bonequinho anda no mapa, ele conversa com você no caminho, avisa \"o ponto está aqui ao lado\", comemora a chegada e avisa quando o ônibus está a 2 e a 1 minuto.",
