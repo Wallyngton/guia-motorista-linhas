@@ -1,4 +1,9 @@
 {
+  "25": [
+    "Fábrica de Jogos 3D: diga \"Wally, cria um jogo de ônibus à noite\". O seu PC faz os objetos 3D no Blender, monta e testa o jogo no Godot sozinho, e o jogo vem para o celular pronto para instalar.",
+    "Três tipos de jogo: dirigir o ônibus (trânsito e pontos de passageiros), corrida sem fim e pegar tudo antes do tempo acabar. Com a chave do Gemini, o Wally escreve até código especial (turbo, fica mais rápido...) e conserta sozinho se der erro.",
+    "No Laboratório: a aba nova \"Criar jogos\", com os seus jogos e o botão Instalar (o jogo vem do PC pela ponte do Tailscale)."
+  ],
   "24": [
     "Modo refrigeração: o Wally mede a temperatura do celular a cada minuto. Quando esquenta, ele descansa a câmera, solta o cérebro do celular logo depois de cada resposta, pensa pela nuvem ou pelo PC e te avisa. O GPS, o SOS e o \"Wally\" continuam sempre.",
     "Cérebro do PC (Wally Central): o seu PC de casa vira um segundo cérebro do Wally, pela ponte particular do Tailscale. PC desligado: o Wally segue normal com a nuvem ou o celular.",
