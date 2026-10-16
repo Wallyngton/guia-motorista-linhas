@@ -1,4 +1,31 @@
 {
+  "24": [
+    "Modo refrigeração: o Wally mede a temperatura do celular a cada minuto. Quando esquenta, ele descansa a câmera, solta o cérebro do celular logo depois de cada resposta, pensa pela nuvem ou pelo PC e te avisa. O GPS, o SOS e o \"Wally\" continuam sempre.",
+    "Cérebro do PC (Wally Central): o seu PC de casa vira um segundo cérebro do Wally, pela ponte particular do Tailscale. PC desligado: o Wally segue normal com a nuvem ou o celular.",
+    "No Laboratório: o cartão \"Modo refrigeração\" (aba Memória) e o \"Cérebro do PC\" (aba Nuvem), com o botão Testar."
+  ],
+  "23": [
+    "O Wally parou de repetir o PDF: agora ele só usa o que você ensinou quando a pergunta é sobre aquilo. Pergunta do tempo não puxa a Bíblia.",
+    "Ele sabe que você é o criador dele e não confunde mais uma FOTO com a pessoa: se você mostrar a foto de alguém, ele diz \"uma foto de Fulano\".",
+    "Ordens para ele viram regra dele: \"quando você não souber, pesquisa na internet\" → \"Pode deixar, quando eu não souber, eu pesquiso\". Você vê e apaga as regras no Laboratório > Memória.",
+    "Pesquisa grátis na internet quando não sabe (Wikipédia e DuckDuckGo), sempre dizendo a fonte. Previsão do tempo de verdade (Open-Meteo).",
+    "Contas na hora (\"quanto é 25 vezes 4\"), percebe quando você muda de assunto e guarda as suas correções.",
+    "No Laboratório aparece o que ele está fazendo (pensando, pesquisando, consultando documentos) e o Diário do Wally (o que ele não soube e o que você corrigiu)."
+  ],
+  "22": [
+    "O Wally agora fala com você normalmente também com o ônibus andando: conversa completa, câmera, memória e reconhecer pessoas. Só o que precisa tocar na tela (escrever, WhatsApp, ajustes) espera o ônibus parar. SOS continua pedindo o \"sim\".",
+    "Leitura do rosto e do corpo: além do sorriso e do cansaço, ele percebe cabeça baixa, ombros encolhidos, braços cruzados, mão no rosto e quando a pessoa está agitada, e conversa com mais cuidado.",
+    "Ele conhece quem está do seu lado: pergunta \"Quem é essa pessoa aí do seu lado?\", pede licença à própria pessoa e, da próxima vez, cumprimenta: \"E aí, Fulano, beleza?\".",
+    "Reconhecimento de rosto mais forte (modelo SFace, dentro do celular). A foto é apagada na hora; fica só uma lista de números.",
+    "Nova chave no Laboratório: \"Quero que os Wallys dos meus amigos me reconheçam\". Só quem ligar entra; desligou, apaga na hora."
+  ],
+  "21": [
+    "CONVERSA CONTÍNUA: depois de responder, o Wally continua te ouvindo, sem precisar chamar \"Wally\" de novo. Para encerrar, toque na bolinha ou diga \"tchau\".",
+    "O Wally ENTENDE MELHOR: uma palavra solta no meio da frase (\"bateria do carro\", \"minha filha não dorme\", \"estou cansado\") não vira mais comando. Ele conversa sobre o que você perguntou.",
+    "Mais paciência: se você faz uma pausa no meio da frase, ele espera você terminar.",
+    "O cérebro sabe que a voz às vezes chega com palavras trocadas: procura o sentido e, se não entender, pergunta \"Você quis dizer...?\".",
+    "Cérebro da nuvem e Fábrica de Apps: botões \"Pegar a chave grátis\" e \"Criar o token\". Você copia no site e o app cola e testa sozinho."
+  ],
   "20": [
     "Na primeira vez o app pergunta: você é MOTORISTA, PASSAGEIRO ou EMPRESA? O passageiro vê só o essencial (\"Cadê meu ônibus?\", \"Vamos para onde?\" e o Wally). Dá para trocar no menu.",
     "O WALLY SEMPRE TE RESPONDE: diga \"Wally\" em qualquer tela do app, desde que você entra. Não precisa gravar nada antes (e ele aprende a sua voz sozinho).",
