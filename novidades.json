@@ -1,4 +1,10 @@
 {
+  "26": [
+    "O Wally ficou mais rápido e mais humano: com internet ele conversa pelo cérebro da nuvem e começa a falar em 1 a 2 segundos, enquanto ainda está pensando. Sem internet, continua com o cérebro do celular.",
+    "Ele ouve melhor o fim da sua frase: quando você termina, responde logo; quando para no meio, espera você completar.",
+    "O Wally agora é independente: conversa sobre qualquer assunto, como um amigo, e só fala de ônibus ou trabalho quando você puxar.",
+    "Cada pessoa usa a própria chave grátis da nuvem (Laboratório > Nuvem)."
+  ],
   "25": [
     "Fábrica de Jogos 3D: diga \"Wally, cria um jogo de ônibus à noite\". O seu PC faz os objetos 3D no Blender, monta e testa o jogo no Godot sozinho, e o jogo vem para o celular pronto para instalar.",
     "Três tipos de jogo: dirigir o ônibus (trânsito e pontos de passageiros), corrida sem fim e pegar tudo antes do tempo acabar. Com a chave do Gemini, o Wally escreve até código especial (turbo, fica mais rápido...) e conserta sozinho se der erro.",
