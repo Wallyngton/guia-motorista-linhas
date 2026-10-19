@@ -13,10 +13,10 @@
       "formato": "espaco"
     }
   ],
-  "melhor": "https://dados.mobilidade.rio/gps/sppo",
-  "escolhidoEm": "2026-10-18T09:37:00Z",
+  "melhor": "https://dados.mobilidade.rio/sppo/conecta/gps",
+  "escolhidoEm": "2026-10-19T01:26:59Z",
   "contagem": {
-    "Prefeitura (API Conecta)": 679,
-    "Prefeitura (API antiga, descontinuada)": 1470
+    "Prefeitura (API Conecta)": 1733,
+    "Prefeitura (API antiga, descontinuada)": 1304
   }
 }
