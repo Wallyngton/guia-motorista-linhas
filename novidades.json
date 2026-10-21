@@ -1,4 +1,16 @@
 {
+  "29": [
+    "Trabalho em abas: para começar, só o número do ônibus. A linha sai do GPS e o GPS abre na hora.",
+    "Vistoria e guia ficam separadas: faça quando quiser. Sem guia, o app guarda sozinho a data, o ônibus, a linha e as horas.",
+    "Não sabe onde é o ponto final? O app te leva da garagem até lá, falando o caminho.",
+    "No GPS da linha: aviso rápido ao entrar numa comunidade (e de tiroteio recente informado, quando ligado)."
+  ],
+  "28": [
+    "O Wally não abre mais o Guia por uma palavra solta: só quando você pede (\"abre o GPS\").",
+    "Fale \"desliga a câmera\" ou \"vamos economizar a bateria\" e ele para de olhar; \"liga a câmera\" e ele volta.",
+    "Reconhece o colega do lado (olha a cada 30 s, sem parar de ouvir) e pede licença antes de guardar o rosto.",
+    "Mais leve: o cérebro do celular só carrega quando precisa, e a resposta pela nuvem sai mais rápido."
+  ],
   "27": [
     "O Wally espera você terminar de falar e responde logo, sem ficar dizendo que está pensando. Se você parar no meio da frase, ele pergunta se terminou.",
     "Ele entende se você fez uma pergunta ou só comentou alguma coisa: no comentário, ele conversa curtinho, como gente.",
