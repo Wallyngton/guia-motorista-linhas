@@ -1,4 +1,23 @@
 {
+  "38": [
+    "GPS com três câmeras, com botões do lado do mapa: DE CIMA (o mapa inteiro), ATRÁS DO ÔNIBUS (3D, com os prédios) e NA FRENTE (a câmera do celular filma a rua e o app desenha a faixa verde no chão).",
+    "A troca de câmera é deslizante: o mapa voa suave até a nova posição.",
+    "Vale no GPS do trabalho, no GPS normal e no caminho até o ponto final.",
+    "O BRT voltou a aparecer no GPS.",
+    "Chave mestra (app do dono): uma senha só traz de volta a chave da nuvem, o PC e o GitHub se precisar instalar o app de novo."
+  ],
+  "37": [
+    "Ao mandar foto, vídeo, áudio ou qualquer arquivo para o Wally, tem um espaço (opcional) para explicar o que é, escrevendo ou falando: \"essa é a minha esposa\".",
+    "Estante do Wally: tudo em prateleiras (livros por categoria, documentos, fotos, vídeos, áudios, Word e planilhas, zip e rar).",
+    "O Wally separa livro de documento e põe cada livro na estante da categoria certa na Biblioteca. Pergunte: \"Wally, o que tem na minha estante?\""
+  ],
+  "36": [
+    "O Wally reconhece a voz de cada pessoa em cada frase: não acha mais que todo mundo é você. Para ele aprender a sua voz: \"Wally, aprende a minha voz\".",
+    "Ouviu uma voz nova, ele olha com a câmera quem é; se nada muda, a câmera descansa.",
+    "\"Wally, me mostra o que você está vendo\" abre uma janelinha; \"já vi\" fecha.",
+    "O Wally ficou mais humano: a boca abre de verdade quando ele fala, o rosto fica feliz, triste, zangado ou surpreso, e os braços e as mãos gesticulam. O laboratório atrás dele se mexe.",
+    "Olho verde do lado da pessoa que ele está vendo; vermelho quando a câmera liga."
+  ],
   "35": [
     "Visual novo e futurista: azul com botões acesos.",
     "A entrada agora é o Wally: ele aparece como holograma e já entra falando com você.",
