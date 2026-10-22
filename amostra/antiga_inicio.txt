@@ -1,1 +1,91 @@
-[{"id_veiculo":"D17038","servico":"885","sentido":"","latitude":-22.9176445,"longitude":-43.6082954,"velocidade":0.0,"direcao":0.0,"route_id":"O0885AAA0A","trip_id":"d1a599c8-470c-453c-a3ed-9d3e2a66326f","shape_id":"g6hc","datetime":"2026-10-15T01:57:32Z","datetime_envio":"2026-10-15T01:57:40Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"B28594","servico":"SN696","sentido":"V","latitude":-22.8998833,"longitude":-43.2792053,"velocidade":0.0,"direcao":308.83,"route_id":"O0696AAN0A","trip_id":"fb6fab5d-96e3-46a7-bb92-677ae58292ac","shape_id":"O0696AAA0AVDU01","datetime":"2026-10-15T01:57:38Z","datetime_envio":"2026-10-15T01:57:41Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"D13369","servico":"SN600","sentido":"I","latitude":-22.9397221,"longitude":-43.33746,"velocidade":49.0,"direcao":79.38,"route_id":"O0600AAN0A","trip_id":"5c42dc42-b1f1-4028-9158-1351f19a9099","shape_id":"xl90","datetime":"2026-10-15T01:57:24Z","datetime_envio":"2026-10-15T01:57:39Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"A48033","servico":"LECD138","sentido":"V","latitude":-22.98341,"longitude":-43.24194,"velocidade":16.0,"direcao":249.0,"route_id":"O0536AAA0A","trip_id":"f427b6bd-ee64-4d77-9e5f-a72bf4bbfe3f","shape_id":"ugji","datetime":"2026-10-15T01:57:23Z","datetime_envio":"2026-10-15T01:57:41Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"D33072","servico":"771","sentido":"I","latitude":-22.8431664,"longitude":-43.3737335,"velocidade":42.0,"direcao":57.34,"route_id":"O0771AAA0A","trip_id":"40f818d5-f45f-4960-8407-a6fced45bf76","shape_id":"r2mn","datetime":"2026-10-15T01:56:50Z","datetime_envio":"2026-10-15T01:57:38Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"A63518","servico":"FORA DE OP","sentido":"C","latitude":-22.8672276,"longitude":-43.2585068,"velocidade":0.0,"direcao":254.0,"route_id":"","trip_id":"","shape_id":"","datetime":"2026-10-15T01:57:32Z","datetime_envio":"2026-10-15T01:57:44Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"D86034","servico":"866","sentido":"C","latitude":-22.9017334,"longitude":-43.5550461,"velocidade":0.0,"direcao":71.0,"route_id":"O0866AAA0A","trip_id":"295ea629-d917-4dcd-bc41-a77b53973dd0","shape_id":"c3d7","datetime":"2026-10-15T01:57:31Z","datetime_envio":"2026-10-15T01:57:39Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"A48062","servico":"202","sentido":"V","latitude":-22.92469,"longitude":-43.19881,"velocidade":18.0,"direcao":215.0,"route_id":"O0202AAA0A","trip_id":"a30e2ecd-b188-47ba-b465-7c6ba0735d9e","shape_id":"bvj2","datetime":"2026-10-15T01:57:23Z","datetime_envio":"2026-10-15T01:57:41Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"C47559","servico":"554","sentido":"V","latitude":-23.0045,"longitude":-43.27865,"velocidade":38.0,"direcao":229.0,"route_id":"O0554AAA0A","trip_id":"9bd830e2-8ab5-45da-8aef-e67cdbc17343","shape_id":"c3ay","datetime":"2026-10-15T01:57:26Z","datetime_envio":"2026-10-15T01:57:39Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"D33179","servico":"926","sentido":"V","latitude":-22.8713837,"longitude":-43.48836,"velocidade":8.0,"direcao":26.0,"route_id":"O0926AAA0A","trip_id":"96cb0a80-aa48-4253-9b70-7eaa0315c31c","shape_id":"0xz6","datetime":"2026-10-15T01:57:31Z","datetime_envio":"2026-10-15T01:57:38Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"D17035","servico":"885","sentido":"","latitude":-22.9169617,"longitude":-43.60829,"velocidade":0.0,"direcao":83.0,"route_id":"O0885AAA0A","trip_id":"d1a599c8-470c-453c-a3ed-9d3e2a66326f","shape_id":"g6hc","datetime":"2026-10-15T01:57:37Z","datetime_envio":"2026-10-15T01:57:40Z","datetime_servidor":"2026-10-15T01:57:46Z"},{"id_veiculo":"D17162","servico":"885","sentido":"I","latitude":-22.9691429,"longitude":-43.64696,"velocidade":33.0,"direcao":84.0,"route_id":"O0885AAA0A","trip_id":"d1a599c8-470c-453c-a3ed-9d3e2a66326f","shape_id":"g6hc","datetime":"2026-10-15T01:57:32Z","datetime_envio":"2026-10
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A task was canceled.</title>
+        <meta name="viewport" content="width=device-width" />
+        <style>
+         body {font-family:"Verdana";font-weight:normal;font-size: .7em;color:black;} 
+         p {font-family:"Verdana";font-weight:normal;color:black;margin-top: -5px}
+         b {font-family:"Verdana";font-weight:bold;color:black;margin-top: -5px}
+         H1 { font-family:"Verdana";font-weight:normal;font-size:18pt;color:red }
+         H2 { font-family:"Verdana";font-weight:normal;font-size:14pt;color:maroon }
+         pre {font-family:"Consolas","Lucida Console",Monospace;font-size:11pt;margin:0;padding:0.5em;line-height:14pt}
+         .marker {font-weight: bold; color: black;text-decoration: none;}
+         .version {color: gray;}
+         .error {margin-bottom: 10px;}
+         .expandable { text-decoration:underline; font-weight:bold; color:navy; cursor:pointer; }
+         @media screen and (max-width: 639px) {
+          pre { width: 440px; overflow: auto; white-space: pre-wrap; word-wrap: break-word; }
+         }
+         @media screen and (max-width: 479px) {
+          pre { width: 280px; }
+         }
+        </style>
+    </head>
+
+    <body bgcolor="white">
+
+            <span><H1>Server Error in '/' Application.<hr width=100% size=1 color=silver></H1>
+
+            <h2> <i>A task was canceled.</i> </h2></span>
+
+            <font face="Arial, Helvetica, Geneva, SunSans-Regular, sans-serif ">
+
+            <b> Description: </b>An unhandled exception occurred during the execution of the current web request. Please review the stack trace for more information about the error and where it originated in the code.
+
+            <br><br>
+
+            <b> Exception Details: </b>System.Threading.Tasks.TaskCanceledException: A task was canceled.<br><br>
+
+            <b>Source Error:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code>
+
+An unhandled exception was generated during the execution of the current web request. Information regarding the origin and location of the exception can be identified using the exception stack trace below.                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <b>Stack Trace:</b> <br><br>
+
+            <table width=100% bgcolor="#ffffcc">
+               <tr>
+                  <td>
+                      <code><pre>
+
+[TaskCanceledException: A task was canceled.]
+   System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task) +14245130
+   System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task) +62
+   ConectaWEB.DataObjects.Base.&lt;CreateConnection&gt;d__7.MoveNext() in C:\Repos\ConectaWEB\ConectaWEB.DataObjects\Base\DO.cs:38
+   System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() +32
+   System.Web.LegacyAspNetSynchronizationContext.CallCallbackPossiblyUnderLock(SendOrPostCallback callback, Object state) +69
+</pre>                      </code>
+
+                  </td>
+               </tr>
+            </table>
+
+            <br>
+
+            <hr width=100% size=1 color=silver>
+
+            <b>Version Information:</b>&nbsp;Microsoft .NET Framework Version:4.0.30319; ASP.NET Version:4.8.4805.0
+
+            </font>
+
+    </body>
+</html>
+<!-- 
+[TaskCanceledException]: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at ConectaWEB.DataObjects.Base.DO.<CreateConnection>d__7.MoveNext() in C:\Repos\ConectaWEB\ConectaWEB.DataObjects\Base\DO.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Web.LegacyAspNetSynchronizationContext.CallCallbackPossiblyUnderLock(SendOrPostCallback callb
