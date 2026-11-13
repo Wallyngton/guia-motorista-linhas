@@ -1,0 +1,48 @@
+# Cópia de reserva dos limites das comunidades (Prefeitura do Rio, CC BY 4.0)
+# para o aviso de comunidade do Guia do Motorista. Uma vez por semana (e quando
+# pedir), publica comunidades.json no branch "comunidades" (um commit só).
+# O app lê em
+# https://raw.githubusercontent.com/Wallyngton/guia-motorista-linhas/comunidades/comunidades.json
+# quando a Prefeitura não responde.
+
+name: Comunidades (reserva)
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['ferramentas/comunidades.mjs', '.github/workflows/comunidades.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: comunidades
+  cancel-in-progress: false
+
+jobs:
+  copiar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Baixar da Prefeitura
+        run: |
+          mkdir -p /tmp/saida
+          node ferramentas/comunidades.mjs /tmp/saida/comunidades.json
+      - name: Publicar no branch comunidades
+        run: |
+          cd /tmp/saida
+          git init -q
+          git config user.name "comunidades"
+          git config user.email "comunidades@users.noreply.github.com"
+          git checkout -q -b comunidades
+          git add comunidades.json
+          git commit -qm "Comunidades $(date -u +%Y-%m-%d)"
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git push -qf origin comunidades

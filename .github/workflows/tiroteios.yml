@@ -1,15 +1,19 @@
 # Tiroteios recentes (Fogo Cruzado) para o aviso de comunidade do GPS do
-# Guia do Motorista. A cada 10 minutos busca as ocorrências do Rio das
-# últimas 6 horas e publica tiroteios.json no branch "tiroteios" (um commit
+# Guia do Motorista. Publica tiroteios.json no branch "tiroteios" (um commit
 # só, sobrescrito: não enche o histórico nem o GitHub Pages). O app lê em
 # https://raw.githubusercontent.com/Wallyngton/guia-motorista-linhas/tiroteios/tiroteios.json
 # Credenciais SÓ nos segredos: FOGOCRUZADO_EMAIL e FOGOCRUZADO_SENHA.
+#
+# 13/11/2026: o GitHub não respeita o "a cada 10 minutos" (rodava umas 4 vezes
+# por dia). Agora cada execução fica em LAÇO por ~50 minutos, buscando a cada
+# 10 minutos, e uma nova é pedida a cada 15 minutos (a fila guarda só uma
+# esperando). Repositório público: os minutos do Actions são grátis.
 
 name: Tiroteios recentes
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/15 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -22,28 +26,40 @@ concurrency:
 jobs:
   buscar:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 58
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Buscar no Fogo Cruzado
+      - name: Buscar no Fogo Cruzado e publicar (laço de ~50 minutos)
         env:
           FOGOCRUZADO_EMAIL: ${{ secrets.FOGOCRUZADO_EMAIL }}
           FOGOCRUZADO_SENHA: ${{ secrets.FOGOCRUZADO_SENHA }}
+          REPO: ${{ github.repository }}
+          TOKEN: ${{ github.token }}
         run: |
-          mkdir -p /tmp/saida
-          node ferramentas/tiroteios.mjs /tmp/saida/tiroteios.json
-      - name: Publicar no branch tiroteios
-        run: |
-          if [ ! -f /tmp/saida/tiroteios.json ]; then echo "sem arquivo (sem credenciais)"; exit 0; fi
-          cd /tmp/saida
-          git init -q
-          git config user.name "tiroteios"
-          git config user.email "tiroteios@users.noreply.github.com"
-          git checkout -q -b tiroteios
-          git add tiroteios.json
-          git commit -qm "Tiroteios recentes $(date -u +%Y-%m-%dT%H:%MZ)"
-          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
-          git push -qf origin tiroteios
+          inicio=$(date +%s)
+          publicar() {
+            rm -rf /tmp/saida_git && mkdir -p /tmp/saida_git
+            cp /tmp/saida/tiroteios.json /tmp/saida_git/
+            cd /tmp/saida_git
+            git init -q
+            git config user.name "tiroteios"
+            git config user.email "tiroteios@users.noreply.github.com"
+            git checkout -q -b tiroteios
+            git add tiroteios.json
+            git commit -qm "Tiroteios recentes $(date -u +%Y-%m-%dT%H:%MZ)"
+            git remote add origin "https://x-access-token:${TOKEN}@github.com/${REPO}.git"
+            git push -qf origin tiroteios || echo "não consegui publicar agora"
+            cd "$GITHUB_WORKSPACE"
+          }
+          while true; do
+            mkdir -p /tmp/saida
+            rm -f /tmp/saida/tiroteios.json
+            node ferramentas/tiroteios.mjs /tmp/saida/tiroteios.json || echo "a busca falhou nesta volta"
+            if [ -f /tmp/saida/tiroteios.json ]; then publicar; else echo "sem arquivo (sem credenciais)"; exit 0; fi
+            agora=$(date +%s)
+            if [ $((agora - inicio)) -gt 2700 ]; then echo "fim do laço"; break; fi
+            sleep 600
+          done
