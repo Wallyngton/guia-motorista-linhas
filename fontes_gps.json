@@ -5,7 +5,7 @@
     {
       "nome": "Prefeitura (ITS GPS 2.0)",
       "url": "https://its.mobilidade.rio/v1/geolocalizacao/veiculos",
-      "formato": "iso"
+      "formato": "its"
     },
     {
       "nome": "Prefeitura (API Conecta, fechada desde 13/11: pede cadastro)",
