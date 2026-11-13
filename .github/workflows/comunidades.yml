@@ -1,5 +1,5 @@
 # Cópia de reserva dos limites das comunidades (Prefeitura do Rio, CC BY 4.0)
-# para o aviso de comunidade do Guia do Motorista. Uma vez por semana (e quando
+# para o aviso de comunidade do Guia do Motorista. Uma vez por dia (e quando
 # pedir), publica comunidades.json no branch "comunidades" (um commit só).
 # O app lê em
 # https://raw.githubusercontent.com/Wallyngton/guia-motorista-linhas/comunidades/comunidades.json
@@ -9,7 +9,7 @@ name: Comunidades (reserva)
 
 on:
   schedule:
-    - cron: "17 6 * * 1"
+    - cron: "17 6 * * *"
   workflow_dispatch:
   push:
     branches: [main]

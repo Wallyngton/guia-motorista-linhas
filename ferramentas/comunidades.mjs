@@ -111,6 +111,22 @@ if (!usado) {
     }
   }
 }
+// Última reserva: a cópia de 2019 guardada pelo projeto TUMI (o mesmo arquivo do DATA.RIO).
+if (!usado) {
+  try {
+    const info = await fetch('https://hub.tumidata.org/api/3/action/resource_show?id=beb4d388-f3f5-8f3c-ad03-10c6ebb81e75').then(r => r.json());
+    const u = info?.result?.url;
+    console.log(`TUMI: ${u}`);
+    const r = await fetch(u, { redirect: 'follow' });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const d = await r.json();
+    features = (Array.isArray(d?.features) ? d.features : []).map(limpar).filter(Boolean);
+    console.log(`TUMI: ${features.length} comunidades`);
+    if (features.length >= 500) usado = `TUMI (${u})`;
+  } catch (e) {
+    console.log(`TUMI: falhou (${e.message})`);
+  }
+}
 if (!usado) { console.error('nenhum jeito deu: não publico (a Prefeitura deve estar com problema)'); process.exit(1); }
 writeFileSync(saida, JSON.stringify({
   type: 'FeatureCollection',
