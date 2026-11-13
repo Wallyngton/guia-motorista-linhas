@@ -1,9 +1,14 @@
 {
-  "sobre": "Endereços do GPS dos ônibus do Rio. O robô 'Vigia do GPS' (GitHub, a cada 5 min) testa todos e grava em 'melhor' o que tem mais ônibus; o app Guia do Motorista lê este arquivo e troca sozinho. Para acrescentar um endereço novo da Prefeitura, ponha aqui.",
-  "atualizado": "2026-10-07",
+  "sobre": "Endereços do GPS dos ônibus do Rio. O robô 'Vigia do GPS' (GitHub, a cada 5 min) testa todos e grava em 'melhor' o que tem mais ônibus; o app Guia do Motorista lê este arquivo e troca sozinho. Para acrescentar um endereço novo da Prefeitura, ponha aqui. 13/11: a Conecta passou a pedir cadastro e a antiga saiu do ar; a nova oficial é a ITS GPS 2.0 (sem chave, mesmos campos).",
+  "atualizado": "2026-11-13",
   "fontes": [
     {
-      "nome": "Prefeitura (API Conecta)",
+      "nome": "Prefeitura (ITS GPS 2.0)",
+      "url": "https://its.mobilidade.rio/v1/geolocalizacao/veiculos",
+      "formato": "iso"
+    },
+    {
+      "nome": "Prefeitura (API Conecta, fechada desde 13/11: pede cadastro)",
       "url": "https://dados.mobilidade.rio/sppo/conecta/gps",
       "formato": "iso"
     },
@@ -13,10 +18,9 @@
       "formato": "espaco"
     }
   ],
-  "melhor": "https://dados.mobilidade.rio/gps/sppo",
-  "escolhidoEm": "2026-11-11T10:25:35Z",
+  "melhor": "https://its.mobilidade.rio/v1/geolocalizacao/veiculos",
+  "escolhidoEm": "2026-11-13T20:25:00Z",
   "contagem": {
-    "Prefeitura (API Conecta)": 1855,
-    "Prefeitura (API antiga, descontinuada)": 3431
+    "Prefeitura (ITS GPS 2.0)": 0
   }
 }
